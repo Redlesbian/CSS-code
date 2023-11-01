@@ -15,7 +15,7 @@ body {
 	background: url('https://media.discordapp.net/attachments/1169344484920799314/1169389316556996758/Untitled263_20231101212900.png?ex=655539ab&is=6542c4ab&hm=bf174ceb8a0a07a26a3539f4834807bbd1fe7e3ce16ddd7dcf1ba45d83a3d984&') no-repeat center center fixed;
 	background-size: cover;
 	font-family: ''Indie Flower', cursive;';
-	color: #2e2a2b
+	color: #FFFFFF
 }
 
 /* MAIN PANEL */
@@ -186,7 +186,7 @@ h3 {
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: rgba(61, 61, 82, 0.5);
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	border-radius: 0px !important
 }
 
@@ -352,7 +352,7 @@ textarea {
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #000000 !important
+	background: #492d70 !important
 }
 
 div.slider.round::before /* Circle Part */ {
@@ -362,7 +362,7 @@ div.slider.round::before /* Circle Part */ {
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #FFFFFG !important;
+        color: #FFFFFF !important;
         text-shadow: none !important
 }
 
