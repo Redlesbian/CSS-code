@@ -564,6 +564,13 @@ img[src$="cavedefault.jpg"] {
   content: url("https://media.discordapp.net/attachments/1169344484920799314/1169371311605288970/Untitled261_20231101202349.png?ex=655528e6&is=6542b3e6&hm=e5f2d598ad945446ee096d6fbe9bb262104c413ae193b61f067fba10ee93f349&") !important;
 }
 
+img[src$="gold.png"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169418934831816806/Untitled269_20231101233226.png?ex=65555540&is=6542e040&hm=3f4125fb4def1afa68439a6bf5aad40974d56ec5a9277f6d935398f0b814255b&')!important;
+}
+img[src$="silver.png"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169419759557804152/Untitled269_20231101233505-removebg-preview.png?ex=65555605&is=6542e105&hm=2713ecd482ea25ba1a1ae3fc39cc0ef95e569ccf518b1fb5c8c24ddd6eddeaf1&')!important;
+}
+
 .mound-grid img /* Mound(s) */ {
 	background: url("https://media.discordapp.net/attachments/1169344484920799314/1169372000582651914/Untitled260_20231101202640.png?ex=6555298a&is=6542b48a&hm=30496af2b3e2c7168a6e9b906040229cd87a87be9983e66b741228605351c43f&");
 	width: 0;
