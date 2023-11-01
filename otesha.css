@@ -14,7 +14,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 body {
 	background: url('https://media.discordapp.net/attachments/1169344484920799314/1169389316556996758/Untitled263_20231101212900.png?ex=655539ab&is=6542c4ab&hm=bf174ceb8a0a07a26a3539f4834807bbd1fe7e3ce16ddd7dcf1ba45d83a3d984&') no-repeat center center fixed;
 	background-size: cover;
-	font-family: 'FONT NAME';
+	font-family: ''Indie Flower', cursive;';
 	color: #2e2a2b
 }
 
@@ -146,7 +146,7 @@ h1 {
 	color: #897399;
 	font-size: 90px;
 	text-align: center;
-        font-family: ''Indie Flower', cursive;'
+        font-family: 'Indie Flower', cursive;'
 }
 
 
