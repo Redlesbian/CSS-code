@@ -242,7 +242,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(51, 37, 89, 0.5);
+	background: rgba(123, 104, 150, 0.75);
 	border: none !important;
 	border-collapse: separate;
 	border-radius: 0px
@@ -318,7 +318,7 @@ div.left {
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(30, 27, 51, 0.5);
+	background: rgba(123, 104, 150, 0.75);
         border-radius: 0px
 }
 
