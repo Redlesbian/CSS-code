@@ -7,7 +7,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('FONT URL');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 /* BACKGROUND */
 
@@ -136,23 +136,24 @@ button.button, button.button:hover {
 .alert-danger {
 	background: rgba(85, 59, 128, 0.5) !important;
 	border: none;
-	color: #000000;rder-radius: 0px !important
+	color: #FFFFFF;
+	border-radius: 0px !important
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #000000;
+	color: #897399;
 	font-size: 90px;
 	text-align: center;
-        font-family: 'FONT NAME'
+        font-family: ''Indie Flower', cursive;'
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #000000;
+	color: #b19dbf;
 	font-size: 24px;
 	text-align: center
 }
@@ -161,63 +162,63 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #000000 !important;
+	color: #b19dbf !important;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #000000 !important;
+	color: #b19dbf !important;
         font-size: 26px !important;
-        font-family: 'FONT NAME'
+        font-family: ''Indie Flower', cursive;'
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: rgba(55, 55, 99, 0.5) !important;
 	box-shadow: none !important;
 	border: none !important;
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	border-radius: 0px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(1, 1, 1, 0.5);
+	background: rgba(61, 61, 82, 0.5);
 	color: #000000 !important;
 	border-radius: 0px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000 !important;
+	background: rgba(42, 42, 82, 0.5);
+	color: #FFFFFF !important;
 	border-radius: 0px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000000 !important
+	color: #FFFFFF !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+	background: rgba(62, 42, 82, 0.5) !important;
+        color: #FFFFFF !important;
 	border: none !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+	background: rgba(44, 22, 66, 0.5) !important;
+        color: #FFFFFF !important;
 	border: none !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+	background: rgba(43, 34, 51, 0.5) !important;
+        color: #FFFFFF !important;
 	border: none !important
 }
 
@@ -230,8 +231,8 @@ div#chatMessageContainer {
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+	background: rgba(32, 20, 43, 0.5) !important;
+        color: #FFFFFF !important;
 	border: none !important
 }
 
@@ -241,7 +242,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(1, 1, 1, 0.5);
+	background: rgba(51, 37, 89, 0.5);
 	border: none !important;
 	border-collapse: separate;
 	border-radius: 0px
@@ -253,8 +254,8 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
+	background: rgba(37, 27, 64, 0.5) !important;
+	color: #FFFFFF !important;
 	border-radius: 0px
 }
 
@@ -291,7 +292,7 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(1, 1, 1, 0.5);
+	background: rgba(50, 3, 84, 0.5);
 	border: none !important;
 	border-radius: 0px !important
 }
@@ -299,8 +300,8 @@ td.right {
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
+	background: rgba(50, 3, 84, 0.5) !important;
+	color: #FFFFFF !important;
 	border: 1px solid #000000 !important;
 	border-radius: 0px !important
 }
@@ -309,7 +310,7 @@ td.right {
 
 .feature,
 div.left {
-	background: rgba(1, 1, 1, 0.5);
+	background: rgba(41, 27, 51, 0.5);
 	border: none;
 	border-radius: 0px !important
 }
@@ -317,7 +318,7 @@ div.left {
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(1, 1, 1, 0.5);
+	background: rgba(30, 27, 51, 0.5);
         border-radius: 0px
 }
 
@@ -326,10 +327,10 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: rgba(74, 70, 99, 0.5) !important;
 	border: none !important;
 	border-radius: 0px !important;
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	box-shadow: none !important;
 	text-shadow: none !important
 }
@@ -337,13 +338,13 @@ textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000  !important;
+	background: rgba(11, 5, 51, 0.5) !important;
+	color: #FFFFFF  !important;
 	border-radius: 0px !important;
 }
 
 .item {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: rgba(28, 9, 54, 0.5) !important;
 	border: none !important;
 	border-radius: 0px !important
 }
@@ -355,7 +356,7 @@ div.slider.round /* Background */ {
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #000000 !important
+	background: #FFFFFF !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
@@ -542,34 +543,36 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('LOGO REPLACER URL')
+	content: url('https://media.discordapp.net/attachments/1169344484920799314/1169389404045971456/night-sky-with-moon-stars-clouds-background_1017-33777-removebg-preview.png?ex=655539c0&is=6542c4c0&hm=c8050af2243d6a8b6596e59f9c5bf9941ba3ba754f67f6055119d996f4286fd5&')
 }
 
 /* CAVE / MOUND IMAGES */
 
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('IMAGE URL') !important
+img[src$="nestingbanner.png"] {
+  content: url("https://media.discordapp.net/attachments/1169344484920799314/1169389338212188221/Untitled266_20231101213342.png?ex=655539b0&is=6542c4b0&hm=a1393b9d9033a188c53cf0ef1c97c0bf8a0221377ae9223f6b293a8906460d92&") !important;
 }
 
-a[href$="CAVE ID"]>div.cave-grid>img {
-	content: url('IMAGE URL') !important
+img[src$="overviewbanner.png"] {
+  content: url("https://media.discordapp.net/attachments/1169344484920799314/1169389338212188221/Untitled266_20231101213342.png?ex=655539b0&is=6542c4b0&hm=a1393b9d9033a188c53cf0ef1c97c0bf8a0221377ae9223f6b293a8906460d92&") !important;
 }
 
-a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('IMAGE URL') !important
+img[src$="unsortedlionsbanner.png"] {
+  content: url("https://media.discordapp.net/attachments/1169344484920799314/1169389338212188221/Untitled266_20231101213342.png?ex=655539b0&is=6542c4b0&hm=a1393b9d9033a188c53cf0ef1c97c0bf8a0221377ae9223f6b293a8906460d92&") !important;
 }
 
-a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
-	content: url('IMAGE URL') !important
+img[src$="cavedefault.jpg"] {
+  content: url("https://media.discordapp.net/attachments/1169344484920799314/1169389337960517722/Untitled265_20231101213307.png?ex=655539b0&is=6542c4b0&hm=f425cc49f5456c8632c653b45914b665ee71d167f5daf4c344646f5827818f56&") !important;
 }
 
 .mound-grid img /* Mound(s) */ {
-	background: url("IMAGE URL");
+	background: url("https://media.discordapp.net/attachments/1169344484920799314/1169389338480627802/Untitled267_20231101213410.png?ex=655539b0&is=6542c4b0&hm=84c96448ebf1d59388ddec4ef0e807aeb2a0aa95b4c0db0fbd14417b7e22e19f&");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
 	padding-right: 130px
 }
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/food/foo-6/foo514.cur), auto !important;} /* End https://www.cursors-4u.com */
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
