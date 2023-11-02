@@ -605,7 +605,7 @@ img[src$="showcase/banner.png"] {
 }
 
 #commentBox {
-  background: url('https://media.discordapp.net/attachments/1169344484920799314/1169702170950639646/Untitled281_20231102181829.png?ex=65565d09&is=6543e809&hm=009decbb63246e7e8df909cbe889761f583f1fc71fc149c64d81f7a671432bc7&') no-repeat center;
+  background: url('https://media.discordapp.net/attachments/1169344484920799314/1169729582581174434/Untitled281_20231102200731.png?ex=65567691&is=65440191&hm=3305ca04a6850c31e1fb9a7ce68921d2cf9efce555c39c316d3808132a8118a6&') no-repeat center;
   background-size: cover;
 
 }
@@ -719,6 +719,30 @@ visibility: visible !important;}
 	padding-top: 80px;
 	padding-right: 130px
 }
+
+/*-------------------------*/
+/*Comment Box CODE BY HOK-Z*/
+/*-------------------------*/
+#commentBox {
+  background: rgba(210, 186, 217, 0.5);
+ border: 2px solid #ffc2e7 !important;}
+
+div.comment {background: rgba(250, 207, 248, 0.5) !important;
+            border-bottom: 2px solid #ffc2e7;
+            font-weight: bold;}
+
+div#makeComment {background: rgba(143, 67, 139, 0.5) !important;
+                border: 2px solid #ffc2e7;
+                border-radius: 10px;}
+
+div.commentText {color: #FFFFFF;}
+
+input#comment {background: ##632a5b!important;
+              color: white !important;}
+
+input[type="button"].bad {background: rgba(204, 147, 195, 0.5) !important;}
+
+.commentTag.clear {border: 2px solid #ffc2e7;}
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat791.cur), auto !important;} /* End https://www.cursors-4u.com */
 
