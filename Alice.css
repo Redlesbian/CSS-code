@@ -23,7 +23,7 @@ body {
 /* RIGHT SIDE */
 .container.main {
 	background: rgba(202, 130, 183, 0.5);
-	border: 2px solid;
+	border: 2px solid #ffc2e7;
 	box-shadow: none;
 	border-radius: 0px
 }
@@ -38,7 +38,7 @@ body {
 
 .topbar {
 	background: rgba(249, 158, 226, 0.5);
-	border: 2px solid;
+	border: 2px solid #ffc2e7;
 	border-top: none;
 	color: #FFFFFF;
 	border-radius: 0px;
@@ -72,7 +72,7 @@ body {
 
 .breadcrumb {
 	background: rgba(228, 196, 299, 0.5) !important;
-        border: 2px solid;
+        border: 2px solid #ffc2e7;
 	border-radius: 0px
 }
 
@@ -114,7 +114,7 @@ body {
 
 input.floatright, input.floatright:hover {
 	background: linear-gradient(to right, #ffbaf6, #8c4182) !important;
-        border: 2px solid !important;
+        border: 2px solid #ffc2e7 !important;
 	border-radius: 0px;
 	color: #FFFFFF !important;    
 }
@@ -123,7 +123,7 @@ input.floatright, input.floatright:hover {
 
 button.button, button.button:hover {
 	background: linear-gradient(to right, #ffbaf6, #8c4182);
-        border: 2px solid !important;
+        border: 2px solid #ffc2e7 !important;
 	border-radius: 0px;
         text-shadow: none !important;
 	color: #FFFFFF !important
@@ -135,7 +135,7 @@ button.button, button.button:hover {
 .alert-warning,
 .alert-danger {
 	background: rgba(111, 52, 113, 0.5) !important;
-	border: 2px solid;
+	border: 2px solid #ffc2e7;
 	color: #FFFFFF;
 	border-radius: 0px !important
 }
@@ -178,7 +178,7 @@ h3 {
 .panel {
 	background: rgba(221, 192, 218, 0.5) !important;
 	box-shadow: none !important;
-	border: 2px solid !important;
+	border: 2px solid #ffc2e7 !important;
 	color: #FFFFFF !important;
 	border-radius: 0px
 }
@@ -207,19 +207,19 @@ h3 {
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgba(221, 192, 218, 0.5) !important;
         color: #FFFFFF !important;
-	border: 2px solid !important
+	border: 2px solid #ffc2e7 !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgba(238, 135, 228, 0.5) !important;
         color: #FFFFFF !important;
-	border: 2px solid !important
+	border: 2px solid #ffc2e7 !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: rgba(238, 135, 228, 0.5) !important;
         color: #FFFFFF !important;
-	border: 2px solid !important
+	border: 2px solid #ffc2e7 !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
@@ -227,13 +227,13 @@ h3 {
 }
 
 div#chatMessageContainer {
-	border: 2px solid !important;
+	border: 2px solid #ffc2e7 !important;
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(238, 135, 228, 0.5) !important;
         color: #FFFFFF !important;
-	border: 2px solid !important
+	border: 2px solid #ffc2e7 !important
 }
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
@@ -243,7 +243,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 
 .table {
 	background: rgba(143, 49, 134, 0.5);
-	border: 2px solid !important;
+	border: 2px solid #ffc2e7 !important;
 	border-collapse: separate;
 	border-radius: 0px
 }
@@ -293,7 +293,7 @@ td.right {
 .cave-grid,
 .mound-grid {
 	background: linear-gradient(to right, #ffbaf6, #8c4182);
-	border: 2px solid !important;
+	border: 2px solid #ffc2e7 !important;
 	border-radius: 0px !important
 }
 
@@ -302,7 +302,7 @@ td.right {
 .feature {
 	background: rgba(231, 135, 222, 0.5) !important;
 	color: #FFFFFF !important;
-	border: 2px solid #FFFFFF !important;
+	border: 2px solid #ffc2e7 !important;
 	border-radius: 0px !important
 }
 
@@ -311,7 +311,7 @@ td.right {
 .feature,
 div.left {
 	background: rgba(222, 135, 231, 0.5);
-	border: 2px solid;
+	border: 2px solid #ffc2e7;
 	border-radius: 0px !important
 }
 
@@ -328,7 +328,7 @@ input,
 select,
 textarea {
 	background: rgba(255, 145, 208, 0.5) !important;
-	border: 2px solid !important;
+	border: 2px solid #ffc2e7 !important;
 	border-radius: 0px !important;
 	color: #FFFFFF !important;
 	box-shadow: none !important;
@@ -345,7 +345,7 @@ textarea {
 
 .item {
 	background: rgba(255, 189, 277, 0.5) !important;
-	border: 2px solid !important;
+	border: 2px solid #ffc2e7 !important;
 	border-radius: 0px !important
 }
 
