@@ -561,7 +561,7 @@ img[src$="unsortedlionsbanner.png"] {
 }
 
 img[src$="cavedefault.jpg"] {
-  content: ("https://media.discordapp.net/attachments/1169344484920799314/1169622224249049099/Untitled277_20231102130059.png?ex=65561294&is=65439d94&hm=8b1d23a35ab14bd2acbc87243a086ce236c454a71659fd63f4d57cf6f1c36789&") !important;
+  content: url("https://media.discordapp.net/attachments/1169344484920799314/1169622224249049099/Untitled277_20231102130059.png?ex=65561294&is=65439d94&hm=8b1d23a35ab14bd2acbc87243a086ce236c454a71659fd63f4d57cf6f1c36789&") !important;
 }
 
 .mound-grid img /* Mound(s) */ {
