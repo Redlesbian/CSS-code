@@ -15,7 +15,7 @@ body {
 	background: url('https://media.discordapp.net/attachments/1169344484920799314/1169661318463234058/Untitled275_20231102153430.png?ex=655636fd&is=6543c1fd&hm=50deba665adbf5bafe279bfca4a934e2fdb1da71de7ced4f4738d444bce06aac&') center center fixed;
 	background-size: 100%;
 	font-family: 'Cinzel', serif;';
-	color: #2e2a2b
+	color: #FFFFFF
 }
 
 /* MAIN PANEL */
@@ -40,7 +40,7 @@ body {
 	background: rgba(51, 66, 48, 0.5);
 	border: none;
 	border-top: none;
-	color: #000000;
+	color: #FFFFFF;
 	border-radius: 0px;
 }
 
@@ -49,14 +49,14 @@ body {
 .navbar {
 	background: rgba(108, 135, 103, 0.5);
 	border-bottom: none;
-	color: #000000;
+	color: #FFFFFF;
 	border-radius: 0px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #000000 !important
+	color: #FFFFFF !important
 }
 
 /* NAVBAR BUTTON HOVER */
@@ -64,7 +64,7 @@ body {
 .navbar li a:hover {
 	background: rgba(69, 79, 66, 0.5) !important;
 	border-bottom: none;
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	border-radius: 0px
 }
 
@@ -79,14 +79,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #000000
+	color: #FFFFFF
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)|CSS by Red (#261489)";
-        color: #000000;
+        color: #FFFFFF;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -136,7 +136,7 @@ button.button, button.button:hover {
 .alert-danger {
 	background: rgba(54, 77, 58, 0.5) !important;
 	border: none;
-	color: #000000;
+	color: #FFFFFF;
 	border-radius: 0px !important
 }
 
@@ -169,7 +169,7 @@ h3 {
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #000000 !important;
+	color: #FFFFFF !important;
         font-size: 26px !important;
         font-family: 'Cinzel', serif;'
 }
@@ -179,51 +179,51 @@ h3 {
 	background: rgba(56, 69, 58, 0.5) !important;
 	box-shadow: none !important;
 	border: none !important;
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	border-radius: 0px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: rgba(56, 84, 69, 0.5);
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	border-radius: 0px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
 	background: rgba(66, 125, 75, 0.5);
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	border-radius: 0px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000000 !important
+	color: #FFFFFF !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgba(136, 181, 143, 0.5) !important;
-        color: #000000 !important;
+        color: #FFFFFF !important;
 	border: none !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgba(152, 181, 136, 0.5) !important;
-        color: #000000 !important;
+        color: #FFFFFF !important;
 	border: none !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: rgba(176, 181, 136, 0.5) !important;
-        color: #000000 !important;
+        color: #FFFFFF !important;
 	border: none !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #000000 !important;
+	color: #FFFFFF !important;
 }
 
 div#chatMessageContainer {
@@ -232,7 +232,7 @@ div#chatMessageContainer {
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(66, 82, 47, 0.5) !important;
-        color: #000000 !important;
+        color: #FFFFFF !important;
 	border: none !important
 }
 
@@ -255,7 +255,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .bottom,
 th {
 	background: rgba(162, 189, 132, 0.5) !important;
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	border-radius: 0px
 }
 
@@ -301,8 +301,8 @@ td.right {
 
 .feature {
 	background: rgba(128, 166, 85, 0.5) !important;
-	color: #000000 !important;
-	border: 1px solid #000000 !important;
+	color: #FFFFFF !important;
+	border: 1px solid #FFFFFF !important;
 	border-radius: 0px !important
 }
 
@@ -330,7 +330,7 @@ textarea {
 	background: rgba(94, 117, 95, 0.5) !important;
 	border: none !important;
 	border-radius: 0px !important;
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	box-shadow: none !important;
 	text-shadow: none !important
 }
@@ -339,7 +339,7 @@ textarea {
 
 .item-header {
 	background: rgba(31, 59, 32, 0.5) !important;
-	color: #000000  !important;
+	color: #FFFFFF  !important;
 	border-radius: 0px !important;
 }
 
@@ -362,7 +362,7 @@ div.slider.round::before /* Circle Part */ {
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #000000 !important;
+        color: #FFFFFF !important;
         text-shadow: none !important
 }
 
