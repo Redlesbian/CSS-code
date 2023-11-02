@@ -15,7 +15,7 @@ body {
 	background: url('https://media.discordapp.net/attachments/1169344484920799314/1169344511563018300/Untitled257_20231101183659.png?ex=65550ff0&is=65429af0&hm=3ee65b0c348ea39f3ba59e0c656f47efc307b7daac2d36663c9febe903b3d05b&') center center fixed;
 	background-size: 100%;
 	font-family: 'Permanent Marker', cursive;';
-	color: #2e2a2b
+	color: #FFFFFF
 }
 
 /* MAIN PANEL */
@@ -40,7 +40,7 @@ body {
 	background: rgba(249, 158, 226, 0.5);
 	border: 2px solid;
 	border-top: none;
-	color: #000000;
+	color: #FFFFFF;
 	border-radius: 0px;
 }
 
@@ -49,14 +49,14 @@ body {
 .navbar {
 	background: rgba(167, 121, 169, 0.5);
 	border-bottom: none;
-	color: #693D6B;
+	color: #FFFFFF;
 	border-radius: 0px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #EDB7EF !important
+	color: #FFFFFF !important
 }
 
 /* NAVBAR BUTTON HOVER */
@@ -64,7 +64,7 @@ body {
 .navbar li a:hover {
 	background: rgba(252, 152, 255, 0.5) !important;
 	border-bottom: none;
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	border-radius: 0px
 }
 
@@ -79,14 +79,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #000000
+	color: #FFFFFF
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)";
-        color: #000000;
+        color: #FFFFFF;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -116,7 +116,7 @@ input.floatright, input.floatright:hover {
 	background: linear-gradient(to right, #ffbaf6, #8c4182) !important;
         border: 2px solid !important;
 	border-radius: 0px;
-	color: #000000 !important;    
+	color: #FFFFFF !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
@@ -126,7 +126,7 @@ button.button, button.button:hover {
         border: 2px solid !important;
 	border-radius: 0px;
         text-shadow: none !important;
-	color: #000000 !important
+	color: #FFFFFF !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -136,7 +136,7 @@ button.button, button.button:hover {
 .alert-danger {
 	background: rgba(111, 52, 113, 0.5) !important;
 	border: 2px solid;
-	color: #000000;
+	color: #FFFFFF;
 	border-radius: 0px !important
 }
 
@@ -169,7 +169,7 @@ h3 {
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #000000 !important;
+	color: #FFFFFF !important;
         font-size: 26px !important;
         font-family: 'Permanent Marker', cursive;'
 }
@@ -179,51 +179,51 @@ h3 {
 	background: rgba(221, 192, 218, 0.5) !important;
 	box-shadow: none !important;
 	border: 2px solid !important;
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	border-radius: 0px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: rgba(221, 192, 218, 0.5);
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	border-radius: 0px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
 	background: linear-gradient(to right, #ffbaf6, #8c4182);
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	border-radius: 0px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000000 !important
+	color: #FFFFFF !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgba(221, 192, 218, 0.5) !important;
-        color: #000000 !important;
+        color: #FFFFFF !important;
 	border: 2px solid !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgba(238, 135, 228, 0.5) !important;
-        color: #000000 !important;
+        color: #FFFFFF !important;
 	border: 2px solid !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: rgba(238, 135, 228, 0.5) !important;
-        color: #000000 !important;
+        color: #FFFFFF !important;
 	border: 2px solid !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #000000 !important;
+	color: #FFFFFF !important;
 }
 
 div#chatMessageContainer {
@@ -232,7 +232,7 @@ div#chatMessageContainer {
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(238, 135, 228, 0.5) !important;
-        color: #000000 !important;
+        color: #FFFFFF !important;
 	border: 2px solid !important
 }
 
@@ -255,7 +255,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .bottom,
 th {
 	background: linear-gradient(to right, #bf56b1, #6f4280) !important;
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	border-radius: 0px
 }
 
@@ -267,7 +267,7 @@ td.bottom a {
 
 .inner-table .left {
 	background: linear-gradient(to right, #ffbaf6, #8c4182) !important;
-        color: #2e2a2b;
+        color: #FFFFFF;
 	border-radius: 0px
 }
 
@@ -301,8 +301,8 @@ td.right {
 
 .feature {
 	background: rgba(231, 135, 222, 0.5) !important;
-	color: #000000 !important;
-	border: 2px solid #000000 !important;
+	color: #FFFFFF !important;
+	border: 2px solid #FFFFFF !important;
 	border-radius: 0px !important
 }
 
@@ -330,7 +330,7 @@ textarea {
 	background: rgba(255, 145, 208, 0.5) !important;
 	border: 2px solid !important;
 	border-radius: 0px !important;
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	box-shadow: none !important;
 	text-shadow: none !important
 }
@@ -339,7 +339,7 @@ textarea {
 
 .item-header {
 	background: linear-gradient(to right, #bf56b1, #6f4280) !important;
-	color: #000000  !important;
+	color: #FFFFFF  !important;
 	border-radius: 0px !important;
 }
 
@@ -362,7 +362,7 @@ div.slider.round::before /* Circle Part */ {
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #000000 !important;
+        color: #FFFFFF !important;
         text-shadow: none !important
 }
 
