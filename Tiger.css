@@ -1,0 +1,600 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+/* BACKGROUND */
+
+body {
+	background: url('https://media.discordapp.net/attachments/1169344484920799314/1169605773433770197/Untitled275_20231102115521.png?ex=65560342&is=65438e42&hm=da3810433f5159a37ad632a49bb26d713acc326c070d0cfd114969860cd11259&') no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Bad Script', cursive;';
+	color: #2e2a2b
+}
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(245, 138, 66, 0.5);
+	border: none;
+	box-shadow: none;
+	border-radius: 0px
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+
+/* TOPBAR ("Welcome back, ___") */
+
+.topbar {
+	background: rgba(204, 133, 86, 0.5);
+	border: none;
+	border-top: none;
+	color: #000000;
+	border-radius: 0px;
+}
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+.navbar {
+	background: rgba(204, 115, 86, 0.5);
+	border-bottom: none;
+	color: #000000;
+	border-radius: 0px
+}
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+.navbar li a {
+	color: #000000 !important
+}
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: rgba(156, 95, 45, 0.5) !important;
+	border-bottom: none;
+	color: #000000 !important;
+	border-radius: 0px
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgba(230, 132, 53, 0.5) !important;
+        border: none;
+	border-radius: 0px
+}
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #000000
+}
+
+/* CSS CREDIT */
+
+.breadcrumb::after {
+        content: "Template by Katie (#106445)|CSS by red (#261489)";
+        color: #000000;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+/* BOOKMARK BUTTON */
+
+input.floatright, input.floatright:hover {
+	background: rgba(143, 87, 41, 0.5) !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #000000 !important;    
+}
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button, button.button:hover {
+	background: rgba(143, 87, 41, 0.5);
+        border: none !important;
+	border-radius: 0px;
+        text-shadow: none !important;
+	color: #000000 !important
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: rgba(115, 98, 84, 0.5) !important;
+	border: none;
+	color: #000000;
+	border-radius: 0px !important
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #4f2402;
+	font-size: 90px;
+	text-align: center;
+        font-family: 'Bad Script', cursive;'
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #b36525;
+	font-size: 24px;
+	text-align: center
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #b36525 !important;
+	font-size: 14px !important
+}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #000000 !important;
+        font-size: 26px !important;
+        font-family: 'Bad Script', cursive;'
+}
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgba(166, 75, 2, 0.5) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #000000 !important;
+	border-radius: 0px
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(84, 57, 35, 0.5);
+	color: #000000 !important;
+	border-radius: 0px !important
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgba(227, 148, 84, 0.5);
+	color: #000000 !important;
+	border-radius: 0px !important
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #000000 !important
+}
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: rgba(115, 96, 81, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: rgba(237, 167, 109, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: rgba(255, 150, 64, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #000000 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: rgba(161, 128, 101, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+	background: rgba(92, 74, 59, 0.5);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 0px
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+.bottom,
+th {
+	background: rgba(148, 87, 37, 0.5) !important;
+	color: #000000 !important;
+	border-radius: 0px
+}
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgba(173, 105, 52, 0.6) !important;
+        color: #000000;
+	border-radius: 0px
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: none;
+	border-radius: 0px !important
+}
+
+td.right {
+	border-radius: 0px !important
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: rgba(97, 78, 63, 0.5);
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgba(168, 110, 66, 0.5) !important;
+	color: #000000 !important;
+	border: 1px solid #000000 !important;
+	border-radius: 0px !important
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgba(171, 96, 39, 0.5);
+	border: none;
+	border-radius: 0px !important
+}
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+.table .left {
+	background: rgba(122, 82, 49, 0.5);
+        border-radius: 0px
+}
+
+/* Color behind the content of the elements listed above */
+
+input,
+select,
+textarea {
+	background: rgba(186, 130, 84, 0.5) !important;
+	border: none !important;
+	border-radius: 0px !important;
+	color: #000000 !important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgba(105, 67, 36, 0.5) !important;
+	color: #000000  !important;
+	border-radius: 0px !important;
+}
+
+.item {
+	background: rgba(184, 117, 62, 0.5) !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #ffc08c !important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #c76414 !important
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #000000 !important;
+        text-shadow: none !important
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #ffffff !important
+}
+
+/* LINK HOVER COLOR */
+
+a:hover {
+	color: #ffffff !important
+}
+
+
+/* BOX CONTAINER */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex
+}
+
+/* BOXES */
+
+.smallbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 28.4%;
+	overflow: auto
+}
+
+.mediumbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 43.8%;
+	overflow: auto
+}
+
+.largebox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto
+}
+
+/* HOVER BOXES */
+
+.smallhoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 28.4%;
+	overflow: auto;
+        transition: 3s
+}
+
+.smallhoverbox:hover {
+	height: 150px;
+	width: 28.4%;
+}
+
+.mediumhoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 43.8%;
+	overflow: auto;
+        transition: 3s
+}
+
+.mediumhoverbox:hover {
+	height: 150px;
+	width: 43.8%;
+}
+
+.largehoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto;
+        transition: 3s
+}
+
+.largehoverbox:hover {
+	height: 150px;
+	width: 90%;
+}
+
+/* SCROLL BAR */
+
+/* WIDTH */
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+/* BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #ffffff
+}
+
+
+/* "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #000000;
+	border-radius: 0px
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 1
+}
+
+table#player img {
+	opacity: 1
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://media.discordapp.net/attachments/1169344484920799314/1169611191501471854/Untitled276_20231102121646-removebg-preview.png?ex=6556084e&is=6543934e&hm=2d26054f05f0044345d9638a50e68fbfa1bdf200ec455976798a271662bb8c66&')
+}
+
+/* CAVE / MOUND IMAGES */
+
+img[src$="nestingbanner.png"] {
+  content: url("https://media.discordapp.net/attachments/1169344484920799314/1169612272243589141/Untitled279_20231102122129.png?ex=65560950&is=65439450&hm=0a57e751be0156daef3fcd66a19dbf9ade792b66061030fcfe02b44c74ecdf55&") !important;
+}
+
+img[src$="overviewbanner.png"] {
+  content: url("https://media.discordapp.net/attachments/1169344484920799314/1169612272243589141/Untitled279_20231102122129.png?ex=65560950&is=65439450&hm=0a57e751be0156daef3fcd66a19dbf9ade792b66061030fcfe02b44c74ecdf55&") !important;
+}
+
+img[src$="unsortedlionsbanner.png"] {
+  content: url("https://media.discordapp.net/attachments/1169344484920799314/1169612272243589141/Untitled279_20231102122129.png?ex=65560950&is=65439450&hm=0a57e751be0156daef3fcd66a19dbf9ade792b66061030fcfe02b44c74ecdf55&") !important;
+}
+
+img[src$="cavedefault.jpg"] {
+  content: url("https://media.discordapp.net/attachments/1169344484920799314/1169611383424434176/Untitled277_20231102121757.png?ex=6556087c&is=6543937c&hm=8658ca080a9c7e4d9220d3eab17e710c1fffba7c93dbff3420c0d0e8da35e111&") !important;
+}
+
+.mound-grid img /* Mound(s) */ {
+	background: url("https://media.discordapp.net/attachments/1169344484920799314/1169611558725369996/Untitled278_20231102121838.png?ex=655608a5&is=654393a5&hm=f584f18b4866a12b807bd00e804e565d28d22c6c1d17ab38ddd9714d88b71f92&");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px
+}
+
+img[src$="gold.png"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169619336013566093/Untitled280_20231102124927.png?ex=65560fe4&is=65439ae4&hm=615719d48912f0fed8321c6ad851475caae5ecf3dd3ceffc72ee05150f76c7bd&')!important;
+}
+img[src$="silver.png"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169619335640252469/Untitled280_20231102124916.png?ex=65560fe4&is=65439ae4&hm=0fe4ad0392ba467d4dc1f9f838eaace7f593df822dcebf5b63ad63d6f6822151&')!important;
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/toons/too-10/too959.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+  }
