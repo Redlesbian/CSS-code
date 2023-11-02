@@ -22,7 +22,7 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(255, 176, 238, 0.75);
+	background: rgba(255, 176, 238, 0.5);
 	border: none;
 	box-shadow: none;
 	border-radius: 0px
@@ -37,7 +37,7 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgba(235, 186, 255, 0.75);
+	background: rgba(235, 186, 255, 0.5);
 	border: none;
 	border-top: none;
 	color: #000000;
@@ -47,7 +47,7 @@ body {
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(255, 176, 238, 0.75);
+	background: rgba(255, 176, 238, 0.5);
 	border-bottom: none;
 	color: #000000;
 	border-radius: 0px
@@ -62,7 +62,7 @@ body {
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: rgba(178, 116, 204, 0.75) !important;
+	background: rgba(178, 116, 204, 0.5) !important;
 	border-bottom: none;
 	color: #000000 !important;
 	border-radius: 0px
@@ -71,7 +71,7 @@ body {
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(204, 116, 194, 0.75) !important;
+	background: rgba(204, 116, 194, 0.5) !important;
         border: none;
 	border-radius: 0px
 }
@@ -113,7 +113,7 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(217, 180, 212, 0.75) !important;
+	background: rgba(217, 180, 212, 0.5) !important;
         border: none !important;
 	border-radius: 0px;
 	color: #000000 !important;    
@@ -122,7 +122,7 @@ input.floatright, input.floatright:hover {
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(217, 180, 212, 0.75);
+	background: rgba(217, 180, 212, 0.5);
         border: none !important;
 	border-radius: 0px;
         text-shadow: none !important;
@@ -176,7 +176,7 @@ h3 {
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(207, 116, 197, 0.75) !important;
+	background: rgba(207, 116, 197, 0.5) !important;
 	box-shadow: none !important;
 	border: none !important;
 	color: #000000 !important;
@@ -185,14 +185,14 @@ h3 {
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(232, 176, 226, 0.75);
+	background: rgba(232, 176, 226, 0.5);
 	color: #000000 !important;
 	border-radius: 0px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(207, 102, 225, 0.85);
+	background: rgba(207, 102, 225, 0.5);
 	color: #000000 !important;
 	border-radius: 0px !important
 }
@@ -205,19 +205,19 @@ h3 {
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(143, 87, 171, 0.75) !important;
+	background: rgba(143, 87, 171, 0.5) !important;
         color: #000000 !important;
 	border: none !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(171, 84, 162, 0.75) !important;
+	background: rgba(171, 84, 162, 0.5) !important;
         color: #000000 !important;
 	border: none !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(232, 176, 226, 0.75) !important;
+	background: rgba(232, 176, 226, 0.5) !important;
         color: #000000 !important;
 	border: none !important
 }
@@ -231,7 +231,7 @@ div#chatMessageContainer {
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(232, 176, 226, 0.75) !important;
+	background: rgba(232, 176, 226, 0.5) !important;
         color: #000000 !important;
 	border: none !important
 }
@@ -242,7 +242,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(255, 171, 226, 0.75);
+	background: rgba(255, 171, 226, 0.5);
 	border: none !important;
 	border-collapse: separate;
 	border-radius: 0px
@@ -254,7 +254,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(224, 126, 118, 0.75) !important;
+	background: rgba(224, 126, 118, 0.5) !important;
 	color: #000000 !important;
 	border-radius: 0px
 }
@@ -292,7 +292,7 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(177, 126, 224, 0.75);
+	background: rgba(177, 126, 224, 0.5);
 	border: none !important;
 	border-radius: 0px !important
 }
@@ -300,7 +300,7 @@ td.right {
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(177, 126, 224, 0.75) !important;
+	background: rgba(177, 126, 224, 0.5) !important;
 	color: #000000 !important;
 	border: 1px solid #000000 !important;
 	border-radius: 0px !important
@@ -310,7 +310,7 @@ td.right {
 
 .feature,
 div.left {
-	background: rgba(171, 94, 177, 0.75);
+	background: rgba(171, 94, 177, 0.5);
 	border: none;
 	border-radius: 0px !important
 }
@@ -318,7 +318,7 @@ div.left {
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(235, 106, 228, 0.75);
+	background: rgba(235, 106, 228, 0.5);
         border-radius: 0px
 }
 
@@ -327,7 +327,7 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(250, 172, 246, 0.75) !important;
+	background: rgba(250, 172, 246, 0.5) !important;
 	border: none !important;
 	border-radius: 0px !important;
 	color: #000000 !important;
@@ -338,13 +338,13 @@ textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(229, 201, 255, 0.75) !important;
+	background: rgba(229, 201, 255, 0.5) !important;
 	color: #000000  !important;
 	border-radius: 0px !important;
 }
 
 .item {
-	background: rgba(187, 161, 212, 0.75) !important;
+	background: rgba(187, 161, 212, 0.5) !important;
 	border: none !important;
 	border-radius: 0px !important
 }
@@ -548,7 +548,6 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* CAVE / MOUND IMAGES */
 
-div.cave-grid>img /* Pregnant Lionesses */ {
 img[src$="nestingbanner.png"] {
   content: url("https://media.discordapp.net/attachments/1169344484920799314/1169432084260077568/Untitled274_20231102002524.png?ex=6555617f&is=6542ec7f&hm=34cc5516d380cfb11c9242ab20ed58f27d3a66f87c3feb114807b27bca03f171&") !important;
 }
@@ -562,7 +561,7 @@ img[src$="unsortedlionsbanner.png"] {
 }
 
 img[src$="cavedefault.jpg"] {
-  content: url("https://media.discordapp.net/attachments/1169344484920799314/1169432084016803900/Untitled273_20231102002458.png?ex=6555617f&is=6542ec7f&hm=04b17f7cde4944f2d086e3c3f16d3599ad0da6ee1f7a165cb4784a29057da957&") !important;
+  content: url("https://media.discordapp.net/attachments/1169344484920799314/1169432083794501682/Untitled272_20231102002404.png?ex=6555617f&is=6542ec7f&hm=b0d210c173020514bfa88fb4583e4009df89dd640d589c845de3cac0fddcd5ca&") !important;
 }
 
 .mound-grid img /* Mound(s) */ {
