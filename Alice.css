@@ -757,8 +757,8 @@ border-radius:10px;
 .breadcrumb::before {
         content:url('https://media.discordapp.net/attachments/1169344484920799314/1169744677776404510/bunbauscat.png?ex=6556849f&is=65440f9f&hm=40b6edb50471437971b2474f86addf5c022a7f0528b42b75592ec8079cd3090e&');
         position: fixed;
-        right: 0.5%;
-    top: 73%;
+        right: 0.75%;
+    top: 50%;
         z-index: 100;
 }
 	
