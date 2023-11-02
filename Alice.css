@@ -642,48 +642,48 @@ img[src$="gift.png"] {
 /*-------------------------*/
 
 /*Compose Message*/
-#player a[href="/compose.php?to=370350"] {
+#player a[href="/compose.php?to=270350"] {
 visibility: hidden !important;}
 
-#player a[href="/compose.php?to=370350"]:after {
+#player a[href="/compose.php?to=270350"]:after {
 content: "Contact Malibu" !important;
 visibility: visible !important;}
 
 
 /*Send Gift*/
-#player a[href="/transfers.php?mem=370350"] {
+#player a[href="/transfers.php?mem=270350"] {
 visibility: hidden !important;}
 
-#player a[href="/transfers.php?mem=370350"]:before {
+#player a[href="/transfers.php?mem=270350"]:before {
 content: "throw something down the rabbit hole" !important;
 visibility: visible !important;
 margin-right: -100px !important;}
 
 
 /*Private Trade*/
-#player a[href="/trading_center.php?p=create&type=private&for=370350"] {
+#player a[href="/trading_center.php?p=create&type=private&for=270350"] {
 visibility: hidden !important;}
 
-#player a[href="/trading_center.php?p=create&type=private&for=370350"]:before {
+#player a[href="/trading_center.php?p=create&type=private&for=270350"]:before {
 content: "Trade with Malibu" !important;
 visibility: visible !important;
 margin-right: -100px !important;}
 
 
 /*View Wishlist*/
-#player a[href="/wishlist.php?id=370350"] {
+#player a[href="/wishlist.php?id=270350"] {
 visibility: hidden !important;}
 
-#player a[href="/wishlist.php?id=370350"]:before {
+#player a[href="/wishlist.php?id=270350"]:before {
 content: "my desires" !important;
 visibility: visible !important;
 margin-right: -100px !important;}
 
 /*View Trades*/
-#player a[href="/trading_center.php?s=users&owner=370350&ref#results"] {
+#player a[href="/trading_center.php?s=users&owner=270350&ref#results"] {
 visibility: hidden !important;}
 
-#player a[href="/trading_center.php?s=users&owner=370350&ref#results"]:before {
+#player a[href="/trading_center.php?s=users&owner=270350&ref#results"]:before {
 content: "My deals" !important;
 visibility: visible !important;
 margin-right: -100px !important;}
@@ -699,15 +699,15 @@ visibility: visible !important;
 margin-right: -150px !important;}
 
 /* Block User */
-#player a[href="/allies.php?block=370350"] {
+#player a[href="/allies.php?block=270350"] {
 visibility: hidden !important;}
 
-#player a[href="/allies.php?block=370350"]:before {
+#player a[href="/allies.php?block=270350"]:before {
 content: url(//static.lioden.com/images/emotes/skull.png) !important;
 visibility: visible !important;
 margin-right: -110px;}
 
-#player a[href="/allies.php?block=370350"]:after {
+#player a[href="/allies.php?block=270350"]:after {
 content: "Block Malibu, bye friend" !important;
 visibility: visible !important;}
 
