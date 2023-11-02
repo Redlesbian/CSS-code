@@ -113,7 +113,7 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(210, 175, 211, 0.5) !important;
+	background: linear-gradient(to right, #ffbaf6, #8c4182) !important;
         border: none !important;
 	border-radius: 0px;
 	color: #000000 !important;    
@@ -122,7 +122,7 @@ input.floatright, input.floatright:hover {
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(210, 175, 211, 0.5);
+	background: linear-gradient(to right, #ffbaf6, #8c4182);
         border: none !important;
 	border-radius: 0px;
         text-shadow: none !important;
@@ -192,7 +192,7 @@ h3 {
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(247, 188, 242, 0.5);
+	background: linear-gradient(to right, #ffbaf6, #8c4182);
 	color: #000000 !important;
 	border-radius: 0px !important
 }
@@ -266,7 +266,7 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(155, 226, 242, 0.6) !important;
+	background: linear-gradient(to right, #ffbaf6, #8c4182) !important;
         color: #2e2a2b;
 	border-radius: 0px
 }
@@ -292,7 +292,7 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(231, 135, 222, 0.5);
+	background: linear-gradient(to right, #ffbaf6, #8c4182);
 	border: none !important;
 	border-radius: 0px !important
 }
@@ -571,6 +571,63 @@ img[src$="silver.png"] {
     content:url('https://media.discordapp.net/attachments/1169344484920799314/1169419759557804152/Untitled269_20231101233505-removebg-preview.png?ex=65555605&is=6542e105&hm=2713ecd482ea25ba1a1ae3fc39cc0ef95e569ccf518b1fb5c8c24ddd6eddeaf1&')!important;
 }
 
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* KING DYNASTY */
+img[src$="ancestors.jpg"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169706154486677554/Untitled283_20231102183427.png?ex=655660bf&is=6543ebbf&hm=45034939f41f61eb80ec9c8dcc4cf4a80d120c2fe3f2bf52e5662cc9d8b1e390&')!important;
+    width:185px!important;
+ 
+}
+ 
+/* PRIDE DYNASTY */
+img[src$="ancestorsfem.png"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169706154486677554/Untitled283_20231102183427.png?ex=655660bf&is=6543ebbf&hm=45034939f41f61eb80ec9c8dcc4cf4a80d120c2fe3f2bf52e5662cc9d8b1e390&')!important;
+    width:185px!important;
+ 
+}
+ 
+/* ACHIEVMENTS */
+img[src$="achievements.jpg"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169706154486677554/Untitled283_20231102183427.png?ex=655660bf&is=6543ebbf&hm=45034939f41f61eb80ec9c8dcc4cf4a80d120c2fe3f2bf52e5662cc9d8b1e390&')!important;
+    width:185px!important;
+ 
+}
+ 
+/* SHOWCASE */
+img[src$="showcase/banner.png"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169706154486677554/Untitled283_20231102183427.png?ex=655660bf&is=6543ebbf&hm=45034939f41f61eb80ec9c8dcc4cf4a80d120c2fe3f2bf52e5662cc9d8b1e390&')!important;
+    width:185px!important;
+ 
+}
+
+/* GIFTING */
+ 
+img[src$="gift.png"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169708082931183676/Untitled284_20231102184207.png?ex=6556628b&is=6543ed8b&hm=1913ff52c5342263e7e081fffd7488a608977a64d7a64db402cf19f27eac61ee&')!important;
+    width:70px!important;
+
+/* MEMBER ONLINE */
+ 
+.member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169418934831816806/Untitled269_20231101233226.png?ex=65555540&is=6542e040&hm=3f4125fb4def1afa68439a6bf5aad40974d56ec5a9277f6d935398f0b814255b&')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+ 
+/* MEMBER OFFLINE */
+ 
+.member-offline {
+    background: rgba(207,207,207,0);
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169707136306139146/Untitled280_20231102183823.png?ex=655661a9&is=6543eca9&hm=84b4516025e8599f53100b86e9c594ba75ed7d1c5c4296a029821b450fa97815&')!important;
+     width:20px!important;
+     height:20px;
+
 .mound-grid img /* Mound(s) */ {
 	background: url("https://media.discordapp.net/attachments/1169344484920799314/1169372000582651914/Untitled260_20231101202640.png?ex=6555298a&is=6542b48a&hm=30496af2b3e2c7168a6e9b906040229cd87a87be9983e66b741228605351c43f&");
 	width: 0;
@@ -579,8 +636,20 @@ img[src$="silver.png"] {
 	padding-right: 130px
 }
 
+#commentBox {
+  background: url('https://media.discordapp.net/attachments/1169344484920799314/1169702170950639646/Untitled281_20231102181829.png?ex=65565d09&is=6543e809&hm=009decbb63246e7e8df909cbe889761f583f1fc71fc149c64d81f7a671432bc7&') no-repeat center;
+  background-size: cover;
+
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat791.cur), auto !important;} /* End https://www.cursors-4u.com */
 
+div.progress {
+border-radius:10px;
+}
+ 
+div.progress-bar {
+border-radius:10px;
+}
+	
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
