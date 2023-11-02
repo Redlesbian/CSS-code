@@ -254,7 +254,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(187, 66, 176, 0.5) !important;
+	background: linear-gradient(to right, #bf56b1, #6f4280) !important;
 	color: #000000 !important;
 	border-radius: 0px
 }
@@ -338,7 +338,7 @@ textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(255, 189, 277, 0.5) !important;
+	background: linear-gradient(to right, #bf56b1, #6f4280) !important;
 	color: #000000  !important;
 	border-radius: 0px !important;
 }
@@ -352,11 +352,11 @@ textarea {
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #000000 !important
+	background: #85487c !important
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #000000 !important
+	background: #FFFFFF !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
@@ -604,6 +604,12 @@ img[src$="showcase/banner.png"] {
  
 }
 
+#commentBox {
+  background: url('https://media.discordapp.net/attachments/1169344484920799314/1169702170950639646/Untitled281_20231102181829.png?ex=65565d09&is=6543e809&hm=009decbb63246e7e8df909cbe889761f583f1fc71fc149c64d81f7a671432bc7&') no-repeat center;
+  background-size: cover;
+
+}
+
 /* GIFTING */
  
 img[src$="gift.png"] {
@@ -635,10 +641,6 @@ img[src$="gift.png"] {
 	padding-top: 80px;
 	padding-right: 130px
 }
-
-#commentBox {
-  background: url('https://media.discordapp.net/attachments/1169344484920799314/1169702170950639646/Untitled281_20231102181829.png?ex=65565d09&is=6543e809&hm=009decbb63246e7e8df909cbe889761f583f1fc71fc149c64d81f7a671432bc7&') no-repeat center;
-  background-size: cover;
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat791.cur), auto !important;} /* End https://www.cursors-4u.com */
 
