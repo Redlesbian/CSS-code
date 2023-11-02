@@ -615,7 +615,8 @@ img[src$="showcase/banner.png"] {
 img[src$="gift.png"] {
     content:url('https://media.discordapp.net/attachments/1169344484920799314/1169708082931183676/Untitled284_20231102184207.png?ex=6556628b&is=6543ed8b&hm=1913ff52c5342263e7e081fffd7488a608977a64d7a64db402cf19f27eac61ee&')!important;
     width:70px!important;
-
+}
+	
 /* MEMBER ONLINE */
  
 .member-online {
@@ -634,6 +635,8 @@ img[src$="gift.png"] {
      width:20px!important;
      height:20px;
 
+}
+	
 .mound-grid img /* Mound(s) */ {
 	background: url("https://media.discordapp.net/attachments/1169344484920799314/1169372000582651914/Untitled260_20231101202640.png?ex=6555298a&is=6542b48a&hm=30496af2b3e2c7168a6e9b906040229cd87a87be9983e66b741228605351c43f&");
 	width: 0;
