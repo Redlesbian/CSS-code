@@ -614,6 +614,9 @@ img[src$="showcase/banner.png"] {
  
 }
 
+.lionImage > img {
+content: url("https://media.discordapp.net/attachments/1169778124293165076/1170141991909199912/Untitled291_20231103232616.png?ex=6557f6a7&is=654581a7&hm=8f252ea4972a12fa0ac86f7eae10acd2a85e978a01a78a70e1f556e61ebbd5bc&") !important; }
+
 /* MEMBER ONLINE */
  
 .member-online {
