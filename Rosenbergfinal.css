@@ -612,6 +612,26 @@ img[src$="showcase/banner.png"] {
  
 }
 
+/* MEMBER ONLINE */
+ 
+.member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169786032946954351/Untitled280_20231102235155.png?ex=6556ab23&is=65443623&hm=5df432582374936577ed41930bb8c9c52ab6cbc77bbb487eb07d794841f49e6d&')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+ 
+/* MEMBER OFFLINE */
+ 
+.member-offline {
+    background: rgba(207,207,207,0);
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169786291911671928/Untitled280_20231102235258.png?ex=6556ab61&is=65443661&hm=60a44d7ae6fd3bbc4970e2c1c43bd100cb900b07d6b0695c919d558dfda353d5&')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+
 /*-------------------------*/
 /*Comment Box CODE BY HOK-Z*/
 /*-------------------------*/
