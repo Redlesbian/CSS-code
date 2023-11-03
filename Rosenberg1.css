@@ -579,6 +579,66 @@ img[src$="silver.png"] {
     content:url('https://media.discordapp.net/attachments/1169344484920799314/1169786315005497444/Untitled280_20231102235140.png?ex=6556ab67&is=65443667&hm=3da7d06e5de0d3496f28da42c719ffd2159fc7949796760986bdb9ee2c2e3109&')!important;
 }
 
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* KING DYNASTY */
+img[src$="ancestors.jpg"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169785289263292527/Untitled283_20231102234855.png?ex=6556aa72&is=65443572&hm=5a766c649f2cd677e67aa21ca0a55a6ddcef8b6286e890802e76b23548d262d7&')!important;
+    width:185px!important;
+ 
+}
+ 
+/* PRIDE DYNASTY */
+img[src$="ancestorsfem.png"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169785289263292527/Untitled283_20231102234855.png?ex=6556aa72&is=65443572&hm=5a766c649f2cd677e67aa21ca0a55a6ddcef8b6286e890802e76b23548d262d7&')!important;
+    width:185px!important;
+ 
+}
+ 
+/* ACHIEVMENTS */
+img[src$="achievements.jpg"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169785289263292527/Untitled283_20231102234855.png?ex=6556aa72&is=65443572&hm=5a766c649f2cd677e67aa21ca0a55a6ddcef8b6286e890802e76b23548d262d7&')!important;
+    width:185px!important;
+ 
+}
+ 
+/* SHOWCASE */
+img[src$="showcase/banner.png"] {
+    content:url('https://media.discordapp.net/attachments/1169344484920799314/1169785289263292527/Untitled283_20231102234855.png?ex=6556aa72&is=65443572&hm=5a766c649f2cd677e67aa21ca0a55a6ddcef8b6286e890802e76b23548d262d7&')!important;
+    width:185px!important;
+ 
+}
+
+/*-------------------------*/
+/*Comment Box CODE BY HOK-Z*/
+/*-------------------------*/
+#commentBox {
+  background: rgba(209, 140, 100, 0.5);
+ border: 3px solid #d66f33 !important;}
+
+div.comment {background: rgba(168, 108, 72, 0.5) !important;
+            border-bottom: 3px solid #d66f33;
+            font-weight: bold;}
+
+div#makeComment {background: rgba(235, 168, 129, 0.5) !important;
+                border: 3px solid ##d66f33;
+                border-radius: 10px;}
+
+div.commentText {color: #000000;}
+
+input#comment {background: #eda174 !important;
+              color: white !important;}
+
+input[type="button"].bad {background: rgba(219, 129, 77, 0.5) !important;}
+
+.commentTag.clear {border: 3px solid #d66f33;}
+
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym19.cur), auto !important;} /* End https://www.cursors-4u.com */
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
