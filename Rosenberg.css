@@ -634,14 +634,6 @@ img[src$="showcase/banner.png"] {
  
 }
 
-.breadcrumb::before {
-        content:url('https://media.discordapp.net/attachments/1169344484920799314/1169816312957128775/Untitled289_20231103015213.png?ex=6556c757&is=65445257&hm=b59e7b4dc5b99a5b8638dc45f81abc41f58d440bc24f1611615c4484184cd76c&');
-        position: fixed;
-        right: 0.7%;
-    top: 75%;
-        z-index: 100;
-}
-
 /*-------------------------*/
 /*Comment Box CODE BY HOK-Z*/
 /*-------------------------*/
