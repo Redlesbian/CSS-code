@@ -12,8 +12,8 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 /* BACKGROUND */
 
 body {
-	background: url('https://media.discordapp.net/attachments/1169778124293165076/1170816562714910790/Untitled275_20231105200215.png?ex=655a6ae5&is=6547f5e5&hm=648def160c55f5564a9c63e942fabb24805a1983b15b96e8d25b072cf692c113&') center center fixed;
-	background-size: 100%;
+	background: url('https://media.discordapp.net/attachments/1169778124293165076/1170816562714910790/Untitled275_20231105200215.png?ex=655a6ae5&is=6547f5e5&hm=648def160c55f5564a9c63e942fabb24805a1983b15b96e8d25b072cf692c113&') no-repeat center center fixed;
+	background-size: cover;
 	font-family: 'Cinzel', serif;';
 	color: #FFFFFF
 }
