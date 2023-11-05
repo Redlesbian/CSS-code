@@ -543,7 +543,7 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('LOGO REPLACER URL')
+	content: url('https://media.discordapp.net/attachments/1169778124293165076/1170835133796991027/Untitled276_20231105212037.png?ex=655a7c30&is=65480730&hm=a22b905e98281fa7bb24d1e4f9e1098c95baa8aab65e4f78900db55fefa66ac6&')
 }
 
 /* CAVE / MOUND IMAGES */
@@ -578,6 +578,8 @@ img[src$="icon-beetle-gold.png"] {
 img[src$="icon-beetle-silver.png"] {
     content:url('https://media.discordapp.net/attachments/1169778124293165076/1170828536798515320/Untitled280_20231105205411.png?ex=655a760c&is=6548010c&hm=7d8d2c28d6d52176c149a5532fe650361f2c52ea6753ec854c53937c201ed039&')!important;
 }
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-7/nat606.cur), auto !important;} /* End https://www.cursors-4u.com */
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
