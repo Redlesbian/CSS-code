@@ -548,28 +548,35 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* CAVE / MOUND IMAGES */
 
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('IMAGE URL') !important
+img[src$="nestingbanner.png"] {
+  content: url("https://media.discordapp.net/attachments/1169778124293165076/1170816569975250954/Untitled283_20231105200052.png?ex=655a6ae7&is=6547f5e7&hm=55011c7e2803fd5c3c3ebd5af54002af855ec54e84a1d92bb981a38148dc1956&") !important;
 }
 
-a[href$="CAVE ID"]>div.cave-grid>img {
-	content: url('IMAGE URL') !important
+img[src$="overviewbanner.png"] {
+  content: url("https://media.discordapp.net/attachments/1169778124293165076/1170816569975250954/Untitled283_20231105200052.png?ex=655a6ae7&is=6547f5e7&hm=55011c7e2803fd5c3c3ebd5af54002af855ec54e84a1d92bb981a38148dc1956&") !important;
 }
 
-a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('IMAGE URL') !important
+img[src$="unsortedlionsbanner.png"] {
+  content: url("https://media.discordapp.net/attachments/1169778124293165076/1170816569975250954/Untitled283_20231105200052.png?ex=655a6ae7&is=6547f5e7&hm=55011c7e2803fd5c3c3ebd5af54002af855ec54e84a1d92bb981a38148dc1956&") !important;
 }
 
-a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
-	content: url('IMAGE URL') !important
+img[src$="cavedefault.jpg"] {
+  content: url("https://media.discordapp.net/attachments/1169778124293165076/1170816583384453261/Untitled272_20231105200254.png?ex=655a6aea&is=6547f5ea&hm=a165a2fe0b1e246dcd8b8eb4967fdf563faed4e344e49d4424ef79ca4b934699&") !important;
 }
 
 .mound-grid img /* Mound(s) */ {
-	background: url("IMAGE URL");
+	background: url("https://media.discordapp.net/attachments/1169778124293165076/1170816577009090621/Untitled278_20231105200136.png?ex=655a6ae8&is=6547f5e8&hm=e899972ac9b52c6d4368c96912533a45fdcef3bde1b72cf74d2ccc0cbccbddc1&");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
 	padding-right: 130px
+}
+
+img[src$="icon-beetle-gold.png"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1170828527331975178/Untitled280_20231105205422.png?ex=655a7609&is=65480109&hm=05f6ee0c576b7bc128775a80d58a6f39a929d0a4c62ba46f3276642a311ee947&')!important;
+}
+img[src$="icon-beetle-silver.png"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1170828536798515320/Untitled280_20231105205411.png?ex=655a760c&is=6548010c&hm=7d8d2c28d6d52176c149a5532fe650361f2c52ea6753ec854c53937c201ed039&')!important;
 }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
