@@ -40,7 +40,7 @@ body {
 	background: rgba(221, 255, 252, 0.5);
 	border: 3px dotted #FFFFFF;
 	border-top: none;
-	color: #000000;
+	color: #4f4f4f;
 	border-radius: 3px;
 }
 
@@ -49,14 +49,14 @@ body {
 .navbar {
 	background: linear-gradient(to right, rgba(255,222,242,0.5) 0%, rgba(226,238,255,0.5) 50%, rgba(255,255,227,0.5) 100%);
 	border-bottom: none;
-	color: #000000;
+	color: #4f4f4f;
 	border-radius: 3px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #000000 !important
+	color: #4f4f4f !important
 }
 
 /* NAVBAR BUTTON HOVER */
@@ -64,7 +64,7 @@ body {
 .navbar li a:hover {
 	background: rgba(255, 255, 257, 0.5) !important;
 	border-bottom: none;
-	color: #000000 !important;
+	color: #4f4f4f !important;
 	border-radius: 3px
 }
 
@@ -79,14 +79,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #000000
+	color: #4f4f4f
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)|CSS by Red (#261489)";
-        color: #000000;
+        color: #4f4f4f;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -116,7 +116,7 @@ input.floatright, input.floatright:hover {
 	background: linear-gradient(to right, rgba(255,222,242,0.5) 0%, rgba(226,238,255,0.5) 50%, rgba(255,255,227,0.5) 100%) !important;
         border: 3px dotted #FFFFFF !important;
 	border-radius: 3px;
-	color: #000000 !important;    
+	color: #4f4f4f !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
@@ -126,7 +126,7 @@ button.button, button.button:hover {
         border: 3px dotted #FFFFFF !important;
 	border-radius: 3px;
         text-shadow: 5px 5px 10px #f2e2ff !important;
-	color: #000000 !important
+	color: #4f4f4f !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -136,7 +136,7 @@ button.button, button.button:hover {
 .alert-danger {
 	background: rgba(226, 238, 255, 0.5) !important;
 	border: 3px dotted #FFFFFF;
-	color: #000000;
+	color: #4f4f4f;
 	border-radius: 3px !important
 }
 
@@ -169,7 +169,7 @@ h3 {
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #000000 !important;
+	color: #4f4f4f !important;
         font-size: 26px !important;
         font-family: 'Playpen Sans', cursive;'
 }
@@ -179,51 +179,51 @@ h3 {
 	background: rgba(255, 222, 242, 0.5) !important;
 	box-shadow: 3px 6px !important;
 	border: 3px dotted #FFFFFF !important;
-	color: #000000 !important;
+	color: #4f4f4f !important;
 	border-radius: 3px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: rgba(204, 146, 214, 0.5);
-	color: #000000 !important;
+	color: #4f4f4f !important;
 	border-radius: 3px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
 	background: linear-gradient(to right, rgba(255,222,242,0.5) 0%, rgba(226,238,255,0.5) 50%, rgba(255,255,227,0.5) 100%);
-	color: #000000 !important;
+	color: #4f4f4f !important;
 	border-radius: 3px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000000 !important
+	color: #4f4f4f !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgba(226, 238, 255, 0.5) !important;
-        color: #000000 !important;
+        color: #4f4f4f !important;
 	border: 3px dotted #FFFFFF !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+        color: #4f4f4f !important;
 	border: none !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: rgba(221, 255, 252, 0.5) !important;
-        color: #000000 !important;
+        color: #4f4f4f !important;
 	border: 3px dotted #FFFFFF !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #000000 !important;
+	color: #4f4f4f !important;
 }
 
 div#chatMessageContainer {
@@ -232,7 +232,7 @@ div#chatMessageContainer {
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(255, 255, 227, 0.5) !important;
-        color: #000000 !important;
+        color: #4f4f4f !important;
 	border: 3px dotted #FFFFFF !important
 }
 
@@ -255,7 +255,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .bottom,
 th {
 	background: linear-gradient(to right, rgba(255,222,242,0.5) 0%, rgba(226,238,255,0.5) 50%, rgba(255,255,227,0.5) 100%) !important;
-	color: #000000 !important;
+	color: #4f4f4f !important;
 	border-radius: 3px
 }
 
@@ -267,7 +267,7 @@ td.bottom a {
 
 .inner-table .left {
 	background: linear-gradient(to right, rgba(255,222,242,0.5) 0%, rgba(226,238,255,0.5) 50%, rgba(255,255,227,0.5) 100%) !important;
-        color: #000000;
+        color: #4f4f4f;
 	border-radius: 3px
 }
 
@@ -301,7 +301,7 @@ td.right {
 
 .feature {
 	background: rgba(221, 255, 252, 0.5) !important;
-	color: #000000 !important;
+	color: #4f4f4f !important;
 	border: 3px dotted #FFFFFF !important;
 	border-radius: 3px !important
 }
@@ -330,7 +330,7 @@ textarea {
 	background: rgba(255, 222, 242, 0.5) !important;
 	border: 3px solid #FFFFFF !important;
 	border-radius: 3px !important;
-	color: #000000 !important;
+	color: #4f4f4f !important;
 	box-shadow: 3px 6px !important;
 	text-shadow: none !important
 }
@@ -339,7 +339,7 @@ textarea {
 
 .item-header {
 	background: rgba(242, 226, 255, 0.5) !important;
-	color: #000000  !important;
+	color: #4f4f4f  !important;
 	border-radius: 3px !important;
 }
 
@@ -362,7 +362,7 @@ div.slider.round::before /* Circle Part */ {
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #000000 !important;
+        color: #4f4f4f !important;
         text-shadow: none !important
 }
 
@@ -370,13 +370,13 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #ffffff !important
+	color: #4f4f4f !important
 }
 
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #ffffff !important
+	color: #4f4f4f !important
 }
 
 
@@ -474,7 +474,7 @@ a:hover {
 .largehoverbox {
 	float: left;
 	background: linear-gradient(to right, rgba(255,222,242,0.5) 0%, rgba(226,238,255,0.5) 50%, rgba(255,255,227,0.5) 100%);
-	color: #000000;
+	color: #4f4f4f;
 	padding: 10px;
 	border: 3px dotted #FFFFFF;
 	border-radius: 3px;
