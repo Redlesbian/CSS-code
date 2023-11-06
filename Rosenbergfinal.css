@@ -502,14 +502,14 @@ a:hover {
 /* BACKGROUND */
 
 ::-webkit-scrollbar-track {
-	background: #ffffff
+	background: #d66f33
 }
 
 
 /* "THUMB" */
 
 ::-webkit-scrollbar-thumb {
-	background: #000000;
+	background: #d66f33;
 	border-radius: 0px
 }
 
