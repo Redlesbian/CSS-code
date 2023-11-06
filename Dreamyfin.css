@@ -564,6 +564,68 @@ img[src$="cavedefault.jpg"] {
   content: url("https://media.discordapp.net/attachments/1169778124293165076/1170873693321306152/Untitled272_20231105235318.png?ex=655aa01a&is=65482b1a&hm=36cf226fdbe796e071e76d339c30fac804434d80055f1488c999700a20cf2d3f&") !important;
 }
 
+/* LION IMAGE BORDER CODE BY HOK-Z */
+
+#lion_image::after {
+    content: url("https://media.discordapp.net/attachments/1169778124293165076/1170888915549429770/Untitled292_20231106005420.png?ex=655aae47&is=65483947&hm=c2785f762bc5e276f028a7efa09190f64f60af9a0af3281c7fc9dd27fa87bfd6&");
+    position: absolute;
+    left: -2px;
+    top: -3px;
+}
+
+/* MEMBER ONLINE */
+ 
+.member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1170874824520896642/Untitled280_20231105235809.png?ex=655aa127&is=65482c27&hm=38101d9c546c2b2f03483fd5d7b40480dccc3a6a0ab9214b8ed27e47a0869deb&')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+ 
+/* MEMBER OFFLINE */
+ 
+.member-offline {
+    background: rgba(207,207,207,0);
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1170874830694908145/Untitled280_20231105235821.png?ex=655aa129&is=65482c29&hm=3d5b8725a001853a3a321f072d9f9e76889b8569f1fce5835547f2d56a0e0d05&')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+
+img[src$="icon-beetle-gold.png"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1170874830694908145/Untitled280_20231105235821.png?ex=655aa129&is=65482c29&hm=3d5b8725a001853a3a321f072d9f9e76889b8569f1fce5835547f2d56a0e0d05&')!important;
+}
+img[src$="icon-beetle-silver.png"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1170874824520896642/Untitled280_20231105235809.png?ex=655aa127&is=65482c27&hm=38101d9c546c2b2f03483fd5d7b40480dccc3a6a0ab9214b8ed27e47a0869deb&')!important;
+}
+
+/*-------------------------*/
+/*Comment Box CODE BY HOK-Z*/
+/*-------------------------*/
+#commentBox {
+  background: linear-gradient(to right, rgba(255,222,242,0.5) 0%, rgba(226,238,255,0.5) 50%, rgba(255,255,227,0.5) 100%);
+ border: 3px dotted #FFFFFF !important;}
+
+div.comment {background: rgba(250, 207, 248, 0.5) !important;
+            border-bottom: 2px solid #ffc2e7;
+            font-weight: bold;}
+
+div#makeComment {background: rgba(226, 238, 255, 0.5) !important;
+                border: 3px dotted #FFFFFF;
+                border-radius: 10px;}
+
+div.commentText {color: #FFFFFF;}
+
+input#comment {background: #dcbaf7 !important;
+              color: white !important;}
+
+input[type="button"].bad {background: rgba(255, 222, 242, 0.5) !important;}
+
+.commentTag.clear {border: 3px dotted #FFFFFF;}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1047.cur), auto !important;} /* End https://www.cursors-4u.com */
+
 .mound-grid img /* Mound(s) */ {
 	background: url("https://media.discordapp.net/attachments/1169778124293165076/1170873711268737064/Untitled278_20231105235248.png?ex=655aa01e&is=65482b1e&hm=3aecf8fea1919238e052cca03d9ff975e93cec659e36fa975a7f28a2906db354&");
 	width: 0;
