@@ -581,6 +581,70 @@ img[src$="cavedefault.jpg"] {
     top: -3px;
 }
 
+img[src$="icon-beetle-gold.png"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1172639026373742682/Untitled280_20231110204841.png?ex=65610c32&is=654e9732&hm=7e63c706a1c7cef851353358044c235eac15f5fc5088f4682229cd58303957e3&')!important;
+}
+img[src$="icon-beetle-silver.png"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1172639026080120922/Untitled280_20231110204826.png?ex=65610c32&is=654e9732&hm=6146584cc2b4defe61c15b35d9915e0967d70a978fcc0640cc85e09c27ef454c&')!important;
+}
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* KING DYNASTY */
+img[src$="ancestors.jpg"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1172639965025403011/Untitled283_20231110205224.png?ex=65610d12&is=654e9812&hm=59524fd92fccd55e0091a7e97a7fa620b2fe00568109572284cda542ccc2c7a8&')!important;
+    width:185px!important;
+ 
+}
+ 
+/* PRIDE DYNASTY */
+img[src$="ancestorsfem.png"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1172639965025403011/Untitled283_20231110205224.png?ex=65610d12&is=654e9812&hm=59524fd92fccd55e0091a7e97a7fa620b2fe00568109572284cda542ccc2c7a8&')!important;
+    width:185px!important;
+ 
+}
+ 
+/* ACHIEVMENTS */
+img[src$="achievements.jpg"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1172639965025403011/Untitled283_20231110205224.png?ex=65610d12&is=654e9812&hm=59524fd92fccd55e0091a7e97a7fa620b2fe00568109572284cda542ccc2c7a8&')!important;
+    width:185px!important;
+ 
+}
+ 
+/* SHOWCASE */
+img[src$="showcase/banner.png"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1172639965025403011/Untitled283_20231110205224.png?ex=65610d12&is=654e9812&hm=59524fd92fccd55e0091a7e97a7fa620b2fe00568109572284cda542ccc2c7a8&')!important;
+    width:185px!important;
+ 
+}
+
+/*-------------------------*/
+/*Comment Box CODE BY HOK-Z*/
+/*-------------------------*/
+#commentBox {
+  background: rgba(53, 43, 67, 0.5);
+ border: 3px dotted #6e5e89 !important;}
+
+div.comment {background: rgba(110, 94, 137, 0.5) !important;
+            border-bottom: 3px dotted #6e5e89;
+            font-weight: bold;}
+
+div#makeComment {background: rgba(114, 103, 120, 0.5) !important;
+                border: 3px dotted #6e5e89;
+                border-radius: 10px;}
+
+div.commentText {color: #FFFFFF;}
+
+input#comment {background: #352b43 !important;
+              color: white !important;}
+
+input[type="button"].bad {background: rgba(204, 147, 195, 0.5) !important;}
+
+.commentTag.clear {border: 3px dotted #6c547a;}
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
