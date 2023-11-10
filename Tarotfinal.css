@@ -577,7 +577,7 @@ img[src$="cavedefault.jpg"] {
 /* LION IMAGE BORDER CODE BY HOK-Z */
 
 #lion_image::after {
-    content: url("https://media.discordapp.net/attachments/1169778124293165076/1171977709472194701/Untitled292_20231109005910.png?ex=655ea44c&is=654c2f4c&hm=b0012cc38482d773f54906f22af6cd24cc19d4f989a6444c9375c36f769bec5a&");
+    content: url("https://media.discordapp.net/attachments/1169778124293165076/1172654332873801758/Untitled292_20231110214919.png?ex=65611a73&is=654ea573&hm=73027ab72f79d0b43b9cafadf515de62020ec4c413f458e27cfe4a703bbf83d2&");
     position: absolute;
     left: -5px;
     top: -10px;
@@ -621,6 +621,27 @@ img[src$="showcase/banner.png"] {
     content:url('https://media.discordapp.net/attachments/1169778124293165076/1172639965025403011/Untitled283_20231110205224.png?ex=65610d12&is=654e9812&hm=59524fd92fccd55e0091a7e97a7fa620b2fe00568109572284cda542ccc2c7a8&')!important;
     width:185px!important;
  
+}
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* CUSTOM KING TITLE - AFTER */
+ 
+#about > tbody > tr:nth-child(1) > td > div::after {
+    content:'Wiccan Goddess';
+    font-size:17px;
+    
+}
+ 
+/* CUSTOM KING TITLE - BEFORE */
+ 
+#about > tbody > tr:nth-child(1) > td > div::before {
+    content:'Wiccan Goddess';
+    font-size:17px;
+    
 }
 
 /*-------------------------*/
