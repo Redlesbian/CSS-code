@@ -628,19 +628,12 @@ Codes may be edited, used in commissions or for personal use
 Please do not remove credit
 */
  
-/* CUSTOM KING TITLE - AFTER */
- 
-#about > tbody > tr:nth-child(1) > td > div::after {
-    content:'Wiccan Goddess';
-    font-size:17px;
-    
-}
  
 /* CUSTOM KING TITLE - BEFORE */
  
 #about > tbody > tr:nth-child(1) > td > div::before {
     content:'Wiccan Goddess';
-    font-size:17px;
+    font-size:20px;
     
 }
 
