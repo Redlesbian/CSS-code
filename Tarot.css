@@ -24,7 +24,7 @@ body {
 .container.main {
 	background: rgba(78, 66, 98, 0.5);
 	border: 3px dotted #6c547a;
-	box-shadow: 5px 10px ;
+	box-shadow: 5px 10px 7px #350d4d;
 	border-radius: 10px
 }
 
@@ -177,7 +177,7 @@ h3 {
 /* RIGHT SIDE PANELS */
 .panel {
 	background: rgba(78, 66, 98, 0.5) !important;
-	box-shadow: 5px 10px !important;
+	box-shadow: 5px 10px 7px #350d4d !important;
 	border: 3px dotted #6c547a !important;
 	color: #FFFFFF !important;
 	border-radius: 10px
@@ -331,7 +331,7 @@ textarea {
 	border: 3px dotted #6c547a !important;
 	border-radius: 10px !important;
 	color: #FFFFFF !important;
-	box-shadow: 5px 10px !important;
+	box-shadow: 5px 10px 7px #350d4d !important;
 	text-shadow: none !important
 }
 
@@ -363,7 +363,7 @@ div.slider.round::before /* Circle Part */ {
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
         color: #FFFFFF !important;
-        text-shadow: 5px 10px !important
+        text-shadow: none !important
 }
 
 /* LINK COLOR */
