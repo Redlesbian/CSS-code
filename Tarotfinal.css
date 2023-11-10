@@ -24,7 +24,7 @@ body {
 .container.main {
 	background: rgba(78, 66, 98, 0.5);
 	border: 3px dotted #6c547a;
-	box-shadow: 5px 10px;
+	box-shadow: 5px 10px ;
 	border-radius: 10px
 }
 
@@ -125,7 +125,7 @@ button.button, button.button:hover {
 	background: linear-gradient(to right, rgba(24,19,33,0.80) 0%, rgba(53,35,75,0.80) 50%, rgba(110,94,137,0.80) 100%);
         border: 3px dotted #6c547a !important;
 	border-radius: 10px;
-        text-shadow: 5px 10px !important;
+        text-shadow: none !important;
 	color: #FFFFFF !important
 }
 
@@ -332,7 +332,7 @@ textarea {
 	border-radius: 10px !important;
 	color: #FFFFFF !important;
 	box-shadow: 5px 10px !important;
-	text-shadow: 5px 10px !important
+	text-shadow: none !important
 }
 
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
