@@ -580,7 +580,7 @@ img[src$="cavedefault.jpg"] {
     content: url("https://media.discordapp.net/attachments/1169778124293165076/1171977709472194701/Untitled292_20231109005910.png?ex=655ea44c&is=654c2f4c&hm=b0012cc38482d773f54906f22af6cd24cc19d4f989a6444c9375c36f769bec5a&");
     position: absolute;
     left: -2px;
-    top: -7px;
+    top: 1px;
 }
 
 img[src$="icon-beetle-gold.png"] {
