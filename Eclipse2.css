@@ -420,11 +420,11 @@ a:hover {
 
 .largebox {
 	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
+	background: linear-gradient(to right, rgba(1,8,79,0.75) 0%, rgba(99,24,80,0.75) 50%, rgba(255,121,84,0.75) 100%);
+	color: #FFFFFF;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 3px dotted #bf600d;
+	border-radius: 10px;
 	margin: 10px;
 	height: 150px;
 	width: 90%;
@@ -582,6 +582,53 @@ img[src$="icon-beetle-silver.png"] {
 	padding-top: 80px;
 	padding-right: 130px
 }
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* KING DYNASTY */
+img[src$="ancestors.jpg"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1173992687360290908/Untitled283_20231114142558.png?ex=6565f8e4&is=655383e4&hm=5c195d99a1076dd4f063cf6f8729fb7da8f30fa0af15e605c01aa603b8b96685&')!important;
+    width:185px!important;
+ 
+}
+ 
+/* PRIDE DYNASTY */
+img[src$="ancestorsfem.png"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1173992687360290908/Untitled283_20231114142558.png?ex=6565f8e4&is=655383e4&hm=5c195d99a1076dd4f063cf6f8729fb7da8f30fa0af15e605c01aa603b8b96685&')!important;
+    width:185px!important;
+ 
+}
+ 
+/* ACHIEVMENTS */
+img[src$="achievements.jpg"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1173992687360290908/Untitled283_20231114142558.png?ex=6565f8e4&is=655383e4&hm=5c195d99a1076dd4f063cf6f8729fb7da8f30fa0af15e605c01aa603b8b96685&')!important;
+    width:185px!important;
+ 
+}
+ 
+/* SHOWCASE */
+img[src$="showcase/banner.png"] {
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1173992687360290908/Untitled283_20231114142558.png?ex=6565f8e4&is=655383e4&hm=5c195d99a1076dd4f063cf6f8729fb7da8f30fa0af15e605c01aa603b8b96685&')!important;
+    width:185px!important;
+ 
+}
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* CUSTOM KING TITLE - AFTER */
+ 
+#about > tbody > tr:nth-child(1) > td > div::after {
+    content:', The Bandit Queen';
+    font-size:17px;
+    
+}
+ 
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
