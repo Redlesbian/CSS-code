@@ -86,7 +86,7 @@ body {
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)|CSS by Red (#261489)";
-        color: #FFFFFFA;
+        color: #FFFFFF;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
