@@ -616,6 +616,35 @@ img[src$="showcase/banner.png"] {
  
 }
 
+/* MEMBER ONLINE */
+ 
+.member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1173993549650481213/Untitled280_20231114143053.png?ex=6565f9b1&is=655384b1&hm=89f91b5e03d1563bb5e6160cd8cc9b7185b468a555d526fac22446db05017912&')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+ 
+/* MEMBER OFFLINE */
+ 
+.member-offline {
+    background: rgba(207,207,207,0);
+    content:url('https://media.discordapp.net/attachments/1169778124293165076/1173993549939875891/Untitled280_20231114143105.png?ex=6565f9b2&is=655384b2&hm=665386becb5fc94c824c3fd2d973b55996d9c5914297ee7ee3b8273235362708&')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+
+/* LION IMAGE BORDER CODE BY HOK-Z */
+
+#lion_image::after {
+    content: url("https://media.discordapp.net/attachments/1169778124293165076/1174007416459894887/Untitled292_20231114152609.png?ex=6566069c&is=6553919c&hm=21dd3ca1e5f41fdca28d81cc5ff51c43c3c6dd9bf55f6f4072721cd1b65d720c&");
+    position: absolute;
+    left: -2px;
+    top: -3px;
+}
+
 /* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
 Codes may be edited, used in commissions or for personal use
 Please do not remove credit
