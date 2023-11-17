@@ -12,8 +12,8 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 /* BACKGROUND */
 
 body {
-	background: url('https://i.ibb.co/VCR0Kv1/Untitled275-20231115191438.png') center center fixed;
-	background-size: 100%;
+	background: url('https://i.ibb.co/VCR0Kv1/Untitled275-20231115191438.png') no-repeat center center fixed;
+	background-size: cover;
 	font-family: 'Big Shoulders Stencil Display', sans-serif;';
 	color: #FFFFFF
 }
@@ -327,11 +327,11 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(180, 204, 190, 0.5) !important;
+	background: rgba(27, 60, 49, 0.5) !important;
 	border: 3px solid #6c917c !important;
 	border-radius: 10px !important;
 	color: #FFFFFF !important;
-	box-shadow: 5px 10px #0d2919 !important;
+	box-shadow: 5px 10px 7px #0d2919 !important;
 	text-shadow: none !important
 }
 
@@ -549,23 +549,23 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 /* CAVE / MOUND IMAGES */
 
 img[src$="nestingbanner.png"] {
-  content: url("https://imgur.com/a/3xWWf8c") !important;
+  content: url("https://i.ibb.co/gWK1TQ1/Untitled283-20231115191339.png") !important;
 }
 
 img[src$="overviewbanner.png"] {
-  content: url("https://imgur.com/a/3xWWf8c") !important;
+  content: url("https://i.ibb.co/gWK1TQ1/Untitled283-20231115191339.png") !important;
 }
 
 img[src$="unsortedlionsbanner.png"] {
-  content: url("https://imgur.com/a/3xWWf8c") !important;
+  content: url("https://i.ibb.co/gWK1TQ1/Untitled283-20231115191339.png") !important;
 }
 
 img[src$="cavedefault.jpg"] {
-  content: url("https://imgur.com/a/GtQGiDh") !important;
+  content: url("https://i.ibb.co/b6M4NP5/Untitled272-20231115191529.png") !important;
 }
 
 .mound-grid img /* Mound(s) */ {
-	background: url("https://imgur.com/a/ZQo2OTC");
+	background: url("https://i.ibb.co/jRLqv0K/Untitled278-20231115191557.png");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
@@ -579,37 +579,37 @@ Please do not remove credit
  
 /* KING DYNASTY */
 img[src$="ancestors.jpg"] {
-    content:url('https://imgur.com/a/3xWWf8c')!important;
+    content:url('https://i.ibb.co/gWK1TQ1/Untitled283-20231115191339.png')!important;
     width:185px!important;
  
 }
  
 /* PRIDE DYNASTY */
 img[src$="ancestorsfem.png"] {
-    content:url('https://imgur.com/a/3xWWf8c')!important;
+    content:url('https://i.ibb.co/gWK1TQ1/Untitled283-20231115191339.png')!important;
     width:185px!important;
  
 }
  
 /* ACHIEVMENTS */
 img[src$="achievements.jpg"] {
-    content:url('https://imgur.com/a/3xWWf8c')!important;
+    content:url('https://i.ibb.co/gWK1TQ1/Untitled283-20231115191339.png')!important;
     width:185px!important;
  
 }
  
 /* SHOWCASE */
 img[src$="showcase/banner.png"] {
-    content:url('https://imgur.com/a/3xWWf8c')!important;
+    content:url('https://i.ibb.co/gWK1TQ1/Untitled283-20231115191339.png')!important;
     width:185px!important;
  
 }
 
 img[src$="icon-beetle-gold.png"] {
-    content:url('https://imgur.com/a/T3yLv8T')!important;
+    content:url('https://i.ibb.co/9YfDcWf/Untitled280-20231115191823.png')!important;
 }
 img[src$="icon-beetle-silver.png"] {
-    content:url('https://imgur.com/a/2Sny1BZ')!important;
+    content:url('https://i.ibb.co/GQYgBqx/Untitled280-20231115191814.png')!important;
 }
 
 /* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
@@ -623,6 +623,15 @@ Please do not remove credit
     content:'Mossy Lurker';
     font-size:17px;
     
+}
+
+/* LION IMAGE BORDER CODE BY HOK-Z */
+
+#lion_image::after {
+    content: url("https://i.ibb.co/YbYD0jq/Untitled292-20231115191232.png");
+    position: absolute;
+    left: -2px;
+    top: -3px;
 }
 
 
