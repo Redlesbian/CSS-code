@@ -613,6 +613,73 @@ img[src$="showcase/banner.png"] {
  
 }
 
+/*-------------------------*/
+/*Comment Box CODE BY HOK-Z*/
+/*-------------------------*/
+#commentBox {
+  background: linear-gradient(0deg, rgba(21,1,8,0.6) 0%, rgba(193,0,134,0.6) 100%);
+ border: 3px dotted #8f014f !important;}
+
+div.comment {background: rgba(183, 183, 183, 0.5) !important;
+            border-bottom: 3px dotted #8f014f;
+            font-weight: bold;}
+
+div#makeComment {background: rgba(243, 186, 206, 0.5) !important;
+                border: 3px dotted #8f014f;
+                border-radius: 10px;}
+
+div.commentText {color: #000000;}
+
+input#comment {background: #999999 !important;
+              color: black !important;}
+
+input[type="button"].bad {background: rgba(237, 156, 184, 0.5) !important;}
+
+.commentTag.clear {border: 3px dotted #8f014f;}
+
+/* MEMBER ONLINE */
+ 
+.member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://i.ibb.co/FXqK3FY/Untitled280-20231117192849.png')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+ 
+/* MEMBER OFFLINE */
+ 
+.member-offline {
+    background: rgba(207,207,207,0);
+    content:url('https://i.ibb.co/vHxfbf0/Untitled280-20231117192907.png')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+
+/* CUSTOM KING TITLE - BEFORE */
+ 
+#about > tbody > tr:nth-child(1) > td > div::before {
+    content:'Queen Of Confusion ♡';
+    font-size:17px;
+    
+}
+
+/* LION IMAGE BORDER CODE BY HOK-Z */
+
+#lion_image::after {
+    content: url("https://i.ibb.co/jLmgmQT/Untitled292-20231117193602.png");
+    position: absolute;
+    left: -2px;
+    top: -3px;
+}
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
