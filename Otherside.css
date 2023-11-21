@@ -14,7 +14,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 body {
 	background: url('https://i.ibb.co/cctYpML/Untitled275-20231117192438.png') no-repeat center center fixed;
 	background-size: cover;
-	font-family: 'FONT NAME';
+	font-family: 'Bad Script', cursive;';
 	color: #000000
 }
 
@@ -22,10 +22,10 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	box-shadow: none;
-	border-radius: 0px
+	background: rgba(205, 61, 111, 0.75);
+	border: 3px dotted #8f014f;
+	box-shadow: 5px 10px 7px #4a042a;
+	border-radius: 10px
 }
 
 /* LEFT SIDE */
@@ -37,8 +37,8 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
+	background: rgba(237, 156, 184, 0.75);
+	border: 3px dotted #8f014f;
 	border-top: none;
 	color: #000000;
 	border-radius: 0px;
@@ -47,10 +47,10 @@ body {
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(1, 1, 1, 0.5);
-	border-bottom: none;
+	background: rgba(224, 127, 160, 0.75);
+	border-bottom: 3px dotted #8f014f;
 	color: #000000;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
@@ -62,18 +62,18 @@ body {
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border-bottom: none;
+	background: rgba(221, 94, 137, 0.75) !important;
+	border-bottom: 3px dotted #8f014f;
 	color: #000000 !important;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(1, 1, 1, 0.5) !important;
-        border: none;
-	border-radius: 0px
+	background: rgba(205, 61, 111, 0.75) !important;
+        border: 3px dotted #8f014f;
+	border-radius: 10px
 }
 
 /* BREADCRUMB TEXT */
@@ -85,7 +85,7 @@ body {
 /* CSS CREDIT */
 
 .breadcrumb::after {
-        content: "Template by Katie (#106445)";
+        content: "Template by Katie (#106445)|CSS by Red(#261489)";
         color: #000000;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
@@ -113,18 +113,18 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
-        border: none !important;
-	border-radius: 0px;
+	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%) !important;
+        border: 3px dotted #8f014f !important;
+	border-radius: 10px;
 	color: #000000 !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(1, 1, 1, 0.5);
-        border: none !important;
-	border-radius: 0px;
+	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%);
+        border: 3px dotted #8f014f !important;
+	border-radius: 10px;
         text-shadow: none !important;
 	color: #000000 !important
 }
@@ -134,26 +134,26 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none;
+	background: rgba(243, 186, 206, 0.75) !important;
+	border: 3px dotted #8f014f;
 	color: #000000;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #000000;
+	color: #380c24;
 	font-size: 90px;
 	text-align: center;
-        font-family: 'FONT NAME'
+        font-family: 'Are You Serious', cursive;'
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #000000;
+	color: #380c24;
 	font-size: 24px;
 	text-align: center
 }
@@ -162,39 +162,39 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #000000 !important;
+	color: #380c24 !important;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #000000 !important;
+	color: #380c24 !important;
         font-size: 26px !important;
-        font-family: 'FONT NAME'
+        font-family: 'Are You Serious', cursive;'
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(1, 1, 1, 0.5) !important;
-	box-shadow: none !important;
-	border: none !important;
+	background: rgba(221, 94, 137, 0.75) !important;
+	box-shadow: 5px 10px 7px #4a042a !important;
+	border: 3px dotted #8f014f !important;
 	color: #000000 !important;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(1, 1, 1, 0.5);
+	background: rgba(164, 164, 164, 0.75);
 	color: #000000 !important;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(1, 1, 1, 0.5);
+	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%);
 	color: #000000 !important;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* ENERGY BAR TEXT */
@@ -205,21 +205,21 @@ h3 {
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: rgba(243, 186, 206, 0.75) !important;
         color: #000000 !important;
-	border: none !important
+	border: 3px dotted #8f014f !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: rgba(183, 183, 183, 0.75) !important;
         color: #000000 !important;
-	border: none !important
+	border: 3px dotted #8f014f !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: rgba(205, 61, 111, 0.75) !important;
         color: #000000 !important;
-	border: none !important
+	border: 3px dotted #8f014f !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
@@ -227,13 +227,13 @@ h3 {
 }
 
 div#chatMessageContainer {
-	border: none !important;
+	border: 3px dotted #8f014f !important;
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%) !important;
         color: #000000 !important;
-	border: none !important
+	border: 3px dotted #8f014f !important
 }
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
@@ -242,10 +242,10 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(1, 1, 1, 0.5);
-	border: none !important;
+	background: rgba(164, 164, 164, 0.75);
+	border: 3px dotted #8f014f !important;
 	border-collapse: separate;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 
@@ -254,9 +254,9 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%) !important;
 	color: #000000 !important;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 td.bottom a {
@@ -266,9 +266,9 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(155, 226, 242, 0.6) !important;
-        color: #2e2a2b;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%) !important;
+        color: #000000;
+	border-radius: 10px
 }
 
 
@@ -276,11 +276,11 @@ td.bottom a {
 
 .inner-table .right {
 	background: none;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 td.right {
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* IGNORE */
@@ -292,34 +292,34 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(1, 1, 1, 0.5);
-	border: none !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(19,19,19,1) 0%, rgba(251,251,251,1) 100%);
+	border: 3px dotted #8f014f !important;
+	border-radius: 10px !important
 }
 
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: linear-gradient(0deg, rgba(19,19,19,1) 0%, rgba(251,251,251,1) 100%) !important;
 	color: #000000 !important;
-	border: 1px solid #000000 !important;
-	border-radius: 0px !important
+	border: 3px dotted #8f014f !important;
+	border-radius: 10px !important
 }
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
 
 .feature,
 div.left {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	border-radius: 0px !important
+	background: rgba(237, 156, 184, 0.75);
+	border: 3px dotted #8f014f;
+	border-radius: 10px !important
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(1, 1, 1, 0.5);
-        border-radius: 0px
+	background: rgba(164, 164, 164, 0.75);
+        border-radius: 10px
 }
 
 /* Color behind the content of the elements listed above */
@@ -327,36 +327,36 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important;
+	background: rgba(228, 228, 228, 0.15) !important;
+	border: 3px dotted #8f014f !important;
+	border-radius: 10px !important;
 	color: #000000 !important;
-	box-shadow: none !important;
+	box-shadow: 5px 10px 7px #4a042a !important;
 	text-shadow: none !important
 }
 
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%) !important;
 	color: #000000  !important;
-	border-radius: 0px !important;
+	border-radius: 10px !important;
 }
 
 .item {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important
+	background: rgba(153, 153, 153, 0.75) !important;
+	border: 3px dotted #8f014f !important;
+	border-radius: 10px !important
 }
 
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #000000 !important
+	background: #E4E4E4 !important
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #000000 !important
+	background: #999999 !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
@@ -548,21 +548,22 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* CAVE / MOUND IMAGES */
 
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('IMAGE URL') !important
+img[src$="nestingbanner.png"] {
+  content: url("IMG URL") !important;
 }
 
-a[href$="CAVE ID"]>div.cave-grid>img {
-	content: url('IMAGE URL') !important
+img[src$="overviewbanner.png"] {
+  content: url("IMG URL") !important;
 }
 
-a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('IMAGE URL') !important
+img[src$="unsortedlionsbanner.png"] {
+  content: url("IMG URL") !important;
 }
 
-a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
-	content: url('IMAGE URL') !important
+img[src$="cavedefault.jpg"] {
+  content: url("IMG URL") !important;
 }
+
 
 .mound-grid img /* Mound(s) */ {
 	background: url("IMAGE URL");
