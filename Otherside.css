@@ -22,7 +22,7 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(205, 61, 111, 0.75);
+	background: rgba(205, 61, 111, 0.6);
 	border: 3px dotted #8f014f;
 	box-shadow: 5px 10px 7px #4a042a;
 	border-radius: 10px
@@ -37,7 +37,7 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgba(237, 156, 184, 0.75);
+	background: rgba(237, 156, 184, 0.6);
 	border: 3px dotted #8f014f;
 	border-top: none;
 	color: #000000;
@@ -47,7 +47,7 @@ body {
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(224, 127, 160, 0.75);
+	background: rgba(224, 127, 160, 0.6);
 	border-bottom: 3px dotted #8f014f;
 	color: #000000;
 	border-radius: 10px
@@ -62,7 +62,7 @@ body {
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: rgba(221, 94, 137, 0.75) !important;
+	background: rgba(221, 94, 137, 0.6) !important;
 	border-bottom: 3px dotted #8f014f;
 	color: #000000 !important;
 	border-radius: 10px
@@ -71,7 +71,7 @@ body {
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(205, 61, 111, 0.75) !important;
+	background: rgba(205, 61, 111, 0.6) !important;
         border: 3px dotted #8f014f;
 	border-radius: 10px
 }
@@ -113,7 +113,7 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%) !important;
+	background: linear-gradient(0deg, rgba(255,99,242,0.75) 0%, rgba(255,208,250,0.75) 100%) !important;
         border: 3px dotted #8f014f !important;
 	border-radius: 10px;
 	color: #000000 !important;    
@@ -122,7 +122,7 @@ input.floatright, input.floatright:hover {
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%);
+	background: linear-gradient(0deg, rgba(255,99,242,0.75) 0%, rgba(255,208,250,0.75) 100%);
         border: 3px dotted #8f014f !important;
 	border-radius: 10px;
         text-shadow: none !important;
@@ -134,7 +134,7 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(243, 186, 206, 0.75) !important;
+	background: rgba(243, 186, 206, 0.6) !important;
 	border: 3px dotted #8f014f;
 	color: #000000;
 	border-radius: 10px !important
@@ -176,7 +176,7 @@ h3 {
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(221, 94, 137, 0.75) !important;
+	background: rgba(221, 94, 137, 0.6) !important;
 	box-shadow: 5px 10px 7px #4a042a !important;
 	border: 3px dotted #8f014f !important;
 	color: #000000 !important;
@@ -185,14 +185,14 @@ h3 {
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(164, 164, 164, 0.75);
+	background: rgba(164, 164, 164, 0.6);
 	color: #000000 !important;
 	border-radius: 10px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%);
+	background: linear-gradient(0deg, rgba(255,99,242,0.75) 0%, rgba(255,208,250,0.75) 100%);
 	color: #000000 !important;
 	border-radius: 10px !important
 }
@@ -205,19 +205,19 @@ h3 {
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(243, 186, 206, 0.75) !important;
+	background: rgba(243, 186, 206, 0.6) !important;
         color: #000000 !important;
 	border: 3px dotted #8f014f !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(183, 183, 183, 0.75) !important;
+	background: rgba(183, 183, 183, 0.6) !important;
         color: #000000 !important;
 	border: 3px dotted #8f014f !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(205, 61, 111, 0.75) !important;
+	background: rgba(205, 61, 111, 0.6) !important;
         color: #000000 !important;
 	border: 3px dotted #8f014f !important
 }
@@ -231,7 +231,7 @@ div#chatMessageContainer {
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%) !important;
+	background: linear-gradient(0deg, rgba(255,99,242,0.75) 0%, rgba(255,208,250,0.75) 100%) !important;
         color: #000000 !important;
 	border: 3px dotted #8f014f !important
 }
@@ -242,7 +242,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(164, 164, 164, 0.75);
+	background: rgba(164, 164, 164, 0.6);
 	border: 3px dotted #8f014f !important;
 	border-collapse: separate;
 	border-radius: 10px
@@ -254,7 +254,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%) !important;
+	background: linear-gradient(0deg, rgba(255,99,242,0.75) 0%, rgba(255,208,250,0.75) 100%) !important;
 	color: #000000 !important;
 	border-radius: 10px
 }
@@ -266,7 +266,7 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%) !important;
+	background: linear-gradient(0deg, rgba(255,99,242,0.75) 0%, rgba(255,208,250,0.75) 100%) !important;
         color: #000000;
 	border-radius: 10px
 }
@@ -292,7 +292,7 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: linear-gradient(0deg, rgba(19,19,19,1) 0%, rgba(251,251,251,1) 100%);
+	background: linear-gradient(0deg, rgba(248,238,238,0.75) 0%, rgba(120,120,120,0.75) 100%);
 	border: 3px dotted #8f014f !important;
 	border-radius: 10px !important
 }
@@ -300,7 +300,7 @@ td.right {
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: linear-gradient(0deg, rgba(19,19,19,1) 0%, rgba(251,251,251,1) 100%) !important;
+	background: linear-gradient(0deg, rgba(248,238,238,0.75) 0%, rgba(120,120,120,0.75) 100%); !important;
 	color: #000000 !important;
 	border: 3px dotted #8f014f !important;
 	border-radius: 10px !important
@@ -310,7 +310,7 @@ td.right {
 
 .feature,
 div.left {
-	background: rgba(237, 156, 184, 0.75);
+	background: rgba(237, 156, 184, 0.6);
 	border: 3px dotted #8f014f;
 	border-radius: 10px !important
 }
@@ -318,7 +318,7 @@ div.left {
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(164, 164, 164, 0.75);
+	background: rgba(164, 164, 164, 0.6);
         border-radius: 10px
 }
 
@@ -327,7 +327,7 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(228, 228, 228, 0.15) !important;
+	background: rgba(228, 228, 228, 0.6) !important;
 	border: 3px dotted #8f014f !important;
 	border-radius: 10px !important;
 	color: #000000 !important;
@@ -338,13 +338,13 @@ textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: linear-gradient(0deg, rgba(21,1,8,1) 0%, rgba(193,0,134,1) 100%) !important;
+	background: linear-gradient(0deg, rgba(255,99,242,0.75) 0%, rgba(255,208,250,0.75) 100%) !important;
 	color: #000000  !important;
 	border-radius: 10px !important;
 }
 
 .item {
-	background: rgba(153, 153, 153, 0.75) !important;
+	background: rgba(153, 153, 153, 0.6) !important;
 	border: 3px dotted #8f014f !important;
 	border-radius: 10px !important
 }
@@ -394,11 +394,11 @@ a:hover {
 
 .smallbox {
 	float: left;
-	background: rgba(1, 1, 1, 0.5);
+	background: linear-gradient(0deg, rgba(255,99,242,1) 0%, rgba(255,208,250,1) 100%);
 	color: #000000;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 3px dotted #8f014f;
+	border-radius: 10px;
 	margin: 10px;
 	height: 150px;
 	width: 28.4%;
@@ -407,11 +407,11 @@ a:hover {
 
 .mediumbox {
 	float: left;
-	background: rgba(1, 1, 1, 0.5);
+	background: linear-gradient(0deg, rgba(255,99,242,1) 0%, rgba(255,208,250,1) 100%);
 	color: #000000;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 3px dotted #8f014f;
+	border-radius: 10px;
 	margin: 10px;
 	height: 150px;
 	width: 43.8%;
@@ -420,11 +420,11 @@ a:hover {
 
 .largebox {
 	float: left;
-	background: rgba(1, 1, 1, 0.5);
+	background: linear-gradient(0deg, rgba(255,99,242,1) 0%, rgba(255,208,250,1) 100%);
 	color: #000000;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 3px dotted #8f014f;
+	border-radius: 10px;
 	margin: 10px;
 	height: 150px;
 	width: 90%;
@@ -617,7 +617,7 @@ img[src$="showcase/banner.png"] {
 /*Comment Box CODE BY HOK-Z*/
 /*-------------------------*/
 #commentBox {
-  background: linear-gradient(0deg, rgba(21,1,8,0.6) 0%, rgba(193,0,134,0.6) 100%);
+  background: linear-gradient(0deg, rgba(255,99,242,1) 0%, rgba(255,208,250,1) 100%);
  border: 3px dotted #8f014f !important;}
 
 div.comment {background: rgba(183, 183, 183, 0.5) !important;
