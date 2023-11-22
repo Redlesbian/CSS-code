@@ -549,15 +549,15 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 /* CAVE / MOUND IMAGES */
 
 img[src$="nestingbanner.png"] {
-  content: url("https://i.ibb.co/nCYrH7N/ng-G98-YK-d.webp") !important;
+  content: url("https://i.ibb.co/C0QyMvF/Untitled283-20231122235041.png") !important;
 }
 
 img[src$="overviewbanner.png"] {
-  content: url("https://i.ibb.co/nCYrH7N/ng-G98-YK-d.webp") !important;
+  content: url("https://i.ibb.co/C0QyMvF/Untitled283-20231122235041.png") !important;
 }
 
 img[src$="unsortedlionsbanner.png"] {
-  content: url("https://i.ibb.co/nCYrH7N/ng-G98-YK-d.webp") !important;
+  content: url("https://i.ibb.co/C0QyMvF/Untitled283-20231122235041.png") !important;
 }
 
 img[src$="cavedefault.jpg"] {
@@ -572,17 +572,18 @@ img[src$="cavedefault.jpg"] {
 	padding-right: 130px
 }
 
+
 /* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
 Codes may be edited, used in commissions or for personal use
 Please do not remove credit
 */
- 
+
+
 /* CUSTOM KING TITLE - BEFORE */
  
 #about > tbody > tr:nth-child(1) > td > div::before {
     content:'Upper one demon';
     font-size:17px;
-    
 }
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym454.cur), auto !important;} /* End https://www.cursors-4u.com */
