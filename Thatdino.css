@@ -543,34 +543,49 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('LOGO REPLACER URL')
+	content: url('https://i.ibb.co/jRdgYjx/Untitled276-20231122233554.png')
 }
 
 /* CAVE / MOUND IMAGES */
 
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('IMAGE URL') !important
+img[src$="nestingbanner.png"] {
+  content: url("https://i.ibb.co/nCYrH7N/ng-G98-YK-d.webp") !important;
 }
 
-a[href$="CAVE ID"]>div.cave-grid>img {
-	content: url('IMAGE URL') !important
+img[src$="overviewbanner.png"] {
+  content: url("https://i.ibb.co/nCYrH7N/ng-G98-YK-d.webp") !important;
 }
 
-a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('IMAGE URL') !important
+img[src$="unsortedlionsbanner.png"] {
+  content: url("https://i.ibb.co/nCYrH7N/ng-G98-YK-d.webp") !important;
 }
 
-a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
-	content: url('IMAGE URL') !important
+img[src$="cavedefault.jpg"] {
+  content: url("https://i.ibb.co/6J2qvFm/Untitled272-20231122231106.png") !important;
 }
 
 .mound-grid img /* Mound(s) */ {
-	background: url("IMAGE URL");
+	background: url("https://i.ibb.co/rwm8Z1B/Untitled273-20231122231122.png");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
 	padding-right: 130px
 }
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* CUSTOM KING TITLE - BEFORE */
+ 
+#about > tbody > tr:nth-child(1) > td > div::before {
+    content:'Upper one demon';
+    font-size:17px;
+    
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym454.cur), auto !important;} /* End https://www.cursors-4u.com */
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
