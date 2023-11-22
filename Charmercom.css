@@ -12,7 +12,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 /* BACKGROUND */
 
 body {
-	background: url('') no-repeat center center fixed;
+	background: url('https://i.ibb.co/Bw0Srzc/Untitled275-20231122133559.png') no-repeat center center fixed;
 	background-size: cover;
 	font-family: 'Alegreya SC', serif;';
 	color: #FFFFFF
@@ -543,29 +543,29 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('LOGO REPLACER URL')
+	content: url('https://i.ibb.co/Y2x8183/Untitled276-20231122133510.png')
 }
 
 /* CAVE / MOUND IMAGES */
 
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('IMAGE URL') !important
+img[src$="nestingbanner.png"] {
+  content: url("https://i.ibb.co/f267Q4q/Untitled283-20231122133806.png") !important;
 }
 
-a[href$="CAVE ID"]>div.cave-grid>img {
-	content: url('IMAGE URL') !important
+img[src$="overviewbanner.png"] {
+  content: url("https://i.ibb.co/f267Q4q/Untitled283-20231122133806.png") !important;
 }
 
-a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('IMAGE URL') !important
+img[src$="unsortedlionsbanner.png"] {
+  content: url("https://i.ibb.co/f267Q4q/Untitled283-20231122133806.png") !important;
 }
 
-a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
-	content: url('IMAGE URL') !important
+img[src$="cavedefault.jpg"] {
+  content: url("https://i.ibb.co/ZN8C2Q6/Untitled272-20231122133632.png") !important;
 }
 
 .mound-grid img /* Mound(s) */ {
-	background: url("IMAGE URL");
+	background: url("https://i.ibb.co/VTV6QYP/Untitled273-20231122133744.png");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
