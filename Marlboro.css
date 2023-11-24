@@ -176,64 +176,64 @@ h3 {
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(1, 1, 1, 0.5) !important;
-	box-shadow: none !important;
-	border: none !important;
-	color: #000000 !important;
-	border-radius: 0px
+	background: rgba(62, 62, 62, 0.65) !important;
+	box-shadow: 5px 10px 7px #000000 !important;
+	border: 3px double #fcba03 !important;
+	color: #fcba03 !important;
+	border-radius: 10px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000 !important;
-	border-radius: 0px !important
+	background: rgba(112, 8, 16, 0.65);
+	color: #fcba03 !important;
+	border-radius: 10px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000 !important;
-	border-radius: 0px !important
+	background: linear-gradient(90deg, rgba(62,62,62,1) 0%, rgba(0,0,0,1) 100%);
+	color: #fcba03 !important;
+	border-radius: 10px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000000 !important
+	color: #fcba03 !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: rgba(0, 0, 0, 0.65) !important;
+        color: #fcba03 !important;
+	border: 3px double #fcba03 !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: rgba(62, 62, 62, 0.65) !important;
+        color: #fcba03 !important;
+	border: 3px double #fcba03 !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: linear-gradient(90deg, rgba(62,62,62,1) 0%, rgba(0,0,0,1) 100%) !important;
+        color: #fcba03 !important;
+	border: 3px double #fcba03 !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #000000 !important;
+	color: #fcba03 !important;
 }
 
 div#chatMessageContainer {
-	border: none !important;
+	border: 3px double #fcba03 !important;
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: rgba(1, 1, 1, 0.65) !important;
+        color: #fcba03 !important;
+	border: 3px double #fcba03 !important
 }
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
@@ -242,10 +242,10 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(1, 1, 1, 0.5);
-	border: none !important;
+	background: rgba(112, 8, 16, 0.65);
+	border: 3px double #fcba03 !important;
 	border-collapse: separate;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 
@@ -254,9 +254,9 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
-	border-radius: 0px
+	background: linear-gradient(90deg, rgba(62,62,62,1) 0%, rgba(0,0,0,1) 100%) !important;
+	color: #fcba03 !important;
+	border-radius: 10px
 }
 
 td.bottom a {
@@ -266,9 +266,9 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(155, 226, 242, 0.6) !important;
-        color: #2e2a2b;
-	border-radius: 0px
+	background: linear-gradient(90deg, rgba(62,62,62,1) 0%, rgba(0,0,0,1) 100%) !important;
+        color: #fcba03;
+	border-radius: 10px
 }
 
 
@@ -276,11 +276,11 @@ td.bottom a {
 
 .inner-table .right {
 	background: none;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 td.right {
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* IGNORE */
@@ -292,34 +292,34 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(1, 1, 1, 0.5);
-	border: none !important;
-	border-radius: 0px !important
+	background: rgba(19, 19, 19, 0.65);
+	border: 3px double #fcba03 !important;
+	border-radius: 10px !important
 }
 
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
-	border: 1px solid #000000 !important;
-	border-radius: 0px !important
+	background: rgba(62, 62, 62, 0.65) !important;
+	color: #fcba03 !important;
+	border: 3px double #fcba03 !important;
+	border-radius: 10px !important
 }
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
 
 .feature,
 div.left {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	border-radius: 0px !important
+	background: rgba(39, 39, 39, 0.65);
+	border: 3px double #fcba03;
+	border-radius: 10px !important
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(1, 1, 1, 0.5);
-        border-radius: 0px
+	background: rgba(112, 8, 16, 0.65);
+        border-radius: 10px
 }
 
 /* Color behind the content of the elements listed above */
@@ -327,11 +327,11 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important;
-	color: #000000 !important;
-	box-shadow: none !important;
+	background: rgba(43, 43, 43, 0.5) !important;
+	border: 3px double #fcba03 !important;
+	border-radius: 10px !important;
+	color: #fcba03 !important;
+	box-shadow: 5px 10px 7px #000000 !important;
 	text-shadow: none !important
 }
 
