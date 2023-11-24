@@ -551,25 +551,34 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('LOGO REPLACER URL')
+	content: url('https://i.ibb.co/Ws3WkbC/Untitled276-20231123222818.png')
 }
 
 /* CAVE / MOUND IMAGES */
 
 img[src$="nestingbanner.png"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/89cq3n3/Untitled283-20231123221828.png") !important;
 }
 
 img[src$="overviewbanner.png"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/89cq3n3/Untitled283-20231123221828.png") !important;
 }
 
 img[src$="unsortedlionsbanner.png"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/89cq3n3/Untitled283-20231123221828.png") !important;
 }
 
 img[src$="cavedefault.jpg"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/3TctL5N/Untitled272-20231123221716.png") !important;
+}
+
+.mound-grid img /* Mound(s) */ {
+	background: url("https://i.ibb.co/6FC2hhw/Untitled273-20231123221602.png");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px
+
 }
 
 /* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
@@ -579,28 +588,28 @@ Please do not remove credit
  
 /* KING DYNASTY */
 img[src$="ancestors.jpg"] {
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/89cq3n3/Untitled283-20231123221828.png')!important;
     width:185px!important;
  
 }
  
 /* PRIDE DYNASTY */
 img[src$="ancestorsfem.png"] {
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/89cq3n3/Untitled283-20231123221828.png')!important;
     width:185px!important;
  
 }
  
 /* ACHIEVMENTS */
 img[src$="achievements.jpg"] {
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/89cq3n3/Untitled283-20231123221828.png')!important;
     width:185px!important;
  
 }
  
 /* SHOWCASE */
 img[src$="showcase/banner.png"] {
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/89cq3n3/Untitled283-20231123221828.png')!important;
     width:185px!important;
  
 }
@@ -608,7 +617,7 @@ img[src$="showcase/banner.png"] {
 /* LION IMAGE BORDER CODE BY HOK-Z */
 
 #lion_image::after {
-    content: url("IMAGE");
+    content: url("https://i.ibb.co/j6Th8f7/Untitled292-20231124181703-removebg-preview-removebg-preview.png");
     position: absolute;
     left: -2px;
     top: -3px;
@@ -622,7 +631,7 @@ Please do not remove credit
 /* CUSTOM KING TITLE - AFTER */
  
 #about > tbody > tr:nth-child(1) > td > div::after {
-    content:', TEXT';
+    content:', The Slayer';
     font-size:17px;
     
 }
@@ -631,7 +640,7 @@ Please do not remove credit
  
 .member-online {
     background: rgba(207,207,207,0);
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/Fg6Nrdk/Untitled280-20231124192112.png')!important;
      width:20px!important;
      height:20px;
  
@@ -641,50 +650,43 @@ Please do not remove credit
  
 .member-offline {
     background: rgba(207,207,207,0);
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/4RZW3NJ/Untitled280-20231124192121.png')!important;
      width:20px!important;
      height:20px;
  
 }
 
 img[src$="icon-beetle-gold.png"] {
-    content:url('IMG URL')!important;
+    content:url('https://i.ibb.co/Fg6Nrdk/Untitled280-20231124192112.png')!important;
 }
 img[src$="icon-beetle-silver.png"] {
-    content:url('IMG URL')!important;
+    content:url('https://i.ibb.co/4RZW3NJ/Untitled280-20231124192121.png')!important;
 }
 
 /*-------------------------*/
 /*Comment Box CODE BY HOK-Z*/
 /*-------------------------*/
 #commentBox {
-  background: rgba(210, 186, 217, 0.5);
- border: 2px solid #ffc2e7 !important;}
+  background: rgba(62, 62, 62, 0.65);
+ border: 3px double #fcba03 !important;}
 
-div.comment {background: rgba(250, 207, 248, 0.5) !important;
-            border-bottom: 2px solid #ffc2e7;
+div.comment {background: rgba(43, 43, 43, 0.65) !important;
+            border-bottom: 3px double #fcba03;
             font-weight: bold;}
 
-div#makeComment {background: rgba(143, 67, 139, 0.5) !important;
-                border: 2px solid #ffc2e7;
+div#makeComment {background: rgba(30, 30, 30, 0.65) !important;
+                border: 3px double #fcba03;
                 border-radius: 10px;}
 
-div.commentText {color: #FFFFFF;}
+div.commentText {color: #fcba03;}
 
-input#comment {background: ##632a5b!important;
-              color: white !important;}
+input#comment {background: #700810 !important;
+              color: #fcba03 !important;}
 
-input[type="button"].bad {background: rgba(204, 147, 195, 0.5) !important;}
+input[type="button"].bad {background: rgba(94, 94, 94, 0.65) !important;}
 
-.commentTag.clear {border: 2px solid #ffc2e7;}
+.commentTag.clear {border: 3px double #fcba03;}
 
-.mound-grid img /* Mound(s) */ {
-	background: url("IMAGE URL");
-	width: 0;
-	height: 0;
-	padding-top: 80px;
-	padding-right: 130px
-}
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
