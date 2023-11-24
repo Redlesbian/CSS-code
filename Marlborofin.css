@@ -22,7 +22,7 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(62, 62, 62, 0.65);
+	background: rgba(62, 62, 62, 0.25);
 	border: 3px double #fcba03;
 	box-shadow: 5px 10px #000000;
 	border-radius: 10px
@@ -687,6 +687,8 @@ input[type="button"].bad {background: rgba(94, 94, 94, 0.65) !important;}
 
 .commentTag.clear {border: 3px double #fcba03;}
 
+.lionImage > img {
+content: url("https://i.ibb.co/X2mkT75/Untitled300-20231124201254.png") !important; }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
