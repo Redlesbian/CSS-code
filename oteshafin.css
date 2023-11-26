@@ -248,6 +248,10 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	border-radius: 10px
 }
 
+.table {
+	color: #FFFFFF;
+}
+
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
 
@@ -320,6 +324,10 @@ div.left {
 .table .left {
 	background: rgba(123, 104, 150, 0.75);
         border-radius: 10px
+}
+
+.inner-table .right {
+	color: #FFFFFF;
 }
 
 /* Color behind the content of the elements listed above */
@@ -572,10 +580,29 @@ img[src$="cavedefault.jpg"] {
 	padding-right: 130px
 }
 
+/*-------------------------*/
+/*Comment Box CODE BY HOK-Z*/
+/*-------------------------*/
 #commentBox {
-  background: url('https://i.ibb.co/rMw3YRT/Untitled303-20231126140753.png') no-repeat center;
-  background-size: cover;
-}
+  background: rgba(142, 107, 150, 0.65);
+ border: 3px double #edaefc !important;}
+
+div.comment {background: rgba(90, 54, 99, 0.65) !important;
+            border-bottom: 3px double #edaefc;
+            font-weight: bold;}
+
+div#makeComment {background: rgba(81, 60, 87, 0.65) !important;
+                border: 3px double #edaefc;
+                border-radius: 10px;}
+
+div.commentText {color: #FFFFFF;}
+
+input#comment {background: #FFFFFF !important;
+              color: white !important;}
+
+input[type="button"].bad {background: rgba(64, 36, 71, 0.65) !important;}
+
+.commentTag.clear {border: 3px double #edaefc;}
 
 img[src$="icon-beetle-gold.png"] {
     content:url('https://i.ibb.co/xMLmpTp/Untitled280-20231126140520.png')!important;
