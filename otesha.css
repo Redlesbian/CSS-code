@@ -22,35 +22,35 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(75, 12, 134, 0.5);
-	border: none;
-	box-shadow: none;
-	border-radius: 0px
+	background: rgba(75, 12, 134, 0.45);
+	border: 3px double #edaefc;
+	box-shadow: 5px 10px 7px #280630;
+	border-radius: 10px
 }
 
 /* LEFT SIDE */
 .col-md-9 {
 	background: none;
-        border-right: none
+        border-right: 3px double #edaefc
 }
 
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgba(60, 17, 100, 0.5);
-	border: none;
+	background: rgba(60, 17, 100, 0.65);
+	border: 3px double #edaefc;
 	border-top: none;
 	color: #FFFFFF;
-	border-radius: 0px;
+	border-radius: 10px;
 }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(92, 68, 115, 0.5);
-	border-bottom: none;
+	background: rgba(92, 68, 115, 0.65);
+	border-bottom: 3px double #edaefc;
 	color: #FFFFFF;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
@@ -62,18 +62,18 @@ body {
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: rgba(115, 24, 124, 0.5) !important;
-	border-bottom: none;
+	background: rgba(115, 24, 124, 0.65) !important;
+	border-bottom: 3px double #edaefc;
 	color: #FFFFFF !important;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(94, 6, 192, 0.5) !important;
-        border: none;
-	border-radius: 0px
+	background: rgba(94, 6, 192, 0.65) !important;
+        border: 3px double #edaefc;
+	border-radius: 10px
 }
 
 /* BREADCRUMB TEXT */
@@ -85,7 +85,7 @@ body {
 /* CSS CREDIT */
 
 .breadcrumb::after {
-        content: "Template by Katie (#106445)";
+        content: "Template by Katie (#106445)|CSS by Ref(#261489)";
         color: #FFFFFF;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
@@ -113,18 +113,18 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(135, 72, 141, 0.5) !important;
-        border: none !important;
-	border-radius: 0px;
+	background: rgba(135, 72, 141, 0.75) !important;
+        border: 3px double #edaefc !important;
+	border-radius: 10px;
 	color: #FFFFFF !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(135, 72, 141, 0.5);
-        border: none !important;
-	border-radius: 0px;
+	background: rgba(135, 72, 141, 0.75);
+        border: 3px double #edaefc !important;
+	border-radius: 10px;
         text-shadow: none !important;
 	color: #FFFFFF !important
 }
@@ -134,10 +134,10 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(85, 59, 128, 0.5) !important;
-	border: none;
+	background: rgba(85, 59, 128, 0.65) !important;
+	border: 3px double #edaefc;
 	color: #FFFFFF;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
@@ -176,25 +176,25 @@ h3 {
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(55, 55, 99, 0.5) !important;
-	box-shadow: none !important;
-	border: none !important;
+	background: rgba(55, 55, 99, 0.65) !important;
+	box-shadow: 5px 10px 7px #280630 !important;
+	border: 3px double #edaefc !important;
 	color: #FFFFFF !important;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(61, 61, 82, 0.5);
+	background: rgba(61, 61, 82, 0.65);
 	color: #FFFFFF !important;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(42, 42, 82, 0.5);
+	background: rgba(42, 42, 82, 0.65);
 	color: #FFFFFF !important;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* ENERGY BAR TEXT */
@@ -205,21 +205,21 @@ h3 {
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(62, 42, 82, 0.5) !important;
+	background: rgba(62, 42, 82, 0.65) !important;
         color: #FFFFFF !important;
-	border: none !important
+	border: 3px double #edaefc !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(44, 22, 66, 0.5) !important;
+	background: rgba(44, 22, 66, 0.65) !important;
         color: #FFFFFF !important;
-	border: none !important
+	border: 3px double #edaefc !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(43, 34, 51, 0.5) !important;
+	background: rgba(43, 34, 51, 0.65) !important;
         color: #FFFFFF !important;
-	border: none !important
+	border: 3px double #edaefc !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
@@ -227,13 +227,13 @@ h3 {
 }
 
 div#chatMessageContainer {
-	border: none !important;
+	border: 3px double #edaefc !important;
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(32, 20, 43, 0.5) !important;
+	background: rgba(32, 20, 43, 0.65) !important;
         color: #FFFFFF !important;
-	border: none !important
+	border: 3px double #edaefc !important
 }
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
@@ -245,7 +245,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(123, 104, 150, 0.75);
 	border: none !important;
 	border-collapse: separate;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 
@@ -254,9 +254,9 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(37, 27, 64, 0.5) !important;
+	background: rgba(37, 27, 64, 0.65) !important;
 	color: #FFFFFF !important;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 td.bottom a {
@@ -268,7 +268,7 @@ td.bottom a {
 .inner-table .left {
 	background: rgba(155, 226, 242, 0.6) !important;
         color: #FFFFFF;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 
@@ -276,11 +276,11 @@ td.bottom a {
 
 .inner-table .right {
 	background: none;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 td.right {
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* IGNORE */
@@ -292,34 +292,34 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(50, 3, 84, 0.5);
-	border: none !important;
-	border-radius: 0px !important
+	background: rgba(50, 3, 84, 0.65);
+	border: 3px double #edaefc !important;
+	border-radius: 10px !important
 }
 
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(50, 3, 84, 0.5) !important;
+	background: rgba(50, 3, 84, 0.65) !important;
 	color: #FFFFFF !important;
-	border: 1px solid #FFFFFF !important;
-	border-radius: 0px !important
+	border: 3px double #edaefc !important;
+	border-radius: 10px !important
 }
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
 
 .feature,
 div.left {
-	background: rgba(41, 27, 51, 0.5);
-	border: none;
-	border-radius: 0px !important
+	background: rgba(41, 27, 51, 0.65);
+	border: 3px double #edaefc;
+	border-radius: 10px !important
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
 	background: rgba(123, 104, 150, 0.75);
-        border-radius: 0px
+        border-radius: 10px
 }
 
 /* Color behind the content of the elements listed above */
@@ -327,26 +327,26 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(74, 70, 99, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important;
+	background: rgba(74, 70, 99, 0.65) !important;
+	border: 3px double #edaefc !important;
+	border-radius: 10px !important;
 	color: #FFFFFF !important;
-	box-shadow: none !important;
+	box-shadow: 5px 10px 7px #280630 !important;
 	text-shadow: none !important
 }
 
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(11, 5, 51, 0.5) !important;
+	background: rgba(11, 5, 51, 0.65) !important;
 	color: #FFFFFF !important;
-	border-radius: 0px !important;
+	border-radius: 10px !important;
 }
 
 .item {
-	background: rgba(28, 9, 54, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important
+	background: rgba(28, 9, 54, 0.65) !important;
+	border: 3px double #edaefc !important;
+	border-radius: 10px !important
 }
 
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
@@ -570,6 +570,18 @@ img[src$="cavedefault.jpg"] {
 	height: 0;
 	padding-top: 80px;
 	padding-right: 130px
+}
+
+#commentBox {
+  background: url('https://i.ibb.co/rMw3YRT/Untitled303-20231126140753.png') no-repeat center;
+  background-size: cover;
+}
+
+img[src$="icon-beetle-gold.png"] {
+    content:url('https://i.ibb.co/xMLmpTp/Untitled280-20231126140520.png')!important;
+}
+img[src$="icon-beetle-silver.png"] {
+    content:url('https://i.ibb.co/FDXQWkC/Untitled280-20231126140530.png')!important;
 }
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/food/foo-6/foo514.cur), auto !important;} /* End https://www.cursors-4u.com */
