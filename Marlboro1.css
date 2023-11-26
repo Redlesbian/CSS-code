@@ -698,7 +698,7 @@ content: url("https://i.ibb.co/X2mkT75/Untitled300-20231124201254.png") !importa
  
  
 #player > tbody > tr.right > td:nth-child(1) > table > tbody > tr > td:nth-child(5)::after {
-    content:'you'll never know...';
+    content:'Its a mystery';
     font-size:14px;
 }
 
