@@ -690,6 +690,150 @@ input[type="button"].bad {background: rgba(94, 94, 94, 0.65) !important;}
 .lionImage > img {
 content: url("https://i.ibb.co/X2mkT75/Untitled300-20231124201254.png") !important; }
 
+/* LAST ACTIVE DATE */
+ 
+#player > tbody > tr.right > td:nth-child(1) > table > tbody > tr > td:nth-child(5) {
+    font-size:0px;
+}
+ 
+ 
+#player > tbody > tr.right > td:nth-child(1) > table > tbody > tr > td:nth-child(5)::after {
+    content:'you'll never know...';
+    font-size:14px;
+}
+
+/* LEVEL */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(1) > b::after {
+    content:'i got skills';
+    font-size:14px;
+}
+ 
+/* STATS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(1) > b::after {
+    content:'extent of said skills';
+    font-size:14px;
+}
+ 
+/* LIONESSESS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(3) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(3) > td:nth-child(1) > b::after {
+    content:'The bitches';
+    font-size:14px;
+}
+ 
+/* CUBS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(1) > b::after {
+    content:'fatherless children';
+    font-size:14px;
+}
+ 
+/* MALE SLOTS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(1) > b::after {
+    content:'Man space';
+    font-size:14px;
+}
+ 
+/* FROZEN SLOTS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(6) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(6) > td:nth-child(1) > b::after {
+    content:'dead homies';
+    font-size:14px;
+}
+
+/* BRANCH */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(4) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(4) > b::after {
+    content:'Wares for Coin';
+    font-size:14px;
+}
+ 
+/* TERRITORY */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(4) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(4) > b::after {
+    content:'Marlboros grounds';
+    font-size:14px;
+}
+ 
+/* BEETLE SLOTS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(3) > td:nth-child(4) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(3) > td:nth-child(4) > b::after {
+    content:'Bug Hangout';
+    font-size:14px;
+}
+ 
+/* GRANDPAW */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(4) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(4) > b::after {
+    content:'Recent Ancestor';
+    font-size:14px;
+}
+ 
+/* SUB MALES */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(3) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(3) > b::after {
+    content:'Challengers';
+    font-size:14px;
+}
+ 
+/* CAVE SLOTS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(6) > td:nth-child(3) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(6) > td:nth-child(3) > b::after {
+    content:'Hangout Holes';
+    font-size:14px;
+}
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
