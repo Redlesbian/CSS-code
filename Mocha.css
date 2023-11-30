@@ -22,71 +22,71 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	box-shadow: none;
-	border-radius: 0px
+	background: rgba(39, 39, 39, 0.65);
+	border: 5px double #ff9e03;
+	box-shadow: 5px 10px 7px #ff9e03;
+	border-radius: 10px
 }
 
 /* LEFT SIDE */
 .col-md-9 {
 	background: none;
-        border-right: none
+        border-right: 5px double #ff9e03
 }
 
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
+	background: rgba(19, 19, 19, 0.65);
+	border: 5px double #ff9e03;
 	border-top: none;
-	color: #000000;
-	border-radius: 0px;
+	color: #ff9e03;
+	border-radius: 10px;
 }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(1, 1, 1, 0.5);
-	border-bottom: none;
-	color: #000000;
-	border-radius: 0px
+	background: rgba(62, 62, 62, 0.65);
+	border-bottom: 5px double #ff9e03;
+	color: #ff9e03;
+	border-radius: 10px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #000000 !important
+	color: #ff9e03 !important
 }
 
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border-bottom: none;
-	color: #000000 !important;
-	border-radius: 0px
+	background: rgba(62, 62, 62, 0.65) !important;
+	border-bottom: 3px double #ff9e03;
+	color: #ff9e03 !important;
+	border-radius: 10px
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(1, 1, 1, 0.5) !important;
-        border: none;
-	border-radius: 0px
+	background: rgba(30, 30, 30, 0.65) !important;
+        border: 5px double #ff9e03;
+	border-radius: 10px
 }
 
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #000000
+	color: #ff9e03
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
-        content: "Template by Katie (#106445)";
-        color: #000000;
+        content: "Template by Katie (#106445)|CSS by Red(#261489)";
+        color: #ff9e03;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
