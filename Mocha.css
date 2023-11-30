@@ -113,20 +113,20 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
-        border: none !important;
-	border-radius: 0px;
-	color: #000000 !important;    
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(143,79,2,1) 100%) !important;
+        border: 5px double #ff9e03 !important;
+	border-radius: 10px;
+	color: #ff9e03 !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(1, 1, 1, 0.5);
-        border: none !important;
-	border-radius: 0px;
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(143,79,2,1) 100%);
+        border: 5px double #ff9e03 !important;
+	border-radius: 10px;
         text-shadow: none !important;
-	color: #000000 !important
+	color: #ff9e03 !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -134,26 +134,26 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none;
-	color: #000000;
-	border-radius: 0px !important
+	background: rgba(168, 77, 7, 0.65) !important;
+	border: 5px double #ff9e03;
+	color: #ff9e03;
+	border-radius: 10px !important
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #000000;
+	color: #ff9e03;
 	font-size: 90px;
 	text-align: center;
-        font-family: 'FONT NAME'
+        font-family: 'Love Light', cursive;'
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #000000;
+	color: #ff9e03;
 	font-size: 24px;
 	text-align: center
 }
@@ -162,78 +162,78 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #000000 !important;
+	color: #ff9e03 !important;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #000000 !important;
+	color: #ff9e03 !important;
         font-size: 26px !important;
-        font-family: 'FONT NAME'
+        font-family: 'Love Light', cursive;'
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(1, 1, 1, 0.5) !important;
-	box-shadow: none !important;
-	border: none !important;
-	color: #000000 !important;
-	border-radius: 0px
+	background: rgba(0, 0, 0, 0.65) !important;
+	box-shadow: 5px 10px 7px #ff9e03 !important;
+	border: 5px double #ff9e03 !important;
+	color: #ff9e03 !important;
+	border-radius: 10px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000 !important;
-	border-radius: 0px !important
+	background: rgba(62, 62, 62, 0.65);
+	color: #ff9e03 !important;
+	border-radius: 10px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000 !important;
-	border-radius: 0px !important
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(143,79,2,1) 100%);
+	color: #ff9e03 !important;
+	border-radius: 10px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000000 !important
+	color: #ff9e03 !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: rgba(153, 67, 2, 0.65) !important;
+        color: #ff9e03 !important;
+	border: 5px double #ff9e03 !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: rgba(39, 39, 39, 0.65) !important;
+        color: #ff9e03 !important;
+	border: 5px double #ff9e03 !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(143,79,2,1) 100%) !important;
+        color: #ff9e03 !important;
+	border: 5px double #ff9e03 !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #000000 !important;
+	color: #ff9e03 !important;
 }
 
 div#chatMessageContainer {
-	border: none !important;
+	border: 5px double #ff9e03 !important;
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: rgba(19, 19, 19, 0.65) !important;
+        color: #ff9e03 !important;
+	border: 5px double #ff9e03 !important
 }
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
@@ -242,10 +242,10 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(1, 1, 1, 0.5);
-	border: none !important;
+	background: rgba(30, 30, 30, 0.65);
+	border: 5px double #ff9e03 !important;
 	border-collapse: separate;
-	border-radius: 0px
+	border-radius: 10px
 }
 
 
@@ -254,9 +254,9 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
-	border-radius: 0px
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(143,79,2,1) 100%) !important;
+	color: #ff9e03 !important;
+	border-radius: 10px
 }
 
 td.bottom a {
@@ -266,9 +266,9 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(155, 226, 242, 0.6) !important;
-        color: #2e2a2b;
-	border-radius: 0px
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(143,79,2,1) 100%) !important;
+        color: #ff9e03;
+	border-radius: 10px
 }
 
 
@@ -276,11 +276,11 @@ td.bottom a {
 
 .inner-table .right {
 	background: none;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 td.right {
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* IGNORE */
@@ -292,34 +292,34 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(1, 1, 1, 0.5);
-	border: none !important;
-	border-radius: 0px !important
+	background: rgba(62, 62, 62, 0.65);
+	border: 5px double #ff9e03 !important;
+	border-radius: 10px !important
 }
 
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
-	border: 1px solid #000000 !important;
-	border-radius: 0px !important
+	background: rgba(39, 39, 39, 0.65) !important;
+	color: #ff9e03 !important;
+	border: 5px double #ff9e03 !important;
+	border-radius: 10px !important
 }
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
 
 .feature,
 div.left {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	border-radius: 0px !important
+	background: rgba(62, 62, 62, 0.65);
+	border: 5px double #ff9e03;
+	border-radius: 10px !important
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(1, 1, 1, 0.5);
-        border-radius: 0px
+	background: rgba(0, 0, 0, 0.65);
+        border-radius: 10px
 }
 
 /* Color behind the content of the elements listed above */
@@ -327,26 +327,26 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important;
-	color: #000000 !important;
-	box-shadow: none !important;
+	background: rgba(19, 19, 19, 0.65) !important;
+	border: 5px double #ff9e03 !important;
+	border-radius: 10px !important;
+	color: #ff9e03 !important;
+	box-shadow: 5px 10px 7px #ff9e03 !important;
 	text-shadow: none !important
 }
 
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000  !important;
-	border-radius: 0px !important;
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(143,79,2,1) 100%) !important;
+	color: #ff9e03 !important;
+	border-radius: 10px !important;
 }
 
 .item {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important
+	background: rgba(62, 62, 62, 0.65) !important;
+	border: 5px double #ff9e03 !important;
+	border-radius: 10px !important
 }
 
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
@@ -356,7 +356,7 @@ div.slider.round /* Background */ {
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #000000 !important
+	background: #ff9e03 !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
@@ -370,7 +370,7 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #ffffff !important
+	color: #ff9e03 !important
 }
 
 /* LINK HOVER COLOR */
