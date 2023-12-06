@@ -834,13 +834,7 @@ content: url("https://i.ibb.co/X2mkT75/Untitled300-20231124201254.png") !importa
     font-size:14px;
 }
 
-.breadcrumb::before {
-        content:url('https://i.ibb.co/85LyVN7/f2u-peach-icon-by-profiledecor-dbx2z8e.gif');
-        position: fixed;
-        right: 0.5%;
-    top: 73%;
-        z-index: 100;
-}
+
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
