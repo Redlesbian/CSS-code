@@ -578,6 +578,31 @@ img[src$="cavedefault.jpg"] {
 	padding-right: 130px
 }
 
+/*-------------------------*/
+/*Comment Box CODE BY HOK-Z*/
+/*-------------------------*/
+#commentBox {
+  background: rgba(91, 94, 66, 0.65);
+ border: 3px dashed #9cab95 !important;}
+
+div.comment {background: linear-gradient(90deg, rgba(91,94,66,1) 0%, rgba(54,56,39,1) 100%) !important;
+            border-bottom: 3px dashed #9cab95;
+            font-weight: bold;}
+
+div#makeComment {background: rgba(81, 84, 59, 0.65) !important;
+                border: 3px dashed #9cab95;
+                border-radius: 10px;}
+
+div.commentText {color: #9cab95;}
+
+input#comment {background: #3f412e !important;
+              color: #5b5e42 important;}
+
+input[type="button"].bad {background: rgba(72, 75, 52, 0.65) !important;}
+
+.commentTag.clear {border: 3px dashed #9cab95;}
+
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
