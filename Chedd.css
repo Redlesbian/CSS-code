@@ -549,29 +549,29 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('LOGO REPLACER URL')
+	content: url('https://i.ibb.co/r3LmqCj/Untitled275-20231208014521.pnghttps://i.ibb.co/7CB3XLX/Untitled276-20231207170237.png')
 }
 
 /* CAVE / MOUND IMAGES */
 
 img[src$="nestingbanner.png"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/kqFys3T/Untitled283-20231208120725.png") !important;
 }
 
 img[src$="overviewbanner.png"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/kqFys3T/Untitled283-20231208120725.png") !important;
 }
 
 img[src$="unsortedlionsbanner.png"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/kqFys3T/Untitled283-20231208120725.png") !important;
 }
 
 img[src$="cavedefault.jpg"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/j4yFTYS/Untitled272-20231208120746.png") !important;
 }
 
 .mound-grid img /* Mound(s) */ {
-	background: url("IMAGE URL");
+	background: url("https://i.ibb.co/PWw2cxL/Untitled273-20231208120803.png");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
