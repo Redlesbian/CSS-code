@@ -202,7 +202,39 @@ h3 {
 	color: #9cab95 !important
 }
 
+/* CHAT */
 
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: rgba(54, 56, 39, 0.5) !important;
+        color: #9cab95 !important;
+	border: 3px dashed #9cab95 !important
+}
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: rgba(91, 94, 66, 0.5) !important;
+        color: #9cab95 !important;
+	border: 3px dashed #9cab95 !important
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: linear-gradient(90deg, rgba(91,94,66,1) 0%, rgba(54,56,39,1) 100%) !important;
+        color: #9cab95 !important;
+	border: 3px dashed #9cab95 !important
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #9cab95 !important;
+}
+
+div#chatMessageContainer {
+	border: 3px dashed #9cab95 !important;
+}
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: rgba(72, 75, 52, 0.5) !important;
+        color: #9cab95 !important;
+	border: 3px dashed #9cab95 !important
+}
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
 
