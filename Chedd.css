@@ -23,7 +23,7 @@ body {
 /* RIGHT SIDE */
 .container.main {
 	background: rgba(91, 94, 66, 0.35);
-	border: 3px dashed #9cab95;
+	border: 3px solid #9cab95;
 	box-shadow: none;
 	border-radius: 10px
 }
@@ -31,14 +31,14 @@ body {
 /* LEFT SIDE */
 .col-md-9 {
 	background: none;
-        border-right: 3px dashed #9cab95
+        border-right: 3px solid #9cab95
 }
 
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
 	background: rgba(54, 56, 39, 0.65);
-	border: 3px dashed #9cab95;
+	border: 3px solid #9cab95;
 	border-top: none;
 	color: #9cab95;
 	border-radius: 10px;
@@ -48,7 +48,7 @@ body {
 
 .navbar {
 	background: rgba(72, 75, 52, 0.65);
-	border-bottom: 3px dashed #9cab95;
+	border-bottom: 3px solid #9cab95;
 	color: #9cab95;
 	border-radius: 10px
 }
@@ -63,7 +63,7 @@ body {
 
 .navbar li a:hover {
 	background: rgba(81, 84, 59, 0.65) !important;
-	border-bottom: 3px dashed #9cab95;
+	border-bottom: 3px solid #9cab95;
 	color: #9cab95 !important;
 	border-radius: 10px
 }
@@ -72,7 +72,7 @@ body {
 
 .breadcrumb {
 	background: rgba(54, 56, 39, 0.65) !important;
-        border: 3px dashed #9cab95;
+        border: 3px solid #9cab95;
 	border-radius: 10px
 }
 
@@ -114,7 +114,7 @@ body {
 
 input.floatright, input.floatright:hover {
 	background: linear-gradient(90deg, rgba(91,94,66,1) 0%, rgba(54,56,39,1) 100%) !important;
-        border: 3px dashed #9cab95 !important;
+        border: 3px solid #9cab95 !important;
 	border-radius: 10px;
 	color: #9cab95 !important;    
 }
@@ -123,7 +123,7 @@ input.floatright, input.floatright:hover {
 
 button.button, button.button:hover {
 	background: linear-gradient(90deg, rgba(91,94,66,1) 0%, rgba(54,56,39,1) 100%);
-        border: 3px dashed #9cab95 !important;
+        border: 3px solid #9cab95 !important;
 	border-radius: 10px;
         text-shadow: none !important;
 	color: #9cab95 !important
@@ -135,7 +135,7 @@ button.button, button.button:hover {
 .alert-warning,
 .alert-danger {
 	background: rgba(91, 94, 66, 0.65) !important;
-	border: 3px dashed #9cab95;
+	border: 3px solid #9cab95;
 	color: #9cab95;
 	border-radius: 10px !important
 }
@@ -178,7 +178,7 @@ h3 {
 .panel {
 	background: rgba(63, 65, 46, 0.65) !important;
 	box-shadow: none !important;
-	border: 3px dashed #9cab95 !important;
+	border: 3px solid #9cab95 !important;
 	color: #9cab95 !important;
 	border-radius: 10px
 }
@@ -207,19 +207,19 @@ h3 {
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgba(54, 56, 39, 0.5) !important;
         color: #9cab95 !important;
-	border: 3px dashed #9cab95 !important
+	border: 3px solid #9cab95 !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgba(91, 94, 66, 0.5) !important;
         color: #9cab95 !important;
-	border: 3px dashed #9cab95 !important
+	border: 3px solid #9cab95 !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: linear-gradient(90deg, rgba(91,94,66,1) 0%, rgba(54,56,39,1) 100%) !important;
         color: #9cab95 !important;
-	border: 3px dashed #9cab95 !important
+	border: 3px solid #9cab95 !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
@@ -227,13 +227,13 @@ h3 {
 }
 
 div#chatMessageContainer {
-	border: 3px dashed #9cab95 !important;
+	border: 3px solid #9cab95 !important;
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(72, 75, 52, 0.5) !important;
         color: #9cab95 !important;
-	border: 3px dashed #9cab95 !important
+	border: 3px solid #9cab95 !important
 }
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
@@ -243,7 +243,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 
 .table {
 	background: rgba(81, 84, 59, 0.65);
-	border: 3px dashed #9cab95 !important;
+	border: 3px solid #9cab95 !important;
 	border-collapse: separate;
 	border-radius: 10px
 }
@@ -296,7 +296,7 @@ td.right {
 .cave-grid,
 .mound-grid {
 	background: rgba(54, 56, 39, 0.65);
-	border: 3px dashed #9cab95 !important;
+	border: 3px solid #9cab95 !important;
 	border-radius: 10px !important
 }
 
@@ -305,7 +305,7 @@ td.right {
 .feature {
 	background: rgba(91, 94, 66, 0.65) !important;
 	color: #9cab95 !important;
-	border: 3px dashed #9cab95 !important;
+	border: 3px solid #9cab95 !important;
 	border-radius: 10px !important
 }
 
@@ -314,7 +314,7 @@ td.right {
 .feature,
 div.left {
 	background: rgba(72, 75, 52, 0.65);
-	border: 3px dashed #9cab95;
+	border: 3px solid #9cab95;
 	border-radius: 10px !important
 }
 
@@ -334,7 +334,7 @@ input,
 select,
 textarea {
 	background: rgba(63, 65, 46, 0.5) !important;
-	border: 3px dashed #9cab95 !important;
+	border: 3px solid #9cab95 !important;
 	border-radius: 10px !important;
 	color: #9cab95 !important;
 	box-shadow: none !important;
@@ -351,7 +351,7 @@ textarea {
 
 .item {
 	background: rgba(63, 65, 46, 0.65) !important;
-	border: 3px dashed #9cab95 !important;
+	border: 3px solid #9cab95 !important;
 	border-radius: 10px !important
 }
 
@@ -583,14 +583,14 @@ img[src$="cavedefault.jpg"] {
 /*-------------------------*/
 #commentBox {
   background: rgba(91, 94, 66, 0.65);
- border: 3px dashed #9cab95 !important;}
+ border: 3px solid #9cab95 !important;}
 
 div.comment {background: linear-gradient(90deg, rgba(91,94,66,1) 0%, rgba(54,56,39,1) 100%) !important;
-            border-bottom: 3px dashed #9cab95;
+            border-bottom: 3px solid #9cab95;
             font-weight: bold;}
 
 div#makeComment {background: rgba(81, 84, 59, 0.65) !important;
-                border: 3px dashed #9cab95;
+                border: 3px solid #9cab95;
                 border-radius: 10px;}
 
 div.commentText {color: #9cab95;}
@@ -600,7 +600,7 @@ input#comment {background: #3f412e !important;
 
 input[type="button"].bad {background: rgba(72, 75, 52, 0.65) !important;}
 
-.commentTag.clear {border: 3px dashed #9cab95;}
+.commentTag.clear {border: 3px solid #9cab95;}
 
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
