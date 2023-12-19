@@ -572,10 +572,10 @@ img[src$="cavedefault.jpg"] {
 	padding-right: 130px
 }
 
-img[src$="gold.png"] {
+img[src$="icon-beetle-gold.png"] {
     content:url('https://media.discordapp.net/attachments/1169344484920799314/1169641160076185600/Untitled280_20231102141608.png?ex=65562437&is=6543af37&hm=87a006a9d7baff2bc6054d47bb152f04fa721759fe8f3cda86e1a2e72f714c53&')!important;
 }
-img[src$="silver.png"] {
+img[src$="icon-beetle-silver.png"] {
     content:url('https://media.discordapp.net/attachments/1169344484920799314/1169641160579489843/Untitled280_20231102141611.png?ex=65562437&is=6543af37&hm=d075d495b1bd880d55c32c214310ca90d1be666c11a0b0329142f86d34d9baf7&')!important;
 }
 
