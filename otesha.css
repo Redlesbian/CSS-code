@@ -613,6 +613,14 @@ img[src$="icon-beetle-silver.png"] {
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/food/foo-6/foo514.cur), auto !important;} /* End https://www.cursors-4u.com */
 
+.breadcrumb::before {
+        content:url('https://i.ibb.co/5xzjZPy/db2nlo8-640b41a3-af5c-4f73-8e74-1fdd8bb985cc.gif');
+        position: fixed;
+        right: 0.5%;
+    top: 73%;
+        z-index: 100;
+}
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
