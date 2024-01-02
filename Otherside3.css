@@ -683,16 +683,28 @@ Please do not remove credit
 .lionImage > img {
 content: url("https://i.ibb.co/VTYWB88/Untitled300-20231121155228.png") !important; }
 
+/* TOP */
+ 
+div.col-xs-6 > a > h3 > div {
+    content:url('https://i.ibb.co/hFJ1MHS/free-run-lion-run-by-sqdpxl-daj37ug.gif');
+    position:relative;
+    width:20px;
+}
+ 
 /* MIDDLE */
  
 div.col-xs-5> a:nth-child(1) > h3 > div {
     content:url('https://i.ibb.co/hFJ1MHS/free-run-lion-run-by-sqdpxl-daj37ug.gif');
-    position:absolute;
-    width:70px;
-    margin-right: 50px;    
-    right: -50px;
-    margin-top: -35px;
-    z-index:4;
+    position:relative;
+    width:20px;
+}
+ 
+/* BOTTOM */
+ 
+div.col-xs-5> a:nth-child(3) > h3 > div {
+    content:url('https://i.ibb.co/hFJ1MHS/free-run-lion-run-by-sqdpxl-daj37ug.gif');
+    position:relative;
+    width:20px;
 }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
