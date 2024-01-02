@@ -688,7 +688,7 @@ content: url("https://i.ibb.co/VTYWB88/Untitled300-20231121155228.png") !importa
 div.col-xs-6 > a > h3 > div {
     content:url('https://i.ibb.co/hFJ1MHS/free-run-lion-run-by-sqdpxl-daj37ug.gif');
     position:relative;
-    width:20px;
+    width:50px;
 }
  
 /* MIDDLE */
@@ -696,7 +696,7 @@ div.col-xs-6 > a > h3 > div {
 div.col-xs-5> a:nth-child(1) > h3 > div {
     content:url('https://i.ibb.co/hFJ1MHS/free-run-lion-run-by-sqdpxl-daj37ug.gif');
     position:relative;
-    width:20px;
+    width:50px;
 }
  
 /* BOTTOM */
@@ -704,7 +704,7 @@ div.col-xs-5> a:nth-child(1) > h3 > div {
 div.col-xs-5> a:nth-child(3) > h3 > div {
     content:url('https://i.ibb.co/hFJ1MHS/free-run-lion-run-by-sqdpxl-daj37ug.gif');
     position:relative;
-    width:20px;
+    width:50px;
 }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
