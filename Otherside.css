@@ -707,6 +707,105 @@ div.col-xs-5> a:nth-child(3) > h3 > div {
     width:50px;
 }
 
+/* CUSTOM LAYOUTS */
+    .pun-credit {
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+        color: #79067d !important;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8)) !important;
+        padding: 10px;
+    }
+    .pun-credit a {
+        color: #79067d !important;
+    }
+    .pun-credit a:hover {
+        opacity: 1 !important;
+    }
+    .pun-credit:hover {
+        opacity: 1;
+        transition: 2s;
+    }
+    .pun-table {
+        width: 640px;
+        background: url('https://i.ibb.co/82DPpKq/GIF.gif') center center no-repeat;
+        background-size: cover;
+        border-radius: 25px;
+        opacity: 0.9;
+        border: 0px outset #79067d !important;
+        box-shadow:0 0 5px #79067d;
+        margin: auto;
+    }
+    .pun-spacer {
+        background: none;
+        width: 350px;
+    }
+    .pun-content {
+        background: linear-gradient(0deg, rgba(255,99,242,1) 0%, rgba(255,208,250,1) 100%) !important;
+        text-align: center;
+        height: 300px;
+        overflow: auto;
+        width: 280px;
+        padding: 10px;
+        border-radius: 25px;
+        font-size: 15px;
+        color: #79067d !important;
+
+
+    }
+    .pun-content h3 {
+        margin: 0 0 10px 0;
+        border-bottom: 3px double #b377b5;
+        text-align: center;
+    }
+    .pun-content a {
+        font-weight: bold !important;
+        opacity: 1;
+    }
+    .pun-content a:hover {
+        opacity: 1 !important;
+    }
+    .pun-links {
+        background: linear-gradient(0deg, rgba(255,99,242,1) 0%, rgba(255,208,250,1) 100%) !important;
+        background: linear-gradient(0deg, rgba(255,99,242,1) 0%, rgba(255,208,250,1) 100%) !important;
+        color: #79067d;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-align: center;
+        border-radius: 25px 25px 0 0;
+    }
+    .pun-links a {
+        color: #FFFFFF !important;
+    }
+    .pun-title {
+        text-align: center;
+        color: #79067d;
+        font-size: 64px;
+        letter-spacing: 2px;
+        font-family: 'Are You Serious', cursive;'
+        opacity: 0.9;
+    }
+
+.pun-art {
+    width: 100%;
+    height: 60px;
+    color: #79067d;
+    text-align: center;
+    background: none;
+    border-radius: 5px;
+    opacity: 0.8;
+    overflow: hidden;
+    }
+.pun-art:hover {
+    height: auto;
+}
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
