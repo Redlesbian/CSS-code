@@ -12,8 +12,8 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 /* BACKGROUND */
 
 body {
-	background: url('https://i.ibb.co/WsXknny/ezgif-2-6d5bb3273e.gif') no-repeat center center fixed;
-	background-size: cover;
+	background: url('https://i.ibb.co/WsXknny/ezgif-2-6d5bb3273e.gif') center center fixed;
+	background-size: 100%;
 	font-family: 'DotGothic16', sans-serif;';
 	color: #FFFFFF
 }
@@ -37,7 +37,7 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(0,0,0,1) 100%);;
+	background: linear-gradient(0deg, rgba(109,109,109,1) 0%, rgba(40,40,40,1) 100%);
 	border: 3px inset #FFFFFF;
 	border-top: 3px inset #FFFFFF;
 	color: #FFFFFF;
@@ -71,7 +71,7 @@ body {
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(0,0,0,1) 100%); !important;
+	background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(0,0,0,1) 100%) !important;
         border: 3px inset #FFFFFF;
 	border-radius: 10px
 }
@@ -176,7 +176,7 @@ h3 {
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(0,0,0,1) 100%); !important;
+	background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(0,0,0,1) 100%) !important;
 	box-shadow: 5px 10px 7px #FFFFFF !important;
 	border: 3px inset #FFFFFF !important;
 	color: #FFFFFF !important;
@@ -248,13 +248,18 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	border-radius: 10px
 }
 
+.table {
+	color: #FFFFFF;
+
+}
+
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
 
 .top,
 .bottom,
 th {
-	background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(0,0,0,1) 100%); !important;
+	background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(0,0,0,1) 100%) !important;
 	color: #FFFFFF !important;
 	border-radius: 10px
 }
@@ -320,6 +325,11 @@ div.left {
 .table .left {
 	background: linear-gradient(0deg, rgba(92,92,92,0.3) 0%, rgba(34,34,34,0.3) 100%);
         border-radius: 10px
+}
+
+.inner-table .right {
+	color: #FFFFFF;
+
 }
 
 /* Color behind the content of the elements listed above */
