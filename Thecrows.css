@@ -543,7 +543,7 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('LOGO REPLACER URL')
+	content: url('https://i.ibb.co/QdwZby2/Untitled276-20240103174727.png')
 }
 
 /* CAVE / MOUND IMAGES */
@@ -645,19 +645,45 @@ img[src$="icon-beetle-silver.png"] {
     content:url('https://i.ibb.co/CtvY0mJ/Untitled280-20240103163609.png')!important;
 }
 
+/* SIDEBAR ARROWS */
+ 
+/* TOP */
+ 
+div.col-xs-6 > a > h3 > div {
+    content:url('https://i.ibb.co/7t9zHNH/bouncing-crow-v2-2-f2u-icon-pagedoll-thing-1-by-mwins-ddmumbg.gif');
+    position:relative;
+    width:40px;
+}
+ 
+/* MIDDLE */
+ 
+div.col-xs-5> a:nth-child(1) > h3 > div {
+    content:url('https://i.ibb.co/7t9zHNH/bouncing-crow-v2-2-f2u-icon-pagedoll-thing-1-by-mwins-ddmumbg.gif');
+    position:relative;
+    width:40px;
+}
+ 
+/* BOTTOM */
+ 
+div.col-xs-5> a:nth-child(3) > h3 > div {
+    content:url('https://i.ibb.co/7t9zHNH/bouncing-crow-v2-2-f2u-icon-pagedoll-thing-1-by-mwins-ddmumbg.gif');
+    position:relative;
+    width:40px;
+}
+
 /*-------------------------*/
 /*Comment Box CODE BY HOK-Z*/
 /*-------------------------*/
 #commentBox {
-  background: rgba(0, 0, 0, 0.5);
- border: none !important;}
+  background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(0,0,0,1) 100%);
+ border: 3px inset #FFFFFF !important;}
 
-div.comment {background: rgba(0, 0, 0, 0.5) !important;
-            border-bottom: none;
+div.comment {background: linear-gradient(0deg, rgba(159,159,159,1) 0%, rgba(19,19,19,1) 100%) !important;
+            border-bottom: 3px inset #FFFFFF;
             font-weight: bold;}
 
-div#makeComment {background: rgba(0, 0, 0, 0.5) !important;
-                border: none;
+div#makeComment {background: linear-gradient(0deg, rgba(92,92,92,1) 0%, rgba(34,34,34,1) 100%) !important;
+                border: 3px inset #FFFFFF;
                 border-radius: 10px;}
 
 div.commentText {color: #FFFFFF;}
@@ -665,9 +691,9 @@ div.commentText {color: #FFFFFF;}
 input#comment {background: #FFFFFF !important;
               color: white !important;}
 
-input[type="button"].bad {background: rgba(0, 0, 0, 0.5) !important;}
+input[type="button"].bad {background: linear-gradient(0deg, rgba(109,109,109,1) 0%, rgba(40,40,40,1) 100%) !important;}
 
-.commentTag.clear {border: none;}
+.commentTag.clear {border: 3px inset #FFFFFF;}
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
