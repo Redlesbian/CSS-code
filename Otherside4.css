@@ -806,6 +806,17 @@ div.col-xs-5> a:nth-child(3) > h3 > div {
     height: auto;
 }
 
+.box {
+     position: relative;
+}
+.box-topper {
+     content: url('https://i.ibb.co/vwnpRFm/f2u-nature-island-icon-100x100-1-2-by-darkfairyofmadness-ddpa1ul.gif');
+     position: absolute;
+     top: -50px;
+     right: -50px;
+     z-index: 2;
+}
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
