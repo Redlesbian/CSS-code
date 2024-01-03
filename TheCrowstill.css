@@ -12,8 +12,8 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 /* BACKGROUND */
 
 body {
-	background: url('https://i.ibb.co/tMWfcMk/f2u-crystal-caverns-free-background-by-jellieadopts-dg8dyxv.png') no-repeat center center fixed;
-	background-size: cover;
+	background: url('https://i.ibb.co/tMWfcMk/f2u-crystal-caverns-free-background-by-jellieadopts-dg8dyxv.png') center center fixed;
+	background-size: 100%;
 	font-family: 'DotGothic16', sans-serif;';
 	color: #FFFFFF
 }
