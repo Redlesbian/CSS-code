@@ -825,14 +825,14 @@ Please do not remove credit
 /* TIME DAY */
 img[src$="day.png"] {
     content:url('https://i.ibb.co/NsvbnfZ/Untitled280-20240103202446.png')!important;
-    width:30px!important;
+    width: 20px !important;
  
 }
  
 /* TIME NIGHT */
 img[src$="night.png"] {
     content:url('https://i.ibb.co/ZgK975n/Untitled280-20240103202305.png')!important;
-    width:30px!important;
+    width: 20px !important;
  
 }
  
@@ -841,14 +841,14 @@ img[src$="night.png"] {
 /* DRY SEASON */
 img[src$="dry.png"] {
     content:url('https://i.ibb.co/71ShVcH/Untitled280-20240103202454.png')!important;
-    width:30px!important;
+    width: 20px !important;
  
 }
  
 /* WET SEASON */
 img[src$="wet.png"] {
     content:url('https://i.ibb.co/F05P7YC/Untitled280-20240103202255.png')!important;
-    width:30px!important;
+    width: 20px !important;
  
 }
 
