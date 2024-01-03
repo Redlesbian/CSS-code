@@ -7,15 +7,15 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('FONT URL');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Long+Cang&display=swap');
 
 /* BACKGROUND */
 
 body {
-	background: url('BACKGROUND URL') center center fixed;
-	background-size: 100%;
-	font-family: 'FONT NAME';
-	color: #2e2a2b
+	background: url('https://i.ibb.co/WsXknny/ezgif-2-6d5bb3273e.gif') no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'DotGothic16', sans-serif;';
+	color: #FFFFFF
 }
 
 /* MAIN PANEL */
@@ -549,23 +549,23 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 /* CAVE / MOUND IMAGES */
 
 img[src$="nestingbanner.png"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/wyJXP6S/Untitled314-20240103164144.png") !important;
 }
 
 img[src$="overviewbanner.png"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/wyJXP6S/Untitled314-20240103164144.png") !important;
 }
 
 img[src$="unsortedlionsbanner.png"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/wyJXP6S/Untitled314-20240103164144.png") !important;
 }
 
 img[src$="cavedefault.jpg"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/tMMVmG9/Untitled314-20240103164207.png") !important;
 }
 
 .mound-grid img /* Mound(s) */ {
-	background: url("IMAGE URL");
+	background: url("https://i.ibb.co/xGbXVfT/Untitled273-20240103164030.png");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
@@ -573,14 +573,14 @@ img[src$="cavedefault.jpg"] {
 }
 
 img[src$="caveunused.jpg"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/tMMVmG9/Untitled314-20240103164207.png") !important;
 }
 
 /* MEMBER ONLINE */
  
 .member-online {
     background: rgba(207,207,207,0);
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/k13ZJ6Z/Untitled280-20240103163652.png')!important;
      width:20px!important;
      height:20px;
  
@@ -590,7 +590,7 @@ img[src$="caveunused.jpg"] {
  
 .member-offline {
     background: rgba(207,207,207,0);
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/p2fGf92/Untitled280-20240103163846.png')!important;
      width:20px!important;
      height:20px;
  
@@ -599,7 +599,7 @@ img[src$="caveunused.jpg"] {
 /* LION IMAGE BORDER CODE BY HOK-Z */
 
 #lion_image::after {
-    content: url("IMAGE");
+    content: url("https://i.ibb.co/JsgYFrK/Untitled292-20240103163231-removebg-preview.png");
     position: absolute;
     left: -2px;
     top: -3px;
@@ -612,37 +612,37 @@ Please do not remove credit
  
 /* KING DYNASTY */
 img[src$="ancestors.jpg"] {
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/wyJXP6S/Untitled314-20240103164144.png')!important;
     width:185px!important;
  
 }
  
 /* PRIDE DYNASTY */
 img[src$="ancestorsfem.png"] {
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/wyJXP6S/Untitled314-20240103164144.png')!important;
     width:185px!important;
  
 }
  
 /* ACHIEVMENTS */
 img[src$="achievements.jpg"] {
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/wyJXP6S/Untitled314-20240103164144.png')!important;
     width:185px!important;
  
 }
  
 /* SHOWCASE */
 img[src$="showcase/banner.png"] {
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/wyJXP6S/Untitled314-20240103164144.png')!important;
     width:185px!important;
  
 }
 
 img[src$="icon-beetle-gold.png"] {
-    content:url('IMG URL')!important;
+    content:url('https://i.ibb.co/SKL93K5/Untitled280-20240103163622.png')!important;
 }
 img[src$="icon-beetle-silver.png"] {
-    content:url('IMG URL')!important;
+    content:url('https://i.ibb.co/CtvY0mJ/Untitled280-20240103163609.png')!important;
 }
 
 /*-------------------------*/
