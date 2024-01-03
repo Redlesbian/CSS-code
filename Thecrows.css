@@ -804,6 +804,17 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(109,109,109,1) 
     height: auto;
 }
 
+.box {
+     position: relative;
+}
+.box-topper {
+     content: url('https://i.ibb.co/7t9zHNH/bouncing-crow-v2-2-f2u-icon-pagedoll-thing-1-by-mwins-ddmumbg.gif');
+     position: absolute;
+     top: -50px;
+     right: -20px;
+     z-index: 2;
+}
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
