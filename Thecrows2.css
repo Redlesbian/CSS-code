@@ -768,8 +768,8 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(109,109,109,1) 
         opacity: 1 !important;
     }
     .pun-links {
-        background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(0,0,0,1) 100%) !important;
-        background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(0,0,0,1) 100%) !important;
+        background: linear-gradient(0deg, rgba(109,109,109,1) 0%, rgba(40,40,40,1) 100%) !important;
+        background: linear-gradient(0deg, rgba(109,109,109,1) 0%, rgba(40,40,40,1) 100%) !important;
         color: #FFFFFF;
         text-transform: uppercase;
         font-size: 11px;
@@ -787,7 +787,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(109,109,109,1) 
         font-size: 64px;
         letter-spacing: 2px;
         font-family: 'Long Cang', cursive;
-        opacity: 0.9;
+        opacity: 1;
     }
 
 .pun-art {
