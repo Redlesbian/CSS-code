@@ -815,6 +815,43 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(109,109,109,1) 
      z-index: 2;
 }
 
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* TIME */
+ 
+/* TIME DAY */
+img[src$="day.png"] {
+    content:url('https://i.ibb.co/NsvbnfZ/Untitled280-20240103202446.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* TIME NIGHT */
+img[src$="night.png"] {
+    content:url('https://i.ibb.co/ZgK975n/Untitled280-20240103202305.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SEASON */
+ 
+/* DRY SEASON */
+img[src$="dry.png"] {
+    content:url('https://i.ibb.co/71ShVcH/Untitled280-20240103202454.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* WET SEASON */
+img[src$="wet.png"] {
+    content:url('https://i.ibb.co/F05P7YC/Untitled280-20240103202255.png')!important;
+    width:20px!important;
+ 
+}
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
