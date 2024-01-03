@@ -176,7 +176,7 @@ h3 {
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(0,0,0,1) 100%) !important;
+	background:  !important;
 	box-shadow: 5px 10px 7px #FFFFFF !important;
 	border: 3px inset #FFFFFF !important;
 	color: #FFFFFF !important;
