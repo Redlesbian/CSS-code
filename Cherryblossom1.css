@@ -777,6 +777,27 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(255,201,245,1) 
     height: auto;
 }
 
+img[src$="icon-beetle-gold.png"] {
+    content:url('https://i.ibb.co/qpNg1zq/Untitled280-20240105125047.png')!important;
+}
+img[src$="icon-beetle-silver.png"] {
+    content:url('https://i.ibb.co/QkYmbPD/Untitled280-20240105125034.png')!important;
+}
+
+/* MEMBER ONLINE */
+ 
+.member-online {
+    background: #a35a90;
+ 
+}
+ 
+/* MEMBER OFFLINE */
+ 
+.member-offline {
+    background: #905aa3;
+ 
+}
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
