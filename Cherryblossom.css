@@ -678,7 +678,104 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(255,201,245,1) 
      z-index: 2;
 }
 
+/* CUSTOM LAYOUTS */
+    .pun-credit {
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+        color: #c27cbb !important;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(255,240,243,1) 100%) !important;
+        padding: 5px;
+    }
+    .pun-credit a {
+        color: #c27cbb !important;
+    }
+    .pun-credit a:hover {
+        opacity: 1 !important;
+    }
+    .pun-credit:hover {
+        opacity: 1;
+        transition: 2s;
+    }
+    .pun-table {
+        width: 640px;
+        background: url('https://i.ibb.co/b6T9Cjt/pastel-pink-background-by-sassycthulhu-d8jdh3t.png') center center no-repeat;
+        background-size: cover;
+        border-radius: 25px;
+        opacity: 0.9;
+        border: 3px double #c27cbb !important;
+        box-shadow: 5px 10px 7px #946990;
+        margin: auto;
+    }
+    .pun-spacer {
+        background: none;
+        width: 350px;
+    }
+    .pun-content {
+        background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(255,240,243,1) 100%) !important;
+        text-align: center;
+        height: 300px;
+        overflow: auto;
+        width: 280px;
+        padding: 10px;
+        border-radius: 25px;
+        font-size: 15px;
+        color: #c27cbb !important;
 
+
+    }
+    .pun-content h3 {
+        margin: 0 0 10px 0;
+        border-bottom: 3px double #c27cbb;
+        text-align: center;
+    }
+    .pun-content a {
+        font-weight: bold !important;
+        opacity: 1;
+    }
+    .pun-content a:hover {
+        opacity: 1 !important;
+    }
+    .pun-links {
+        background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(255,240,243,1) 100%) !important;
+        background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(255,240,243,1) 100%) !important;
+        color: #c27cbb;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .pun-links a {
+        color: #FFFFFF !important;
+    }
+    .pun-title {
+        text-align: center;
+        color: #c27cbb;
+        font-size: 64px;
+        letter-spacing: 2px;
+        font-family: 'Lemon', serif;
+        opacity: 0.9;
+    }
+
+.pun-art {
+    width: 100%;
+    height: 60px;
+    color: #c27cbb;
+    text-align: center;
+    background: none;
+    border-radius: 5px;
+    opacity: 0.8;
+    overflow: hidden;
+    }
+.pun-art:hover {
+    height: auto;
+}
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
