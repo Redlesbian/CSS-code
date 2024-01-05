@@ -796,7 +796,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(88,120,255,1) 0
 .box-topper {
      content: url('https://i.ibb.co/dcVkH5B/ezgif-1-2faa68da5b.gif');
      position: absolute;
-     top: -30px;
+     top: -70px;
      right: -25px;
      z-index: 2;
 }
