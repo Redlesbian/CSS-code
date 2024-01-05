@@ -254,15 +254,15 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 }
 
 .table {
-        height: 465px;
+        height: 600px;
 
 }
 
 div#lion_image::after {
         position: absolute;
-        top: 282px;
+        top: 400px;
         left: 70px;
-        width: 700px;
+        width: 90%;
         height: 70px;
         border: 3px inset #ffffff;
         content: URL('https://i.ibb.co/HGdxSf9/Untitled321-20240105234837.png');
