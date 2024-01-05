@@ -275,11 +275,11 @@ td.bottom a {
 	border-radius: 15px
 }
 
-.inner-table .right {
+.inner-table .left {
 	border: 3px double #191d45;
 }
 
-.inner-table .left {
+.inner-table .right {
 	background: linear-gradient(0deg, rgba(88,120,255,1) 0%, rgba(218,224,255,1) 100%);
 }
 
