@@ -22,71 +22,71 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	box-shadow: none;
-	border-radius: 0px
+	background: rgba(255, 227, 232, 0.25);
+	border: 3px double #c27cbb;
+	box-shadow: 5px 10px 7px #946990;
+	border-radius: 15px
 }
 
 /* LEFT SIDE */
 .col-md-9 {
 	background: none;
-        border-right: none
+        border-right: 3px double #c27cbb
 }
 
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	border-top: none;
-	color: #000000;
-	border-radius: 0px;
+	background: linear-gradient(0deg, rgba(255,201,245,1) 0%, rgba(251,143,162,1) 100%);
+	border: 3px double #c27cbb;
+	border-top: 3px double #c27cbb;
+	color: #c27cbb;
+	border-radius: 15px;
 }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(1, 1, 1, 0.5);
-	border-bottom: none;
-	color: #000000;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(186,112,124,1) 0%, rgba(255,235,239,1) 100%);
+	border-bottom: 3px double #c27cbb;
+	color: #c27cbb;
+	border-radius: 15px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #000000 !important
+	color: #c27cbb !important
 }
 
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border-bottom: none;
-	color: #000000 !important;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(186,112,124,1) 0%, rgba(255,235,239,1) 100%) !important;
+	border-bottom: 3px double #c27cbb;
+	color: #c27cbb !important;
+	border-radius: 15px
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(1, 1, 1, 0.5) !important;
-        border: none;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(255,240,243,1) 100%) !important;
+        border: 3px double #c27cbb;
+	border-radius: 15px
 }
 
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #000000
+	color: #c27cbb
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
-        content: "Template by Katie (#106445)";
-        color: #000000;
+        content: "Template by Katie (#106445)|CSS by Red (#261489)";
+        color: #c27cbb;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -113,20 +113,20 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
-        border: none !important;
-	border-radius: 0px;
-	color: #000000 !important;    
+	background: linear-gradient(0deg, rgba(186,112,124,1) 0%, rgba(255,235,239,1) 100%) !important;
+        border: 3px double #c27cbb !important;
+	border-radius: 15px;
+	color: #c27cbb !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(1, 1, 1, 0.5);
-        border: none !important;
-	border-radius: 0px;
+	background: linear-gradient(0deg, rgba(186,112,124,1) 0%, rgba(255,235,239,1) 100%);
+        border: 3px double #c27cbb !important;
+	border-radius: 15px;
         text-shadow: none !important;
-	color: #000000 !important
+	color: #c27cbb !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -134,17 +134,17 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none;
-	color: #000000;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(255,201,245,1) 0%, rgba(251,143,162,1) 100%) !important;
+	border: 3px double #c27cbb;
+	color: #c27cbb;
+	border-radius: 15px !important
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #000000;
-	font-size: 90px;
+	color: #c27cbb;
+	font-size: 100px;
 	text-align: center;
         font-family: 'Lemon', serif;'
 }
@@ -153,8 +153,8 @@ h1 {
 /* MEDIUM HEADER */
 
 h2 {
-	color: #000000;
-	font-size: 24px;
+	color: #c27cbb;
+	font-size: 30px;
 	text-align: center
 }
 
@@ -162,44 +162,44 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #000000 !important;
-	font-size: 14px !important
+	color: #c27cbb !important;
+	font-size: 20px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #000000 !important;
-        font-size: 26px !important;
+	color: #c27cbb !important;
+        font-size: 30px !important;
         font-family: 'Lemon', serif;'
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(1, 1, 1, 0.5) !important;
-	box-shadow: none !important;
-	border: none !important;
-	color: #000000 !important;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(255,240,243,1) 100%) !important;
+	box-shadow: 5px 10px 7px #946990 !important;
+	border: 3px double #c27cbb !important;
+	color: #c27cbb !important;
+	border-radius: 15px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000 !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(255,240,243,1) 100%);
+	color: #c27cbb !important;
+	border-radius: 15px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000 !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(255,201,245,1) 0%, rgba(251,143,162,1) 100%);
+	color: #c27cbb !important;
+	border-radius: 15px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000000 !important
+	color: #c27cbb !important
 }
 
 /* CHAT */
@@ -242,10 +242,18 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(1, 1, 1, 0.5);
-	border: none !important;
+	background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(255,240,243,1) 100%);
+	border: 3px double #c27cbb !important;
 	border-collapse: separate;
-	border-radius: 0px
+	border-radius: 15px
+}
+
+.table {
+	color: #c27cbb;
+}
+
+.inner-table .right {
+	border: 3px double #c27cbb;
 }
 
 
@@ -254,9 +262,9 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(255,201,245,1) 0%, rgba(251,143,162,1) 100%) !important;
+	color: #c27cbb !important;
+	border-radius: 15px
 }
 
 td.bottom a {
@@ -266,9 +274,9 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(155, 226, 242, 0.6) !important;
-        color: #2e2a2b;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(255,201,245,1) 0%, rgba(251,143,162,1) 100%) !important;
+        color: #c27cbb;
+	border-radius: 15px
 }
 
 
@@ -276,11 +284,11 @@ td.bottom a {
 
 .inner-table .right {
 	background: none;
-	border-radius: 0px !important
+	border-radius: 15px !important
 }
 
 td.right {
-	border-radius: 0px !important
+	border-radius: 15px !important
 }
 
 /* IGNORE */
@@ -292,34 +300,38 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(1, 1, 1, 0.5);
-	border: none !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(255,240,243,1) 100%);
+	border: 3px double #c27cbb !important;
+	border-radius: 15px !important
 }
 
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
-	border: 1px solid #000000 !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(186,112,124,1) 0%, rgba(255,235,239,1) 100%) !important;
+	color: #c27cbb !important;
+	border: 3px double #c27cbb !important;
+	border-radius: 15px !important
 }
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
 
 .feature,
 div.left {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(186,112,124,1) 0%, rgba(255,235,239,1) 100%);
+	border: 3px double #c27cbb;
+	border-radius: 15px !important
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(1, 1, 1, 0.5);
-        border-radius: 0px
+	background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(255,240,243,1) 100%);
+        border-radius: 15px
+}
+
+.inner-table .right {
+	color: #c27cbb;
 }
 
 /* Color behind the content of the elements listed above */
@@ -327,42 +339,42 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none !important;
+	background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(255,240,243,1) 100%) !important;
+	border: 3px double #c27cbb !important;
 	border-radius: 0px !important;
-	color: #000000 !important;
-	box-shadow: none !important;
+	color: #c27cbb !important;
+	box-shadow: 5px 10px 7px #c27cbb !important;
 	text-shadow: none !important
 }
 
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000  !important;
-	border-radius: 0px !important;
+	background: linear-gradient(0deg, rgba(255,201,245,1) 0%, rgba(251,143,162,1) 100%) !important;
+	color: #c27cbb !important;
+	border-radius: 15px !important;
 }
 
 .item {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(186,112,124,1) 0%, rgba(255,235,239,1) 100%) !important;
+	border: 3px double #c27cbb !important;
+	border-radius: 15px !important
 }
 
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #000000 !important
+	background: #946990 !important
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #000000 !important
+	background: #FFFFFF !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #000000 !important;
+        color: #c27cbb !important;
         text-shadow: none !important
 }
 
@@ -495,7 +507,7 @@ a:hover {
 /* WIDTH */
 
 ::-webkit-scrollbar {
-	width: 10px
+	width: 15px
 }
 
 
@@ -509,8 +521,8 @@ a:hover {
 /* "THUMB" */
 
 ::-webkit-scrollbar-thumb {
-	background: #000000;
-	border-radius: 0px
+	background: #946990;
+	border-radius: 15px
 }
 
 
@@ -528,14 +540,14 @@ table#player img {
 /* CIRCULAR LION AND USER AVATAR */
 
 div#lion_image {
-	border-radius: 50% !important;
+	border-radius: 30% !important;
 	overflow: hidden;
 	margin-top: 15px; /* May need adjusting */
 	margin-left: 12px /* May need adjusting */
 }
 
 table#player img {
-	border-radius: 50% !important;
+	border-radius: 30% !important;
 	overflow: hidden
 }
 
