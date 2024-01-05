@@ -253,6 +253,22 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 
 }
 
+.table {
+        height: 465px;
+
+}
+
+div#lion_image::after {
+        position: absolute;
+        top: 282px;
+        left: 70px;
+        width: 700px;
+        height: 70px;
+        border: 3px inset #ffffff;
+        content: URL('https://i.ibb.co/HGdxSf9/Untitled321-20240105234837.png');
+}        
+
+
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
 
@@ -266,6 +282,10 @@ th {
 
 td.bottom a {
         text-decoration: none !important
+}
+
+.inner-table .left {
+        border: 3px inset #ffffff;
 }
 
 /* Color behind "Level, Stats, Branch, Territory" etc. */
