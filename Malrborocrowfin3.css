@@ -253,7 +253,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 }
 
 #about.table {
-        height: 570px;
+        height: 770px;
 
 }
 
@@ -261,10 +261,10 @@ div#lion_image::after {
         position: absolute;
         top: 282px;
         left: 70px;
-        width: 370px;
-        height: 150px;
+        width: 690px;
+        height: 160px;
         border: 3px inset #ffffff;
-        content: URL('https://i.ibb.co/z6FnrDN/Untitled324-20240106010340.png');
+        content: URL('https://i.ibb.co/qRJGqvz/Untitled325-20240106011040.png');
 }        
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
