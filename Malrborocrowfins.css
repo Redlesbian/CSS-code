@@ -250,25 +250,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 
 .table {
 	color: #FFFFFF;
-
 }
-
-.table {
-        height: 600px;
-
-}
-
-div#lion_image::after {
-        position: absolute;
-        top: 400px;
-        left: 70px;
-        width: 90%;
-        height: 70px;
-        border: 3px inset #ffffff;
-        content: URL('https://i.ibb.co/HGdxSf9/Untitled321-20240105234837.png');
-}        
-
-
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
 
@@ -629,7 +611,7 @@ img[src$="caveunused.jpg"] {
 /* LION IMAGE BORDER CODE BY HOK-Z */
 
 #lion_image::after {
-    content: url("https://i.ibb.co/JsgYFrK/Untitled292-20240103163231-removebg-preview.png");
+    content: url("https://i.ibb.co/rZWhg6M/Untitled292-20240106002614.png");
     position: absolute;
     left: -2px;
     top: -3px;
