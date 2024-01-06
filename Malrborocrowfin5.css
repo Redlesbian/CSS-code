@@ -260,11 +260,11 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 div#lion_image::after {
         position: absolute;
         top: 282px;
-        left: 70px;
-        width: 690px;
+        left: 95px;
+        width: 610px;
         height: 160px;
         border: 3px inset #ffffff;
-        content: URL('https://i.ibb.co/qRJGqvz/Untitled325-20240106011040.png');
+        content: URL('https://i.ibb.co/dQ8R5zv/Untitled326-20240106011500.png');
 }        
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
