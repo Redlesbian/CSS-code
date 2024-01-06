@@ -259,12 +259,12 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 
 div#lion_image::after {
         position: absolute;
-        top: 282px;
-        left: 95px;
-        width: 610px;
+        top: 482px;
+        left: 20px;
+        width: 560px;
         height: 160px;
         border: 3px inset #ffffff;
-        content: URL('https://i.ibb.co/dQ8R5zv/Untitled326-20240106011500.png');
+        content: URL('https://i.ibb.co/gJbxLbq/Untitled327-20240106012721.png');
 }        
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
