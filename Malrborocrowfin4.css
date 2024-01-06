@@ -252,6 +252,21 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	color: #FFFFFF;
 }
 
+#about.table {
+        height: 570px;
+
+}
+
+div#lion_image::after {
+        position: absolute;
+        top: 282px;
+        left: 70px;
+        width: 370px;
+        height: 150px;
+        border: 3px inset #ffffff;
+        content: URL('https://i.ibb.co/z6FnrDN/Untitled324-20240106010340.png');
+}        
+
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
 
 .top,
@@ -606,15 +621,6 @@ img[src$="caveunused.jpg"] {
      width:20px!important;
      height:20px;
  
-}
-
-/* LION IMAGE BORDER CODE BY HOK-Z */
-
-#lion_image::after {
-    content: url("https://i.ibb.co/rZWhg6M/Untitled292-20240106002614.png");
-    position: absolute;
-    left: -2px;
-    top: -3px;
 }
 
 /* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
