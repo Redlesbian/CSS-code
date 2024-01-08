@@ -15,7 +15,7 @@ body {
 	background: url('https://i.ibb.co/JRfGr7q/Untitled318-20240108175728.png') no-repeat center center fixed;
 	background-size: cover;
 	font-family: 'Genos', sans-serif;';
-	color: #018023
+	color: #02290c
 }
 
 /* MAIN PANEL */
@@ -23,7 +23,7 @@ body {
 /* RIGHT SIDE */
 .container.main {
 	background: linear-gradient(0deg, rgba(7,74,24,0.3) 0%, rgba(112,184,126,0.3) 100%);
-	border: 5px double #018023;
+	border: 5px double #02290c;
 	box-shadow: 5px 10px 7px #000000;
 	border-radius: 20px
 }
@@ -31,16 +31,16 @@ body {
 /* LEFT SIDE */
 .col-md-9 {
 	background: none;
-        border-right: 5px double #018023
+        border-right: 5px double #02290c
 }
 
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
 	background: linear-gradient(0deg, rgba(14,63,27,1) 0%, rgba(101,157,114,1) 100%);
-	border: 5px double #018023;
-	border-top: 5px double #018023;
-	color: #018023;
+	border: 5px double #02290c;
+	border-top: 5px double #02290c;
+	color: #02290c;
 	border-radius: 20px;
 }
 
@@ -48,23 +48,23 @@ body {
 
 .navbar {
 	background: linear-gradient(0deg, rgba(15,67,29,1) 0%, rgba(128,255,158,1) 100%);
-	border-bottom: 5px double #018023;
-	color: #018023;
+	border-bottom: 5px double #02290c;
+	color: #02290c;
 	border-radius: 20px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #018023 !important
+	color: #02290c !important
 }
 
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
 	background: linear-gradient(0deg, rgba(15,67,29,1) 0%, rgba(128,255,158,1) 100%) !important;
-	border-bottom: 5px double #018023;
-	color: #018023 !important;
+	border-bottom: 5px double #02290c;
+	color: #02290c !important;
 	border-radius: 20px
 }
 
@@ -72,21 +72,21 @@ body {
 
 .breadcrumb {
 	background: linear-gradient(0deg, rgba(58,92,67,1) 0%, rgba(167,236,181,1) 100%) !important;
-        border: 5px double #018023;
+        border: 5px double #02290c;
 	border-radius: 20px
 }
 
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #018023
+	color: #02290c
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)|CSS by Red(#261489)";
-        color: #018023;
+        color: #02290c;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -114,19 +114,19 @@ body {
 
 input.floatright, input.floatright:hover {
    background: linear-gradient(0deg, rgba(15,67,29,1) 0%, rgba(128,255,158,1) 100%) !important;
-   border: 5px double #018023 !important;
+   border: 5px double #02290c !important;
 	 border-radius: 20px;
-	 color: #018023 !important;    
+	 color: #02290c !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
 	background: linear-gradient(0deg, rgba(15,67,29,1) 0%, rgba(128,255,158,1) 100%);
-  border: 5px double #018023 !important;
+  border: 5px double #02290c !important;
 	border-radius: 20px;
   text-shadow: none !important;
-	color: #018023 !important
+	color: #02290c !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -135,15 +135,15 @@ button.button, button.button:hover {
 .alert-warning,
 .alert-danger {
 	background: linear-gradient(0deg, rgba(58,92,67,1) 0%, rgba(167,236,181,1) 100%) !important;
-	border: 5px double #018023;
-	color: #018023;
+	border: 5px double #02290c;
+	color: #02290c;
 	border-radius: 20px !important
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #018023;
+	color: #02290c;
 	font-size: 100px;
 	text-align: center;
   font-family: 'Fredericka the Great', serif;'
@@ -153,7 +153,7 @@ h1 {
 /* MEDIUM HEADER */
 
 h2 {
-	color: #018023;
+	color: #02290c;
 	font-size: 30px;
 	text-align: center
 }
@@ -162,14 +162,14 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #018023 !important;
+	color: #02290c !important;
 	font-size: 20px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #018023 !important;
+	color: #02290c !important;
   font-size: 30px !important;
   font-family: 'Fredericka the Great', serif;'
 }
@@ -178,62 +178,62 @@ h3 {
 .panel {
 	background: linear-gradient(0deg, rgba(14,63,27,1) 0%, rgba(101,157,114,1) 100%) !important;
 	box-shadow: 5px 10px 7px #000000 !important;
-	border: 5px double #018023 !important;
-	color: #018023 !important;
+	border: 5px double #02290c !important;
+	color: #02290c !important;
 	border-radius: 20px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: linear-gradient(0deg, rgba(15,67,29,1) 0%, rgba(128,255,158,1) 100%);
-	color: #018023 !important;
+	color: #02290c !important;
 	border-radius: 20px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
 	background: linear-gradient(0deg, rgba(14,63,27,1) 0%, rgba(101,157,114,1) 100%);
-	color: #018023 !important;
+	color: #02290c !important;
 	border-radius: 20px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #018023 !important
+	color: #02290c !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: linear-gradient(0deg, rgba(7,74,24,1) 0%, rgba(112,184,126,1) 100%) !important;
-  color: #018023 !important;
-	border: 5px double #018023 !important
+  background: linear-gradient(0deg, rgba(7,74,24,1) 0%, rgba(112,184,126,1) 100%) !important;
+  color: #02290c !important;
+  border: 5px double #02290c !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: linear-gradient(0deg, rgba(15,67,29,1) 0%, rgba(128,255,158,1) 100%) !important;
-  color: #018023 !important;
-	border: 5px double #018023 !important
+  background: linear-gradient(0deg, rgba(15,67,29,1) 0%, rgba(128,255,158,1) 100%) !important;
+  color: #02290c !important;
+  border: 5px double #02290c !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: linear-gradient(0deg, rgba(58,92,67,1) 0%, rgba(167,236,181,1) 100%) !important;
-  color: #018023 !important;
-	border: 5px double #018023 !important
+  background: linear-gradient(0deg, rgba(58,92,67,1) 0%, rgba(167,236,181,1) 100%) !important;
+  color: #02290c !important;
+  border: 5px double #02290c !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #018023 !important;
+  color: #02290c !important;
 }
 
 div#chatMessageContainer {
-	border: 5px double #018023 !important;
+  border: 5px double #02290c !important;
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: linear-gradient(0deg, rgba(14,63,27,1) 0%, rgba(101,157,114,1) 100%) !important;
-  color: #018023 !important;
-	border: 5px double #018023 !important
+  background: linear-gradient(0deg, rgba(14,63,27,1) 0%, rgba(101,157,114,1) 100%) !important;
+  color: #02290c !important;
+  border: 5px double #02290c !important
 }
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
@@ -243,13 +243,13 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 
 .table {
 	background: linear-gradient(0deg, rgba(7,74,24,1) 0%, rgba(112,184,126,1) 100%);
-	border: 5px double #018023 !important;
+	border: 5px double #02290c !important;
 	border-collapse: separate;
 	border-radius: 20px
 }
 
 .table {
-  color: #018023;
+  color: #02290c;
 }
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
@@ -258,7 +258,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .bottom,
 th {
 	background: linear-gradient(0deg, rgba(58,92,67,1) 0%, rgba(167,236,181,1) 100%) !important;
-	color: #018023 !important;
+	color: #02290c !important;
 	border-radius: 20px
 }
 
@@ -270,8 +270,11 @@ td.bottom a {
 
 .inner-table .left {
 	background: linear-gradient(0deg, rgba(58,92,67,1) 0%, rgba(167,236,181,1) 100%) !important;
-  color: #018023;
+  color: #02290c;
 	border-radius: 20px
+}
+.inner-table .left {
+	border: 5px double #02290c;
 }
 
 
@@ -296,7 +299,7 @@ td.right {
 .cave-grid,
 .mound-grid {
 	background: linear-gradient(0deg, rgba(15,67,29,1) 0%, rgba(128,255,158,1) 100%);
-	border: 5px double #018023 !important;
+	border: 5px double #02290c !important;
 	border-radius: 20px !important
 }
 
@@ -304,8 +307,8 @@ td.right {
 
 .feature {
 	background: linear-gradient(0deg, rgba(14,63,27,1) 0%, rgba(101,157,114,1) 100%) !important;
-	color: #018023 !important;
-	border: 5px double #018023 !important;
+	color: #02290c !important;
+	border: 5px double #02290c !important;
 	border-radius: 20px !important
 }
 
@@ -314,7 +317,7 @@ td.right {
 .feature,
 div.left {
 	background: linear-gradient(0deg, rgba(14,63,27,1) 0%, rgba(101,157,114,1) 100%);
-	border: 5px double #018023;
+	border: 5px double #02290c;
 	border-radius: 20px !important
 }
 
@@ -326,7 +329,7 @@ div.left {
 }
 
 .inner-table .right {
-  color: #018023;
+  color: #02290c;
 }
 
 /* Color behind the content of the elements listed above */
@@ -335,9 +338,9 @@ input,
 select,
 textarea {
 	background: linear-gradient(0deg, rgba(7,74,24,1) 0%, rgba(112,184,126,1) 100%) !important;
-	border: 5px double #018023 !important;
+	border: 5px double #02290c !important;
 	border-radius: 20px !important;
-	color: #018023 !important;
+	color: #02290c !important;
 	box-shadow: 5px 10px 7px #000000 !important;
 	text-shadow: none !important
 }
@@ -346,13 +349,13 @@ textarea {
 
 .item-header {
 	background: linear-gradient(0deg, rgba(58,92,67,1) 0%, rgba(167,236,181,1) 100%) !important;
-	color: #018023 !important;
+	color: #02290c !important;
 	border-radius: 20px !important;
 }
 
 .item {
 	background: linear-gradient(0deg, rgba(14,63,27,1) 0%, rgba(101,157,114,1) 100%) !important;
-	border: 5px double #018023 !important;
+	border: 5px double #02290c !important;
 	border-radius: 20px !important
 }
 
@@ -363,13 +366,13 @@ div.slider.round /* Background */ {
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #018023 !important
+	background: #02290c !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #018023 !important;
+        color: #02290c !important;
         text-shadow: none !important
 }
 
@@ -377,7 +380,7 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #018023 !important
+	color: #02290c !important
 }
 
 /* LINK HOVER COLOR */
@@ -402,9 +405,9 @@ a:hover {
 .smallbox {
 	float: left;
 	background: linear-gradient(0deg, rgba(15,67,29,1) 0%, rgba(128,255,158,1) 100%);
-	color: #018023;
+	color: #02290c;
 	padding: 10px;
-	border: 5px double #018023;
+	border: 5px double #02290c;
 	border-radius: 20px;
 	margin: 10px;
 	height: 150px;
@@ -415,9 +418,9 @@ a:hover {
 .mediumbox {
 	float: left;
 	background: linear-gradient(0deg, rgba(15,67,29,1) 0%, rgba(128,255,158,1) 100%);
-	color: #018023;
+	color: #02290c;
 	padding: 10px;
-	border: 5px double #018023;
+	border: 5px double #02290c;
 	border-radius: 20px;
 	margin: 10px;
 	height: 150px;
@@ -428,9 +431,9 @@ a:hover {
 .largebox {
 	float: left;
 	background: linear-gradient(0deg, rgba(15,67,29,1) 0%, rgba(128,255,158,1) 100%);
-	color: #018023;
+	color: #02290c;
 	padding: 10px;
-	border: 5px double #018023;
+	border: 5px double #02290c;
 	border-radius: 20px;
 	margin: 10px;
 	height: 150px;
@@ -572,7 +575,7 @@ img[src$="cavedefault.jpg"] {
 }
 
 .mound-grid img /* Mound(s) */ {
-	background: url("https://i.ibb.co/JnJGKyG/pixel-tree-by-tea-hee-d72rbwh.gif");
+	background: url("https://i.ibb.co/68t9YwQ/ezgif-2-e977dc8b36.gif");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
@@ -655,14 +658,14 @@ Please do not remove credit
 /* MEMBER ONLINE */
  
 .member-online {
-    background: #018023;
+    background: #02290c;
  
 }
  
 /* MEMBER OFFLINE */
  
 .member-offline {
-    background: #FFFFFF;
+    background: #018023;
  
 }
 
@@ -671,31 +674,31 @@ Please do not remove credit
 /*-------------------------*/
 #commentBox {
   background: linear-gradient(0deg, rgba(7,74,24,1) 0%, rgba(112,184,126,1) 100%);
- border: 5px double #018023 !important;}
+ border: 5px double #02290c !important;}
 
 div.comment {background: linear-gradient(0deg, rgba(14,63,27,1) 0%, rgba(101,157,114,1) 100%) !important;
-            border-bottom: 5px double #018023;
+            border-bottom: 5px double #02290c;
             font-weight: bold;}
 
 div#makeComment {background: linear-gradient(0deg, rgba(58,92,67,1) 0%, rgba(167,236,181,1) 100%) !important;
-                border: 5px double #018023;
+                border: 5px double #02290c;
                 border-radius: 20px;}
 
-div.commentText {color: #018023;}
+div.commentText {color: #02290c;}
 
-input#comment {background: #018023 !important;
+input#comment {background: #02290c !important;
               color: white !important;}
 
 input[type="button"].bad {background: linear-gradient(0deg, rgba(7,74,24,1) 0%, rgba(112,184,126,1) 100%) !important;}
 
-.commentTag.clear {border: 5px double #018023;}
+.commentTag.clear {border: 5px double #02290c;}
 
 /* CUSTOM LAYOUTS */
     .pun-credit {
         position: fixed;
         bottom: 0px;
         right: 10px;
-        color: #018023 !important;
+        color: #02290c !important;
         font-size: 15px;
         letter-spacing: 2px;
         text-transform: uppercase;
@@ -704,7 +707,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(7,74,24,1) 0%, 
         padding: 5px;
     }
     .pun-credit a {
-        color: #018023 !important;
+        color: #02290c !important;
     }
     .pun-credit a:hover {
         opacity: 1 !important;
@@ -719,8 +722,8 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(7,74,24,1) 0%, 
         background-size: cover;
         border-radius: 25px;
         opacity: 0.9;
-        border: 5px double #018023 !important;
-        box-shadow: 5px 10px 7px #018023;
+        border: 5px double #02290c !important;
+        box-shadow: 5px 10px 7px #02290c;
         margin: auto;
     }
     .pun-spacer {
@@ -736,13 +739,13 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(7,74,24,1) 0%, 
         padding: 10px;
         border-radius: 20px;
         font-size: 15px;
-        color: #018023 !important;
+        color: #02290c !important;
 
 
     }
     .pun-content h3 {
         margin: 0 0 10px 0;
-        border-bottom: 5px double #018023;
+        border-bottom: 5px double #02290c;
         text-align: center;
     }
     .pun-content a {
@@ -755,7 +758,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(7,74,24,1) 0%, 
     .pun-links {
         background: linear-gradient(0deg, rgba(7,74,24,1) 0%, rgba(112,184,126,1) 100%) !important;
         background: linear-gradient(0deg, rgba(7,74,24,1) 0%, rgba(112,184,126,1) 100%) !important;
-        color: #018023;
+        color: #02290c;
         text-transform: uppercase;
         font-size: 11px;
         font-weight: bold;
@@ -764,11 +767,11 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(7,74,24,1) 0%, 
         border-radius: 20px;
     }
     .pun-links a {
-        color: #018023 !important;
+        color: #02290c !important;
     }
     .pun-title {
         text-align: center;
-        color: #018023;
+        color: #02290c;
         font-size: 64px;
         letter-spacing: 2px;
         font-family: 'Fredericka the Great', serif;;
@@ -778,7 +781,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(7,74,24,1) 0%, 
 .pun-art {
     width: 100%;
     height: 60px;
-    color: #018023;
+    color: #02290c;
     text-align: center;
     background: none;
     border-radius: 20px;
