@@ -185,7 +185,7 @@ h3 {
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) !important;
+	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1);
 	color: #9640ff !important;
 	border-radius: 20px !important
 }
