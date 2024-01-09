@@ -666,6 +666,15 @@ Please do not remove credit
  
 }
 
+/* LION IMAGE BORDER CODE BY HOK-Z */
+
+#lion_image::after {
+    content: url("https://i.ibb.co/7nnwtJT/Untitled292-20240109033829.png");
+    position: absolute;
+    left: -2px;
+    top: -3px;
+}
+
 /*-------------------------*/
 /*Comment Box CODE BY HOK-Z*/
 /*-------------------------*/
