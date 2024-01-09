@@ -143,7 +143,7 @@ button.button, button.button:hover {
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #9640ff;
+	color: #52e2f2;
 	font-size: 100px;
 	text-align: center;
         font-family: 'Rubik Glitch', system-ui;'
@@ -153,7 +153,7 @@ h1 {
 /* MEDIUM HEADER */
 
 h2 {
-	color: #9640ff;
+	color: #52e2f2;
 	font-size: 30px;
 	text-align: center
 }
@@ -162,14 +162,14 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #9640ff !important;
+	color: #52e2f2 !important;
 	font-size: 20px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #9640ff !important;
+	color: #52e2f2 !important;
         font-size: 30px !important;
         font-family: 'Rubik Glitch', system-ui;'
 }
@@ -179,50 +179,50 @@ h3 {
 	background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
 	box-shadow: 5px 10px 7px #FFFFFF !important;
 	border: 5px double #23043b !important;
-	color: #9640ff !important;
+	color: #52e2f2 !important;
 	border-radius: 20px
 }
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%);
-        color: #9640ff !important;
+        color: #52e2f2 !important;
 	border-radius: 20px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
 	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%);
-	color: #9640ff !important;
+	color: #52e2f2 !important;
 	border-radius: 20px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #9640ff !important
+	color: #52e2f2 !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
-        color: #9640ff !important;
+        color: #52e2f2 !important;
 	border: 5px double #23043b !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
-        color: #9640ff !important;
+        color: #52e2f2 !important;
 	border: 5px double #23043b !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
         background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%) !important;
-        color: #9640ff !important;
+        color: #52e2f2 !important;
 	border: 5px double #23043b !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #9640ff !important;
+	color: #52e2f2 !important;
 }
 
 div#chatMessageContainer {
@@ -231,7 +231,7 @@ div#chatMessageContainer {
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%) !important;
-        color: #9640ff !important;
+        color: #52e2f2 !important;
 	border: 5px double #23043b !important
 }
 
@@ -248,7 +248,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 }
 
 .table {
-	color: #9640ff;
+	color: #52e2f2;
 }
 
 
@@ -258,7 +258,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .bottom,
 th {
 	background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
-	color: #9640ff !important;
+	color: #52e2f2 !important;
 	border-radius: 20px
 }
 
@@ -270,7 +270,7 @@ td.bottom a {
 
 .inner-table .left {
 	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
-        color: #9640ff;
+        color: #52e2f2;
 	border-radius: 20px
 }
 
@@ -304,7 +304,7 @@ td.right {
 
 .feature {
 	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
-	color: #9640ff !important;
+	color: #52e2f2 !important;
 	border: 5px double #23043b !important;
 	border-radius: 20px !important
 }
@@ -326,7 +326,7 @@ div.left {
 }
 
 .inner-table .right {
-	color: #9640ff;
+	color: #52e2f2;
 }
 
 /* Color behind the content of the elements listed above */
@@ -337,7 +337,7 @@ textarea {
 	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%) !important;
 	border: 5px double #23043b !important;
 	border-radius: 20px !important;
-	color: #9640ff !important;
+	color: #52e2f2 !important;
 	box-shadow: 5px 10px 7px #FFFFFF !important;
 	text-shadow: none !important
 }
@@ -346,7 +346,7 @@ textarea {
 
 .item-header {
 	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%) !important;
-	color: #9640ff !important;
+	color: #52e2f2 !important;
 	border-radius: 20px !important;
 }
 
@@ -359,17 +359,17 @@ textarea {
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #FFFFFF !important
+	background: #000000 !important
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #9640ff !important
+	background: #52e2f2 !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #9640ff !important;
+        color: #52e2f2 !important;
         text-shadow: none !important
 }
 
@@ -377,7 +377,7 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #9640ff !important
+	color: #52e2f2 !important
 }
 
 /* LINK HOVER COLOR */
@@ -402,7 +402,7 @@ a:hover {
 .smallbox {
 	float: left;
 	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%);
-	color: #9640ff;
+	color: #52e2f2;
 	padding: 10px;
 	border: 5px double #23043b;
 	border-radius: 20px;
@@ -415,7 +415,7 @@ a:hover {
 .mediumbox {
 	float: left;
 	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%);
-	color: #9640ff;
+	color: #52e2f2;
 	padding: 10px;
 	border: 5px double #23043b;
 	border-radius: 20px;
@@ -428,7 +428,7 @@ a:hover {
 .largebox {
 	float: left;
 	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%);
-	color: #9640ff;
+	color: #52e2f2;
 	padding: 10px;
 	border: 5px double #23043b;
 	border-radius: 20px;
@@ -516,7 +516,7 @@ a:hover {
 /* "THUMB" */
 
 ::-webkit-scrollbar-thumb {
-	background: #9640ff;
+	background: #52e2f2;
 	border-radius: 20px
 }
 
@@ -572,7 +572,7 @@ img[src$="cavedefault.jpg"] {
 }
 
 .mound-grid img /* Mound(s) */ {
-	background: url("https://i.ibb.co/sCJWfmW/f2u-lustrous-skull-right-by-justskygge-dch3yn9.png");
+	background: url("https://i.ibb.co/qr56K2T/Untitled273-20240109050639.png");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
@@ -655,7 +655,7 @@ Please do not remove credit
 /* MEMBER ONLINE */
  
 .member-online {
-    background: #9640ff;
+    background: #52e2f2;
  
 }
  
@@ -690,10 +690,10 @@ div#makeComment {background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46
                 border: 5px double #23043b;
                 border-radius: 20px;}
 
-div.commentText {color: #9640ff;}
+div.commentText {color: #52e2f2;}
 
-input#comment {background: #9640ff !important;
-              color: white !important;}
+input#comment {background: #52e2f2 !important;
+              color: #000000 !important;}
 
 input[type="button"].bad {background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;}
 
@@ -704,7 +704,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(171,0,255,1) 0%
         position: fixed;
         bottom: 0px;
         right: 10px;
-        color: #9640ff !important;
+        color: #52e2f2 !important;
         font-size: 15px;
         letter-spacing: 2px;
         text-transform: uppercase;
@@ -713,7 +713,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(171,0,255,1) 0%
         padding: 5px;
     }
     .pun-credit a {
-        color: #9640ff !important;
+        color: #52e2f2 !important;
     }
     .pun-credit a:hover {
         opacity: 1 !important;
@@ -729,7 +729,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(171,0,255,1) 0%
         border-radius: 20px;
         opacity: 0.9;
         border: 5px double #23043b !important;
-        box-shadow: 5px 10px 7px #FFFFFF;
+        box-shadow: 5px 10px 7px #000000;
         margin: auto;
     }
     .pun-spacer {
@@ -745,7 +745,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(171,0,255,1) 0%
         padding: 10px;
         border-radius: 20px;
         font-size: 15px;
-        color: #9640ff !important;
+        color: #52e2f2 !important;
 
 
     }
@@ -764,7 +764,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(171,0,255,1) 0%
     .pun-links {
         background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
         background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
-        color: #9640ff;
+        color: #52e2f2;
         text-transform: uppercase;
         font-size: 11px;
         font-weight: bold;
@@ -773,11 +773,11 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(171,0,255,1) 0%
         border-radius: 20px;
     }
     .pun-links a {
-        color: #9640ff !important;
+        color: #52e2f2 !important;
     }
     .pun-title {
         text-align: center;
-        color: #9640ff;
+        color: #52e2f2;
         font-size: 64px;
         letter-spacing: 2px;
         font-family: 'Megrim', system-ui;
@@ -787,7 +787,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(171,0,255,1) 0%
 .pun-art {
     width: 100%;
     height: 60px;
-    color: #9640ff;
+    color: #52e2f2;
     text-align: center;
     background: none;
     border-radius: 5px;
