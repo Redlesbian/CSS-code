@@ -23,70 +23,70 @@ body {
 /* RIGHT SIDE */
 .container.main {
 	background: linear-gradient(0deg, rgba(49,70,255,0) 0%, rgba(187,37,255,0) 100%);
-	border: none;
-	box-shadow: none;
-	border-radius: 0px
+	border: 5px double #23043b;
+	box-shadow: 5px 10px 7px #FFFFFF;
+	border-radius: 20px
 }
 
 /* LEFT SIDE */
 .col-md-9 {
 	background: none;
-        border-right: none
+        border-right: 5px double #23043b
 }
 
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	border-top: none;
-	color: #000000;
-	border-radius: 0px;
+	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%);
+	border: 5px double #23043b;
+	border-top: 5px double #23043b;
+	color: #9640ff;
+	border-radius: 20px;
 }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(1, 1, 1, 0.5);
-	border-bottom: none;
-	color: #000000;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%);
+	border-bottom: 5px double #23043b;
+	color: #9640ff;
+	border-radius: 20px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #000000 !important
+	color: #9640ff !important
 }
 
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border-bottom: none;
-	color: #000000 !important;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
+	border-bottom: 5px double #23043b;
+	color: #9640ff !important;
+	border-radius: 20px
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(1, 1, 1, 0.5) !important;
-        border: none;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
+        border: 5px double #23043b;
+	border-radius: 20px
 }
 
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #000000
+	color: #9640ff
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
-        content: "Template by Katie (#106445)";
-        color: #000000;
+        content: "Template by Katie (#106445)||CSS by Red(#261489)";
+        color: #9640ff;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -113,20 +113,20 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
-        border: none !important;
-	border-radius: 0px;
-	color: #000000 !important;    
+	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
+        border: 5px double #23043b !important;
+	border-radius: 20px;
+	color: #9640ff !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(1, 1, 1, 0.5);
-        border: none !important;
-	border-radius: 0px;
+	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%);
+        border: 5px double #23043b !important;
+	border-radius: 20px;
         text-shadow: none !important;
-	color: #000000 !important
+	color: #9640ff !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -134,27 +134,27 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none;
-	color: #000000;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
+	border: 5px double #23043b;
+	color: #9640ff;
+	border-radius: 20px !important
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #000000;
-	font-size: 90px;
+	color: #9640ff;
+	font-size: 100px;
 	text-align: center;
-        font-family: 'FONT NAME'
+        font-family: 'Rubik Glitch', system-ui;'
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #000000;
-	font-size: 24px;
+	color: #9640ff;
+	font-size: 30px;
 	text-align: center
 }
 
@@ -162,78 +162,78 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #000000 !important;
-	font-size: 14px !important
+	color: #9640ff !important;
+	font-size: 20px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #000000 !important;
-        font-size: 26px !important;
-        font-family: 'FONT NAME'
+	color: #9640ff !important;
+        font-size: 30px !important;
+        font-family: 'Rubik Glitch', system-ui;'
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(1, 1, 1, 0.5) !important;
-	box-shadow: none !important;
-	border: none !important;
-	color: #000000 !important;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
+	box-shadow: 5px 10px 7px #FFFFFF !important;
+	border: 5px double #23043b !important;
+	color: #9640ff !important;
+	border-radius: 20px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000 !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) !important;
+	color: #9640ff !important;
+	border-radius: 20px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000 !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%);
+	color: #9640ff !important;
+	border-radius: 20px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000000 !important
+	color: #9640ff !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
+        color: #9640ff !important;
+	border: 5px double #23043b !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
+        color: #9640ff !important;
+	border: 5px double #23043b !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+        background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%) !important;
+        color: #9640ff !important;
+	border: 5px double #23043b !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #000000 !important;
+	color: #9640ff !important;
 }
 
 div#chatMessageContainer {
-	border: none !important;
+	border: 5px double #23043b !important;
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%) !important;
+        color: #9640ff !important;
+	border: 5px double #23043b !important
 }
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
@@ -242,10 +242,13 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(1, 1, 1, 0.5);
-	border: none !important;
+	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%);
+	border: 5px double #23043b !important;
 	border-collapse: separate;
-	border-radius: 0px
+	border-radius: 20px
+}
+.table {
+	color: #9640ff;
 }
 
 
@@ -254,9 +257,9 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
+	color: #9640ff !important;
+	border-radius: 20px
 }
 
 td.bottom a {
@@ -266,9 +269,9 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(155, 226, 242, 0.6) !important;
-        color: #2e2a2b;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
+        color: #9640ff;
+	border-radius: 20px
 }
 
 
@@ -276,11 +279,11 @@ td.bottom a {
 
 .inner-table .right {
 	background: none;
-	border-radius: 0px !important
+	border-radius: 20px !important
 }
 
 td.right {
-	border-radius: 0px !important
+	border-radius: 20px !important
 }
 
 /* IGNORE */
@@ -292,27 +295,27 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(1, 1, 1, 0.5);
-	border: none !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%);
+	border: 5px double #23043b !important;
+	border-radius: 20px !important
 }
 
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
-	border: 1px solid #000000 !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
+	color: #9640ff !important;
+	border: 5px double #23043b !important;
+	border-radius: 20px !important
 }
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
 
 .feature,
 div.left {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%);
+	border: 5px double #23043b;
+	border-radius: 20px !important
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
@@ -322,47 +325,51 @@ div.left {
         border-radius: 0px
 }
 
+.inner-table .right {
+	color: #9640ff;
+}
+
 /* Color behind the content of the elements listed above */
 
 input,
 select,
 textarea {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important;
-	color: #000000 !important;
-	box-shadow: none !important;
+	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%) !important;
+	border: 5px double #23043b !important;
+	border-radius: 20px !important;
+	color: #9640ff !important;
+	box-shadow: 5px 10px 7px #FFFFFF !important;
 	text-shadow: none !important
 }
 
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000  !important;
-	border-radius: 0px !important;
+	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%) !important;
+	color: #9640ff !important;
+	border-radius: 20px !important;
 }
 
 .item {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
+	border: 5px double #23043b !important;
+	border-radius: 20px !important
 }
 
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #000000 !important
+	background: #FFFFFF !important
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #000000 !important
+	background: #9640ff !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #000000 !important;
+        color: #9640ff !important;
         text-shadow: none !important
 }
 
@@ -370,7 +377,7 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #ffffff !important
+	color: #9640ff !important
 }
 
 /* LINK HOVER COLOR */
@@ -394,11 +401,11 @@ a:hover {
 
 .smallbox {
 	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
+	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%);
+	color: #9640ff;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 5px double #23043b;
+	border-radius: 20px;
 	margin: 10px;
 	height: 150px;
 	width: 28.4%;
@@ -407,11 +414,11 @@ a:hover {
 
 .mediumbox {
 	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
+	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%);
+	color: #9640ff;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 5px double #23043b;
+	border-radius: 20px;
 	margin: 10px;
 	height: 150px;
 	width: 43.8%;
@@ -420,11 +427,11 @@ a:hover {
 
 .largebox {
 	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
+	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%);
+	color: #9640ff;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 5px double #23043b;
+	border-radius: 20px;
 	margin: 10px;
 	height: 150px;
 	width: 90%;
@@ -502,15 +509,15 @@ a:hover {
 /* BACKGROUND */
 
 ::-webkit-scrollbar-track {
-	background: #ffffff
+	background: #23043b
 }
 
 
 /* "THUMB" */
 
 ::-webkit-scrollbar-thumb {
-	background: #000000;
-	border-radius: 0px
+	background: #9640ff;
+	border-radius: 20px
 }
 
 
@@ -528,14 +535,14 @@ table#player img {
 /* CIRCULAR LION AND USER AVATAR */
 
 div#lion_image {
-	border-radius: 50% !important;
+	border-radius: 15% !important;
 	overflow: hidden;
 	margin-top: 15px; /* May need adjusting */
 	margin-left: 12px /* May need adjusting */
 }
 
 table#player img {
-	border-radius: 50% !important;
+	border-radius: 15% !important;
 	overflow: hidden
 }
 
@@ -663,41 +670,41 @@ Please do not remove credit
 /*Comment Box CODE BY HOK-Z*/
 /*-------------------------*/
 #commentBox {
-  background: rgba(0, 0, 0, 0.5);
- border: none !important;}
+  background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%);
+ border: 5px double #23043b !important;}
 
-div.comment {background: rgba(0, 0, 0, 0.5) !important;
-            border-bottom: none;
+div.comment {background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
+            border-bottom: 5px double #23043b;
             font-weight: bold;}
 
-div#makeComment {background: rgba(0, 0, 0, 0.5) !important;
-                border: none;
-                border-radius: 10px;}
+div#makeComment {background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
+                border: 5px double #23043b;
+                border-radius: 20px;}
 
-div.commentText {color: #FFFFFF;}
+div.commentText {color: #9640ff;}
 
-input#comment {background: #FFFFFF !important;
+input#comment {background: #9640ff !important;
               color: white !important;}
 
-input[type="button"].bad {background: rgba(0, 0, 0, 0.5) !important;}
+input[type="button"].bad {background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;}
 
-.commentTag.clear {border: none;}
+.commentTag.clear {border: 5px double #23043b;}
 
 /* CUSTOM LAYOUTS */
     .pun-credit {
         position: fixed;
         bottom: 0px;
         right: 10px;
-        color: #000000 !important;
+        color: #9640ff !important;
         font-size: 15px;
         letter-spacing: 2px;
         text-transform: uppercase;
         text-align: center;
-        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8)) !important;
+        background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
         padding: 5px;
     }
     .pun-credit a {
-        color: #000000 !important;
+        color: #9640ff !important;
     }
     .pun-credit a:hover {
         opacity: 1 !important;
@@ -710,32 +717,32 @@ input[type="button"].bad {background: rgba(0, 0, 0, 0.5) !important;}
         width: 640px;
         background: url('https://i.ibb.co/RvWQgzk/OIG-2.jpg') center center no-repeat;
         background-size: cover;
-        border-radius: 25px;
+        border-radius: 20px;
         opacity: 0.9;
-        border: 0px outset #000000 !important;
-box-shadow:0 0 5px #007aa5;
-margin: auto;
+        border: 5px double #23043b !important;
+        box-shadow: 5px 10px 7px #FFFFFF;
+        margin: auto;
     }
     .pun-spacer {
         background: none;
         width: 350px;
     }
     .pun-content {
-        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8)) !important;
+        background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
         text-align: center;
         height: 300px;
         overflow: auto;
         width: 280px;
         padding: 10px;
-        border-radius: 25px;
+        border-radius: 20px;
         font-size: 15px;
-        color: #000000 !important;
+        color: #9640ff !important;
 
 
     }
     .pun-content h3 {
         margin: 0 0 10px 0;
-        border-bottom: 1px solid #000000;
+        border-bottom: 5px double #23043b;
         text-align: center;
     }
     .pun-content a {
@@ -746,32 +753,32 @@ margin: auto;
         opacity: 1 !important;
     }
     .pun-links {
-        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8)) !important;
-        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8))) !important;
-        color: #000000;
+        background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
+        background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%) !important;
+        color: #9640ff;
         text-transform: uppercase;
         font-size: 11px;
         font-weight: bold;
         letter-spacing: 1px;
         text-align: center;
-        border-radius: 25px 25px 0 0;
+        border-radius: 20px;
     }
     .pun-links a {
-        color: #FFFFFF !important;
+        color: #9640ff !important;
     }
     .pun-title {
         text-align: center;
-        color: #FFFFFF;
+        color: #9640ff;
         font-size: 64px;
         letter-spacing: 2px;
-        font-family: 'Neonderthaw', cursive;
+        font-family: 'Megrim', system-ui;
         opacity: 0.9;
     }
 
 .pun-art {
     width: 100%;
     height: 60px;
-    color: #41303d;
+    color: #9640ff;
     text-align: center;
     background: none;
     border-radius: 5px;
