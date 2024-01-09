@@ -15,7 +15,7 @@ body {
 	background: url('https://i.ibb.co/CQjSF7R/Untitled318-20240109024942.png') no-repeat center center fixed;
 	background-size: cover;
 	font-family: 'Megrim', system-ui;';
-	color: #9640ff
+	color: #52e2f2
 }
 
 /* MAIN PANEL */
@@ -40,7 +40,7 @@ body {
 	background: linear-gradient(0deg, rgba(0,10,99,1) 0%, rgba(93,0,135,1) 100%);
 	border: 5px double #23043b;
 	border-top: 5px double #23043b;
-	color: #9640ff;
+	color: #52e2f2;
 	border-radius: 20px;
 }
 
@@ -49,14 +49,14 @@ body {
 .navbar {
 	background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(1,0,70,1) 100%);
 	border-bottom: 5px double #23043b;
-	color: #9640ff;
+	color: #52e2f2;
 	border-radius: 20px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #9640ff !important
+	color: #52e2f2 !important
 }
 
 /* NAVBAR BUTTON HOVER */
@@ -64,7 +64,7 @@ body {
 .navbar li a:hover {
 	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
 	border-bottom: 5px double #23043b;
-	color: #9640ff !important;
+	color: #52e2f2 !important;
 	border-radius: 20px
 }
 
@@ -79,14 +79,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #9640ff
+	color: #52e2f2
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)||CSS by Red(#261489)";
-        color: #9640ff;
+        color: #52e2f2;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -116,7 +116,7 @@ input.floatright, input.floatright:hover {
 	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
         border: 5px double #23043b !important;
 	border-radius: 20px;
-	color: #9640ff !important
+	color: #52e2f2 !important
 }
 
 /* SWITCH ACCOUNT BUTTON */
@@ -126,7 +126,7 @@ button.button, button.button:hover {
         border: 5px double #23043b !important;
 	border-radius: 20px;
         text-shadow: none !important;
-	color: #9640ff !important
+	color: #52e2f2 !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -136,7 +136,7 @@ button.button, button.button:hover {
 .alert-danger {
 	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
 	border: 5px double #23043b;
-	color: #9640ff;
+	color: #52e2f2;
 	border-radius: 20px !important
 }
 
