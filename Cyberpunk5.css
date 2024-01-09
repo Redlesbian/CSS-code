@@ -116,7 +116,7 @@ input.floatright, input.floatright:hover {
 	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1) 100%) !important;
         border: 5px double #23043b !important;
 	border-radius: 20px;
-	color: #9640ff !important;    
+	color: #9640ff !important
 }
 
 /* SWITCH ACCOUNT BUTTON */
@@ -182,7 +182,6 @@ h3 {
 	color: #9640ff !important;
 	border-radius: 20px
 }
-
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: linear-gradient(0deg, rgba(171,0,255,1) 0%, rgba(46,0,70,1);
