@@ -621,6 +621,15 @@ img[src$="showcase/banner.png"] {
  
   }
 
+/* LION IMAGE BORDER CODE BY HOK-Z */
+
+#lion_image::after {
+    content: url("https://i.ibb.co/kc31JVq/Untitled292-20240111223729.png");
+    position: absolute;
+    left: -2px;
+    top: -3px;
+}
+
 /* SIDEBAR ARROWS */
  
 /* TOP */
