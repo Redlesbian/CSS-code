@@ -1,0 +1,821 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+/* FONT (From Google Fonts) */
+
+@import url('FONT URL');
+
+/* BACKGROUND */
+
+body {
+	background: url('https://i.ibb.co/Jz9FBxC/Untitled318-20240111001918.png') center center fixed;
+	background-size: 100%;
+	font-family: 'FONT NAME';
+	color: #2e2a2b
+}
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(1, 1, 1, 0.5);
+	border: none;
+	box-shadow: none;
+	border-radius: 0px
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+
+/* TOPBAR ("Welcome back, ___") */
+
+.topbar {
+	background: rgba(1, 1, 1, 0.5);
+	border: none;
+	border-top: none;
+	color: #000000;
+	border-radius: 0px;
+}
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+.navbar {
+	background: rgba(1, 1, 1, 0.5);
+	border-bottom: none;
+	color: #000000;
+	border-radius: 0px
+}
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+.navbar li a {
+	color: #000000 !important
+}
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: rgba(1, 1, 1, 0.5) !important;
+	border-bottom: none;
+	color: #000000 !important;
+	border-radius: 0px
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgba(1, 1, 1, 0.5) !important;
+        border: none;
+	border-radius: 0px
+}
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #000000
+}
+
+/* CSS CREDIT */
+
+.breadcrumb::after {
+        content: "Template by Katie (#106445)";
+        color: #000000;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+/* BOOKMARK BUTTON */
+
+input.floatright, input.floatright:hover {
+	background: rgba(1, 1, 1, 0.5) !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #000000 !important;    
+}
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button, button.button:hover {
+	background: rgba(1, 1, 1, 0.5);
+        border: none !important;
+	border-radius: 0px;
+        text-shadow: none !important;
+	color: #000000 !important
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: rgba(1, 1, 1, 0.5) !important;
+	border: none;
+	color: #000000;
+	border-radius: 0px !important
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #000000;
+	font-size: 90px;
+	text-align: center;
+        font-family: 'FONT NAME'
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #000000;
+	font-size: 24px;
+	text-align: center
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #000000 !important;
+	font-size: 14px !important
+}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #000000 !important;
+        font-size: 26px !important;
+        font-family: 'FONT NAME'
+}
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgba(1, 1, 1, 0.5) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #000000 !important;
+	border-radius: 0px
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000 !important;
+	border-radius: 0px !important
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000 !important;
+	border-radius: 0px !important
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #000000 !important
+}
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #000000 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+	background: rgba(1, 1, 1, 0.5);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 0px
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+.bottom,
+th {
+	background: rgba(1, 1, 1, 0.5) !important;
+	color: #000000 !important;
+	border-radius: 0px
+}
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgba(155, 226, 242, 0.6) !important;
+        color: #2e2a2b;
+	border-radius: 0px
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: none;
+	border-radius: 0px !important
+}
+
+td.right {
+	border-radius: 0px !important
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: rgba(1, 1, 1, 0.5);
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgba(1, 1, 1, 0.5) !important;
+	color: #000000 !important;
+	border: 1px solid #000000 !important;
+	border-radius: 0px !important
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgba(1, 1, 1, 0.5);
+	border: none;
+	border-radius: 0px !important
+}
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+.table .left {
+	background: rgba(1, 1, 1, 0.5);
+        border-radius: 0px
+}
+
+/* Color behind the content of the elements listed above */
+
+input,
+select,
+textarea {
+	background: rgba(1, 1, 1, 0.5) !important;
+	border: none !important;
+	border-radius: 0px !important;
+	color: #000000 !important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgba(1, 1, 1, 0.5) !important;
+	color: #000000  !important;
+	border-radius: 0px !important;
+}
+
+.item {
+	background: rgba(1, 1, 1, 0.5) !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #000000 !important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #000000 !important
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #000000 !important;
+        text-shadow: none !important
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #ffffff !important
+}
+
+/* LINK HOVER COLOR */
+
+a:hover {
+	color: #ffffff !important
+}
+
+
+/* BOX CONTAINER */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex
+}
+
+/* BOXES */
+
+.smallbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 28.4%;
+	overflow: auto
+}
+
+.mediumbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 43.8%;
+	overflow: auto
+}
+
+.largebox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto
+}
+
+/* HOVER BOXES */
+
+.smallhoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 28.4%;
+	overflow: auto;
+        transition: 3s
+}
+
+.smallhoverbox:hover {
+	height: 150px;
+	width: 28.4%;
+}
+
+.mediumhoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 43.8%;
+	overflow: auto;
+        transition: 3s
+}
+
+.mediumhoverbox:hover {
+	height: 150px;
+	width: 43.8%;
+}
+
+.largehoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto;
+        transition: 3s
+}
+
+.largehoverbox:hover {
+	height: 150px;
+	width: 90%;
+}
+
+/* SCROLL BAR */
+
+/* WIDTH */
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+/* BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #ffffff
+}
+
+
+/* "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #000000;
+	border-radius: 0px
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 1
+}
+
+table#player img {
+	opacity: 1
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://i.ibb.co/2WjgCTS/Untitled276-20240111001201.png')
+}
+
+/* CAVE / MOUND IMAGES */
+
+img[src$="nestingbanner.png"] {
+  content: url("https://i.ibb.co/YL6WMx6/Untitled328-20240111001347.png") !important;
+}
+
+img[src$="overviewbanner.png"] {
+  content: url("https://i.ibb.co/YL6WMx6/Untitled328-20240111001347.png") !important;
+}
+
+img[src$="unsortedlionsbanner.png"] {
+  content: url("https://i.ibb.co/YL6WMx6/Untitled328-20240111001347.png") !important;
+}
+
+img[src$="cavedefault.jpg"] {
+  content: url("https://i.ibb.co/xFwZ0tm/Untitled328-20240111001358.png") !important;
+}
+
+.mound-grid img /* Mound(s) */ {
+	background: url("https://i.ibb.co/tzJYRbX/f2u-rain-cloud-pixel-by-strobelast-dcsbjjt.gif");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px
+}
+
+img[src$="icon-beetle-gold.png"] {
+    content:url('https://i.ibb.co/MGRTHJs/ezgif-4-a2dba03c3b.png')!important;
+}
+img[src$="icon-beetle-silver.png"] {
+    content:url('https://i.ibb.co/8rRdVg1/ezgif-4-af5d890bf1.gif')!important;
+}
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* KING DYNASTY */
+img[src$="ancestors.jpg"] {
+    content:url('https://i.ibb.co/jDCK03L/Untitled328-20240111001420.png')!important;
+    width:185px!important;
+ 
+}
+ 
+/* PRIDE DYNASTY */
+img[src$="ancestorsfem.png"] {
+    content:url('https://i.ibb.co/jDCK03L/Untitled328-20240111001420.png')!important;
+    width:185px!important;
+ 
+}
+ 
+/* ACHIEVMENTS */
+img[src$="achievements.jpg"] {
+    content:url('https://i.ibb.co/jDCK03L/Untitled328-20240111001420.png')!important;
+    width:185px!important;
+ 
+}
+ 
+/* SHOWCASE */
+img[src$="showcase/banner.png"] {
+    content:url('https://i.ibb.co/jDCK03L/Untitled328-20240111001420.png')!important;
+    width:185px!important;
+ 
+  }
+
+/* SIDEBAR ARROWS */
+ 
+/* TOP */
+ 
+div.col-xs-6 > a > h3 > div {
+    content:url('https://i.ibb.co/tpDzh3g/moon-pixel-f2u-by-yellowo-whiskers-de30rbh.gif');
+    position:relative;
+    width:40px;
+}
+ 
+/* MIDDLE */
+ 
+div.col-xs-5> a:nth-child(1) > h3 > div {
+    content:url('https://i.ibb.co/tpDzh3g/moon-pixel-f2u-by-yellowo-whiskers-de30rbh.gif');
+    position:relative;
+    width:40px;
+}
+ 
+/* BOTTOM */
+ 
+div.col-xs-5> a:nth-child(3) > h3 > div {
+    content:url('https://i.ibb.co/tpDzh3g/moon-pixel-f2u-by-yellowo-whiskers-de30rbh.gif');
+    position:relative;
+    width:40px;
+}
+
+/* LION IMAGE BORDER CODE BY HOK-Z */
+
+#lion_image::after {
+    content: url("https://i.ibb.co/m451J9T/Untitled292-20240111002752.png");
+    position: absolute;
+    left: -2px;
+    top: -3px;
+}
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* USE THESE TO CHANGE COLOR */
+ 
+/* MEMBER ONLINE */
+ 
+.member-online {
+    background: #91a5ff;
+ 
+}
+ 
+/* MEMBER OFFLINE */
+ 
+.member-offline {
+    background: #FFFFFF;
+ 
+}
+
+/*-------------------------*/
+/*Comment Box CODE BY HOK-Z*/
+/*-------------------------*/
+#commentBox {
+  background: rgba(0, 0, 0, 0.5);
+ border: none !important;}
+
+div.comment {background: rgba(0, 0, 0, 0.5) !important;
+            border-bottom: none;
+            font-weight: bold;}
+
+div#makeComment {background: rgba(0, 0, 0, 0.5) !important;
+                border: none;
+                border-radius: 10px;}
+
+div.commentText {color: #FFFFFF;}
+
+input#comment {background: #FFFFFF !important;
+              color: white !important;}
+
+input[type="button"].bad {background: rgba(0, 0, 0, 0.5) !important;}
+
+.commentTag.clear {border: none;}
+
+/* CUSTOM LAYOUTS */
+    .pun-credit {
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+        color: #000000 !important;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8)) !important;
+        padding: 5px;
+    }
+    .pun-credit a {
+        color: #000000 !important;
+    }
+    .pun-credit a:hover {
+        opacity: 1 !important;
+    }
+    .pun-credit:hover {
+        opacity: 1;
+        transition: 2s;
+    }
+    .pun-table {
+        width: 640px;
+        background: url('https://i.ibb.co/5v5rHL5/f2u-image-542-by-flyingcarpets-dft770s.png') center center no-repeat;
+        background-size: cover;
+        border-radius: 25px;
+        opacity: 0.9;
+        border: 0px outset #000000 !important;
+box-shadow:0 0 5px #007aa5;
+margin: auto;
+    }
+    .pun-spacer {
+        background: none;
+        width: 350px;
+    }
+    .pun-content {
+        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8)) !important;
+        text-align: center;
+        height: 300px;
+        overflow: auto;
+        width: 280px;
+        padding: 10px;
+        border-radius: 25px;
+        font-size: 15px;
+        color: #000000 !important;
+
+
+    }
+    .pun-content h3 {
+        margin: 0 0 10px 0;
+        border-bottom: 1px solid #000000;
+        text-align: center;
+    }
+    .pun-content a {
+        font-weight: bold !important;
+        opacity: 1;
+    }
+    .pun-content a:hover {
+        opacity: 1 !important;
+    }
+    .pun-links {
+        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8)) !important;
+        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8))) !important;
+        color: #000000;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-align: center;
+        border-radius: 25px 25px 0 0;
+    }
+    .pun-links a {
+        color: #FFFFFF !important;
+    }
+    .pun-title {
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 64px;
+        letter-spacing: 2px;
+        font-family: 'Neonderthaw', cursive;
+        opacity: 0.9;
+    }
+
+.pun-art {
+    width: 100%;
+    height: 60px;
+    color: #41303d;
+    text-align: center;
+    background: none;
+    border-radius: 5px;
+    opacity: 0.8;
+    overflow: hidden;
+    }
+.pun-art:hover {
+    height: auto;
+}
+
+.box {
+     position: relative;
+}
+.box-topper {
+     content: url('image url here');
+     position: absolute;
+     top: -50px;
+     right: -50px;
+     z-index: 2;
+}
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+                   }
