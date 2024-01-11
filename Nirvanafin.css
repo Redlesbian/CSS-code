@@ -269,7 +269,7 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: linear-gradient(0deg, rgba(87,2,137,1) 0%, rgba(39,0,71,1) 100%)linear-gradient(0deg, rgba(87,2,137,1) 0%, rgba(39,0,71,1) 100%) !important;
+	background: linear-gradient(0deg, rgba(87,2,137,1) 0%, rgba(39,0,71,1) 100%) !important;
         color: #ed7802;
 	border-radius: 20px
 }
