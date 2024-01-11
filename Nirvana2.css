@@ -211,7 +211,7 @@ h3 {
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(246,255,0,1) 100%) !important;
+	background: linear-gradient(0deg, rgba(250,255,135,1) 0%, rgba(186,188,0,1) 100%) !important;
         color: #ed7802 !important;
 	border: 5px double #ed7802 !important
 }
@@ -242,7 +242,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(246,255,0,1) 100%);
+	background: linear-gradient(0deg, rgba(250,255,135,1) 0%, rgba(186,188,0,1) 100%);
 	border: 5px double #ed7802 !important;
 	border-collapse: separate;
 	border-radius: 20px
@@ -324,7 +324,7 @@ div.left {
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(246,255,0,1) 100%);
+	background: linear-gradient(0deg, rgba(250,255,135,1) 0%, rgba(186,188,0,1) 100%);
         border-radius: 20px
 }
 .inner-table .right {
@@ -336,7 +336,7 @@ div.left {
 input,
 select,
 textarea {
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(246,255,0,1) 100%) !important;
+	background: linear-gradient(0deg, rgba(250,255,135,1) 0%, rgba(186,188,0,1) 100%) !important;
 	border: 5px double #ed7802 !important;
 	border-radius: 20px !important;
 	color: #ed7802 !important;
@@ -403,7 +403,7 @@ a:hover {
 
 .smallbox {
 	float: left;
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(246,255,0,1) 100%);
+	background: linear-gradient(0deg, rgba(250,255,135,1) 0%, rgba(186,188,0,1) 100%);
 	color: #ed7802;
 	padding: 10px;
 	border: 5px double #ed7802;
@@ -416,7 +416,7 @@ a:hover {
 
 .mediumbox {
 	float: left;
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(246,255,0,1) 100%);
+	background: linear-gradient(0deg, rgba(250,255,135,1) 0%, rgba(186,188,0,1) 100%);
 	color: #ed7802;
 	padding: 10px;
 	border: 5px double #ed7802;
@@ -429,7 +429,7 @@ a:hover {
 
 .largebox {
 	float: left;
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(246,255,0,1) 100%);
+	background: linear-gradient(0deg, rgba(250,255,135,1) 0%, rgba(186,188,0,1) 100%);
 	color: #ed7802;
 	padding: 10px;
 	border: 5px double #ed7802;
@@ -684,7 +684,7 @@ Please do not remove credit
   background: linear-gradient(0deg, rgba(250,255,193,1) 0%, rgba(232,240,0,1) 100%);
  border: 5px double #ed7802 !important;}
 
-div.comment {background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(246,255,0,1) 100%) !important;
+div.comment {background: linear-gradient(0deg, rgba(250,255,135,1) 0%, rgba(186,188,0,1) 100%) !important;
             border-bottom: 5px double #ed7802;
             font-weight: bold;}
 
@@ -726,7 +726,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(87,2,137,1) 0%,
     }
     .pun-table {
         width: 640px;
-        background: url('https://i.ibb.co/RydKQGQ/roe-skull-free-to-use-by-akumiirako-dbl9mdr.png') center center no-repeat;
+        background: url('https://i.ibb.co/2PV0yPH/western-seamless-pattern-with-cow-skull-buffalo-skull-on-yellow-background-wild-west-concept-vector.jpg') center center no-repeat;
         background-size: cover;
         border-radius: 25px;
         opacity: 0.9;
