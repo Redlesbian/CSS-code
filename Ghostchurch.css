@@ -549,29 +549,29 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('LOGO REPLACER URL')
+	content: url('https://i.ibb.co/ck1hv6R/Untitled276-20240117151901.png')
 }
 
 /* CAVE / MOUND IMAGES */
 
 img[src$="nestingbanner.png"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/dGKfNvj/Untitled328-20240117151304.png") !important;
 }
 
 img[src$="overviewbanner.png"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/dGKfNvj/Untitled328-20240117151304.png") !important;
 }
 
 img[src$="unsortedlionsbanner.png"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/dGKfNvj/Untitled328-20240117151304.png") !important;
 }
 
 img[src$="cavedefault.jpg"] {
-  content: url("IMG URL") !important;
+  content: url("https://i.ibb.co/6v6bdSk/Untitled328-20240117151229.png") !important;
 }
 
 .mound-grid img /* Mound(s) */ {
-	background: url("IMAGE URL");
+	background: url("https://i.ibb.co/jG0wsFV/Untitled273-20240117151624.png");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
@@ -579,10 +579,10 @@ img[src$="cavedefault.jpg"] {
 }
 
 img[src$="icon-beetle-gold.png"] {
-    content:url('IMG URL')!important;
+    content:url('https://i.ibb.co/wJCffK4/ezgif-2-56de92fad3.gif')!important;
 }
 img[src$="icon-beetle-silver.png"] {
-    content:url('IMG URL')!important;
+    content:url('https://i.ibb.co/JrSQ7t0/ezgif-2-88c234cc6e.gif')!important;
 }
 
 /* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
@@ -592,28 +592,28 @@ Please do not remove credit
  
 /* KING DYNASTY */
 img[src$="ancestors.jpg"] {
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/LvPQn93/Untitled328-20240117151153.png')!important;
     width:185px!important;
  
 }
  
 /* PRIDE DYNASTY */
 img[src$="ancestorsfem.png"] {
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/LvPQn93/Untitled328-20240117151153.png')!important;
     width:185px!important;
  
 }
  
 /* ACHIEVMENTS */
 img[src$="achievements.jpg"] {
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/LvPQn93/Untitled328-20240117151153.png')!important;
     width:185px!important;
  
 }
  
 /* SHOWCASE */
 img[src$="showcase/banner.png"] {
-    content:url('LINK')!important;
+    content:url('https://i.ibb.co/LvPQn93/Untitled328-20240117151153.png')!important;
     width:185px!important;
  
   }
@@ -623,25 +623,25 @@ img[src$="showcase/banner.png"] {
 /* TOP */
  
 div.col-xs-6 > a > h3 > div {
-    content:url('LINK');
+    content:url('https://i.ibb.co/dJP0TbH/tombs-emoticon-icon-by-hekkoto-ddoec43.gif');
     position:relative;
-    width:20px;
+    width:40px;
 }
  
 /* MIDDLE */
  
 div.col-xs-5> a:nth-child(1) > h3 > div {
-    content:url('LINK');
+    content:url('https://i.ibb.co/dJP0TbH/tombs-emoticon-icon-by-hekkoto-ddoec43.gif');
     position:relative;
-    width:20px;
+    width:40px;
 }
  
 /* BOTTOM */
  
 div.col-xs-5> a:nth-child(3) > h3 > div {
-    content:url('LINK');
+    content:url('https://i.ibb.co/dJP0TbH/tombs-emoticon-icon-by-hekkoto-ddoec43.gif');
     position:relative;
-    width:20px;
+    width:40px;
 }
 
 /* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
@@ -668,7 +668,7 @@ Please do not remove credit
 /* LION IMAGE BORDER CODE BY HOK-Z */
 
 #lion_image::after {
-    content: url("IMAGE");
+    content: url("https://i.ibb.co/bsdMwZx/Untitled292-20240117153557.png");
     position: absolute;
     left: -2px;
     top: -3px;
