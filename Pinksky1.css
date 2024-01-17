@@ -14,7 +14,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 body {
 	background: url('https://i.ibb.co/HVr4p7d/Untitled318-20240116210742.png') center center fixed;
 	background-size: 100%;
-	font-family: "Special Elite", system-ui;';
+	font-family: 'Special Elite', system-ui;';
 	color: #FFFFFF
 }
 
@@ -22,71 +22,71 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	box-shadow: none;
-	border-radius: 0px
+	background: rgba(1, 1, 1, 0);
+	border: 5px double #ffbaf4;
+	box-shadow: 5px 10px 7px #FFFFFF;
+	border-radius: 20px
 }
 
 /* LEFT SIDE */
 .col-md-9 {
 	background: none;
-        border-right: none
+        border-right: 5px double #ffbaf4
 }
 
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	border-top: none;
-	color: #000000;
-	border-radius: 0px;
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+	border: 5px double #ffbaf4;
+	border-top: 5px double #ffbaf4;
+	color: #FFFFFF;
+	border-radius: 20px;
 }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(1, 1, 1, 0.5);
-	border-bottom: none;
-	color: #000000;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(194,145,177,1) 0%, rgba(109,35,77,1) 100%);
+	border-bottom: 5px double #ffbaf4;
+	color: #FFFFFF
+	border-radius: 20px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #000000 !important
+	color: #FFFFFF !important
 }
 
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border-bottom: none;
-	color: #000000 !important;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(194,145,177,1) 0%, rgba(109,35,77,1) 100%) !important;
+	border-bottom: 5px double #ffbaf4;
+	color: #FFFFFF !important;
+	border-radius: 20px
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(1, 1, 1, 0.5) !important;
-        border: none;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(198,0,189,1) 0%, rgba(83,0,85,1) 100%) !important;
+        border: 5px double #ffbaf4;
+	border-radius: 20px
 }
 
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #000000
+	color: #FFFFFF
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
-        content: "Template by Katie (#106445)";
-        color: #000000;
+        content: "Template by Katie (#106445)|CSS by Red (#261489)";
+        color: #FFFFFF;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -113,20 +113,20 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
-        border: none !important;
-	border-radius: 0px;
-	color: #000000 !important;    
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%) !important;
+        border: 5px double #ffbaf4 !important;
+	border-radius: 20px;
+	color: #FFFFFF !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(1, 1, 1, 0.5);
-        border: none !important;
-	border-radius: 0px;
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+        border: 5px double #ffbaf4 !important;
+	border-radius: 20px;
         text-shadow: none !important;
-	color: #000000 !important
+	color: #FFFFFF !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -134,26 +134,26 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none;
-	color: #000000;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(194,145,177,1) 0%, rgba(109,35,77,1) 100%) !important;
+	border: 5px double #ffbaf4;
+	color: #FFFFFF;
+	border-radius: 20px !important
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #000000;
+	color: #FFFFFF;
 	font-size: 90px;
 	text-align: center;
-        font-family: 'FONT NAME'
+        font-family: 'Shrikhand', serif;'
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #000000;
+	color: #FFFFFF;
 	font-size: 24px;
 	text-align: center
 }
@@ -162,78 +162,78 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #000000 !important;
+	color: #FFFFFF !important;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #000000 !important;
+	color: #FFFFFF !important;
         font-size: 26px !important;
-        font-family: 'FONT NAME'
+        font-family: 'Shrikhand', serif;'
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(1, 1, 1, 0.5) !important;
-	box-shadow: none !important;
-	border: none !important;
-	color: #000000 !important;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%) !important;
+	box-shadow: 5px 10px 7px #FFFFFF !important;
+	border: 5px double #ffbaf4 !important;
+	color: #FFFFFF !important;
+	border-radius: 20px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000 !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(194,145,177,1) 0%, rgba(109,35,77,1) 100%);
+	color: #FFFFFF !important;
+	border-radius: 20px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000 !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(198,0,189,1) 0%, rgba(83,0,85,1) 100%);
+	color: #FFFFFF !important;
+	border-radius: 20px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000000 !important
+	color: #FFFFFF !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: linear-gradient(0deg, rgba(198,0,189,1) 0%, rgba(83,0,85,1) 100%) !important;
+        color: #FFFFFF !important;
+	border: 5px double #ffbaf4 !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: linear-gradient(0deg, rgba(194,145,177,1) 0%, rgba(109,35,77,1) 100%) !important;
+        color: #FFFFFF !important;
+	border: 5px double #ffbaf4 !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%) !important;
+        color: #FFFFFF !important;
+	border: 5px double #ffbaf4 !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #000000 !important;
+	color: #FFFFFF !important;
 }
 
 div#chatMessageContainer {
-	border: none !important;
+	border: 5px double #ffbaf4 !important;
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
-	border: none !important
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%) !important;
+        color: #FFFFFF !important;
+	border: 5px double #ffbaf4 !important
 }
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
@@ -242,10 +242,13 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(1, 1, 1, 0.5);
-	border: none !important;
+	background: linear-gradient(0deg, rgba(198,0,189,1) 0%, rgba(83,0,85,1) 100%);
+	border: 5px double #ffbaf4 !important;
 	border-collapse: separate;
-	border-radius: 0px
+	border-radius: 20px
+}
+.table {
+	color: #FFFFFF;
 }
 
 
@@ -254,9 +257,9 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%) !important;
+	color: #FFFFFF !important;
+	border-radius: 20px
 }
 
 td.bottom a {
@@ -266,9 +269,9 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(155, 226, 242, 0.6) !important;
-        color: #2e2a2b;
-	border-radius: 0px
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%) !important;
+        color: #FFFFFF;
+	border-radius: 20px
 }
 
 
@@ -276,11 +279,11 @@ td.bottom a {
 
 .inner-table .right {
 	background: none;
-	border-radius: 0px !important
+	border-radius: 20px !important
 }
 
 td.right {
-	border-radius: 0px !important
+	border-radius: 20px !important
 }
 
 /* IGNORE */
@@ -292,34 +295,37 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(1, 1, 1, 0.5);
-	border: none !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+	border: 5px double #ffbaf4 !important;
+	border-radius: 20px !important
 }
 
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
-	border: 1px solid #000000 !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(194,145,177,1) 0%, rgba(109,35,77,1) 100%) !important;
+	color: #FFFFFF !important;
+	border: 5px double #ffbaf4 !important;
+	border-radius: 20px !important
 }
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
 
 .feature,
 div.left {
-	background: rgba(1, 1, 1, 0.5);
-	border: none;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(194,145,177,1) 0%, rgba(109,35,77,1) 100%);
+	border: 5px double #ffbaf4;
+	border-radius: 20px !important
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(1, 1, 1, 0.5);
-        border-radius: 0px
+	background: linear-gradient(0deg, rgba(198,0,189,1) 0%, rgba(83,0,85,1) 100%);
+        border-radius: 20px
+}
+.inner-table .right {
+	color: #FFFFFF;
 }
 
 /* Color behind the content of the elements listed above */
@@ -327,42 +333,42 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important;
-	color: #000000 !important;
-	box-shadow: none !important;
+	background: linear-gradient(0deg, rgba(198,0,189,1) 0%, rgba(83,0,85,1) 100%) !important;
+	border: 5px double #ffbaf4 !important;
+	border-radius: 20px !important;
+	color: #FFFFFF !important;
+	box-shadow: 5px 10px 7px #FFFFFF !important;
 	text-shadow: none !important
 }
 
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000  !important;
-	border-radius: 0px !important;
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%) !important;
+	color: #FFFFFF !important;
+	border-radius: 20px !important;
 }
 
 .item {
-	background: rgba(1, 1, 1, 0.5) !important;
-	border: none !important;
-	border-radius: 0px !important
+	background: linear-gradient(0deg, rgba(194,145,177,1) 0%, rgba(109,35,77,1) 100%) !important;
+	border: 5px double #ffbaf4 !important;
+	border-radius: 20px !important
 }
 
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #000000 !important
+	background: #FFFFFF !important
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #000000 !important
+	background: #FFBAF4 !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #000000 !important;
+        color: #FFFFFF !important;
         text-shadow: none !important
 }
 
@@ -376,7 +382,7 @@ a:visited {
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #ffffff !important
+	color: #FFBAF4 !important
 }
 
 
@@ -394,11 +400,11 @@ a:hover {
 
 .smallbox {
 	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+	color: #FFFFFF;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 5px double #ffbaf4;
+	border-radius: 20px;
 	margin: 10px;
 	height: 150px;
 	width: 28.4%;
@@ -407,11 +413,11 @@ a:hover {
 
 .mediumbox {
 	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+	color: #FFFFFF;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 5px double #ffbaf4;
+	border-radius: 20px;
 	margin: 10px;
 	height: 150px;
 	width: 43.8%;
@@ -420,11 +426,11 @@ a:hover {
 
 .largebox {
 	float: left;
-	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+	color: #FFFFFF;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 5px double #ffbaf4;
+	border-radius: 20px;
 	margin: 10px;
 	height: 150px;
 	width: 90%;
@@ -509,8 +515,8 @@ a:hover {
 /* "THUMB" */
 
 ::-webkit-scrollbar-thumb {
-	background: #000000;
-	border-radius: 0px
+	background: #FFBAF4;
+	border-radius: 20px
 }
 
 
@@ -528,14 +534,14 @@ table#player img {
 /* CIRCULAR LION AND USER AVATAR */
 
 div#lion_image {
-	border-radius: 50% !important;
+	border-radius: 10% !important;
 	overflow: hidden;
 	margin-top: 15px; /* May need adjusting */
 	margin-left: 12px /* May need adjusting */
 }
 
 table#player img {
-	border-radius: 50% !important;
+	border-radius: 10% !important;
 	overflow: hidden
 }
 
@@ -672,41 +678,41 @@ Please do not remove credit
 /*Comment Box CODE BY HOK-Z*/
 /*-------------------------*/
 #commentBox {
-  background: rgba(0, 0, 0, 0.5);
- border: none !important;}
+  background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+ border: 5px double #ffbaf4 !important;}
 
-div.comment {background: rgba(0, 0, 0, 0.5) !important;
-            border-bottom: none;
+div.comment {background: linear-gradient(0deg, rgba(194,145,177,1) 0%, rgba(109,35,77,1) 100%) !important;
+            border-bottom: 5px double #ffbaf4;
             font-weight: bold;}
 
-div#makeComment {background: rgba(0, 0, 0, 0.5) !important;
-                border: none;
-                border-radius: 10px;}
+div#makeComment {background: linear-gradient(0deg, rgba(198,0,189,1) 0%, rgba(83,0,85,1) 100%) !important;
+                border: 5px double #ffbaf4;
+                border-radius: 20px;}
 
 div.commentText {color: #FFFFFF;}
 
-input#comment {background: #FFFFFF !important;
+input#comment {background: linear-gradient(0deg, rgba(198,0,189,1) 0%, rgba(83,0,85,1) 100%) !important;
               color: white !important;}
 
-input[type="button"].bad {background: rgba(0, 0, 0, 0.5) !important;}
+input[type="button"].bad {background: linear-gradient(0deg, rgba(198,0,189,1) 0%, rgba(83,0,85,1) 100%) !important;}
 
-.commentTag.clear {border: none;}
+.commentTag.clear {border: 5px double #ffbaf4;}
 
 /* CUSTOM LAYOUTS */
     .pun-credit {
         position: fixed;
         bottom: 0px;
         right: 10px;
-        color: #000000 !important;
+        color: #FFFFFF !important;
         font-size: 15px;
         letter-spacing: 2px;
         text-transform: uppercase;
         text-align: center;
-        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8)) !important;
+        background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%) !important;
         padding: 5px;
     }
     .pun-credit a {
-        color: #000000 !important;
+        color: #FFFFFF !important;
     }
     .pun-credit a:hover {
         opacity: 1 !important;
@@ -721,16 +727,16 @@ input[type="button"].bad {background: rgba(0, 0, 0, 0.5) !important;}
         background-size: cover;
         border-radius: 25px;
         opacity: 0.9;
-        border: 0px outset #000000 !important;
-box-shadow:0 0 5px #007aa5;
-margin: auto;
+        border: 5px double #ffbaf4 !important;
+        box-shadow: 5px 10px 7px #FFFFFF;
+        margin: auto;
     }
     .pun-spacer {
         background: none;
         width: 350px;
     }
     .pun-content {
-        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8)) !important;
+        background: linear-gradient(0deg, rgba(198,0,189,1) 0%, rgba(83,0,85,1) 100%) !important;
         text-align: center;
         height: 300px;
         overflow: auto;
@@ -738,13 +744,13 @@ margin: auto;
         padding: 10px;
         border-radius: 25px;
         font-size: 15px;
-        color: #000000 !important;
+        color: #FFFFFF !important;
 
 
     }
     .pun-content h3 {
         margin: 0 0 10px 0;
-        border-bottom: 1px solid #000000;
+        border-bottom: 5px double #ffbaf4;
         text-align: center;
     }
     .pun-content a {
@@ -755,15 +761,15 @@ margin: auto;
         opacity: 1 !important;
     }
     .pun-links {
-        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8)) !important;
-        background: linear-gradient(to bottom, rgba(0,130,127,0.8), rgba(0,206,209,0.8))) !important;
-        color: #000000;
+        background: linear-gradient(0deg, rgba(198,0,189,1) 0%, rgba(83,0,85,1) 100%) !important;
+        background: linear-gradient(0deg, rgba(198,0,189,1) 0%, rgba(83,0,85,1) 100%) !important;
+        color: #FFFFFF;
         text-transform: uppercase;
         font-size: 11px;
         font-weight: bold;
         letter-spacing: 1px;
         text-align: center;
-        border-radius: 25px 25px 0 0;
+        border-radius: 25px;
     }
     .pun-links a {
         color: #FFFFFF !important;
@@ -773,14 +779,14 @@ margin: auto;
         color: #FFFFFF;
         font-size: 64px;
         letter-spacing: 2px;
-        font-family: 'Neonderthaw', cursive;
+        font-family: 'Shrikhand', serif;'
         opacity: 0.9;
     }
 
 .pun-art {
     width: 100%;
     height: 60px;
-    color: #41303d;
+    color: #FFFFFF;
     text-align: center;
     background: none;
     border-radius: 5px;
@@ -789,17 +795,6 @@ margin: auto;
     }
 .pun-art:hover {
     height: auto;
-}
-
-.box {
-     position: relative;
-}
-.box-topper {
-     content: url('image url here');
-     position: absolute;
-     top: -50px;
-     right: -50px;
-     z-index: 2;
 }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
