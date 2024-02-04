@@ -665,15 +665,6 @@ Please do not remove credit
  
 }
 
-/* LION IMAGE BORDER CODE BY HOK-Z */
-
-#lion_image::after {
-    content: url("https://i.ibb.co/BZkrxTk/Untitled292-20240118163938.png");
-    position: absolute;
-    left: -2px;
-    top: -3px;
-}
-
 /*-------------------------*/
 /*Comment Box CODE BY HOK-Z*/
 /*-------------------------*/
@@ -722,7 +713,7 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(23,49,48,1) 0%,
         transition: 2s;
     }
     .pun-table {
-        width: 640px;
+        width: 500px;
         background: url('https://i.ibb.co/31w1gVL/OIG-4.jpg') center center no-repeat;
         background-size: cover;
         border-radius: 25px;
