@@ -606,15 +606,6 @@ img[src$="caveunused.jpg"] {
  
 }
 
-/* LION IMAGE BORDER CODE BY HOK-Z */
-
-#lion_image::after {
-    content: url("https://i.ibb.co/JsgYFrK/Untitled292-20240103163231-removebg-preview.png");
-    position: absolute;
-    left: -2px;
-    top: -3px;
-}
-
 /* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
 Codes may be edited, used in commissions or for personal use
 Please do not remove credit
