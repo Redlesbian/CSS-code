@@ -545,7 +545,7 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('LOGO REPLACER URL')
+	content: url('https://i.ibb.co/p684qgvS/romeo-juliet-icon-education-collection-260nw-2218643141.png')
 }
 
 /* CAVE / MOUND IMAGES */
@@ -584,9 +584,7 @@ img[src$="clanraffles.png"] {
   content: url("https://i.ibb.co/67BZ8Fj3/Untitled25-20250204151157.png") !important;
 }
 
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-2/nat160.cur), auto !important;} /* End https://www.cursors-4u.com */
-
-/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-2/hol110.cur), auto !important;} /* End https://www.cursors-4u.com *//* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
         .container.main .hidden-xs {
