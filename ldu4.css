@@ -372,13 +372,13 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #ffffff !important
+color: #ffffff !important
 }
 
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #8c0000 !important
+color: #8c0000 !important
 }
 
 
@@ -546,32 +546,6 @@ table#player img {
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	content: url('https://i.ibb.co/p684qgvS/romeo-juliet-icon-education-collection-260nw-2218643141.png')
-}
-
-/* CAVE / MOUND IMAGES */
-
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('IMAGE URL') !important
-}
-
-a[href$="CAVE ID"]>div.cave-grid>img {
-	content: url('IMAGE URL') !important
-}
-
-a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('IMAGE URL') !important
-}
-
-a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
-	content: url('IMAGE URL') !important
-}
-
-.mound-grid img /* Mound(s) */ {
-	background: url("IMAGE URL");
-	width: 0;
-	height: 0;
-	padding-top: 80px;
-	padding-right: 130px
 }
 
 /* CLAN HOARD/RAFFLES */
