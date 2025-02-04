@@ -15,7 +15,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 body {
 	background: url('https://i.ibb.co/4g830X82/Untitled24-20250204150457.png') no-repeat center center fixed;
 	background-size: cover;
-	font-family: 'IM Fell English', serif;';
+	font-family: 'IM Fell English', serif';
 	color: #000000
 }
 
@@ -117,7 +117,7 @@ input.floatright, input.floatright:hover {
 	background: linear-gradient(90deg, rgba(153,6,6,1) 0%, rgba(255,67,67,1) 50%, rgba(153,6,6,1) 100%) !important;
         border: 5px double #731010 !important;
 	border-radius: 10px;
-	color: #FFFFFF !important;    
+	color: #FFFFFF !important   
 }
 
 /* SWITCH ACCOUNT BUTTON */
