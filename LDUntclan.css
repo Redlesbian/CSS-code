@@ -15,7 +15,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 body {
 	background: url('https://i.ibb.co/4g830X82/Untitled24-20250204150457.png') no-repeat center center fixed;
 	background-size: cover;
-	font-family: 'IM Fell English, serif;';
+	font-family: 'IM Fell English', serif;';
 	color: #000000
 }
 
@@ -72,8 +72,8 @@ body {
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(121, 85, 72, 0.75) !important;
-        border: 3px dotted #d7ccc8;
+	background: #FFFFFF !important;
+        border: 5px double #731010;
 	border-radius: 10px
 }
 
@@ -114,8 +114,8 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: linear-gradient(to right, rgba(58,67,42,0.8) 0%, rgba(91,114,72,0.8) 50%, rgba(119,130,92,0.8) 100%); !important;
-        border: 3px dotted #d7ccc8 !important;
+	background: linear-gradient(90deg, rgba(153,6,6,1) 0%, rgba(255,67,67,1) 50%, rgba(153,6,6,1) 100%) !important;
+        border: 5px double #731010 !important;
 	border-radius: 10px;
 	color: #FFFFFF !important;    
 }
@@ -123,8 +123,8 @@ input.floatright, input.floatright:hover {
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: linear-gradient(to right, rgba(58,67,42,0.8) 0%, rgba(91,114,72,0.8) 50%, rgba(119,130,92,0.8) 100%);
-        border: 3px dotted #d7ccc8 !important;
+	background: linear-gradient(90deg, rgba(153,6,6,1) 0%, rgba(255,67,67,1) 50%, rgba(153,6,6,1) 100%);      
+        border: 5px double #731010 !important;
 	border-radius: 10px;
         text-shadow: none !important;
 	color: #FFFFFF !important
@@ -135,8 +135,8 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(141, 110, 99, 0.75) !important;
-	border: 3px dotted #d7ccc8;
+	background: linear-gradient(90deg, rgba(153,6,6,1) 0%, rgba(255,67,67,1) 50%, rgba(153,6,6,1) 100%) !important;
+	border: 5px double #731010;
 	color: #FFFFFF;
 	border-radius: 10px !important
 }
@@ -144,17 +144,17 @@ button.button, button.button:hover {
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #38432a;
+	color: #000000;
 	font-size: 90px;
 	text-align: center;
-        font-family: 'Lobster', sans-serif;'
+        font-family: 'Charm', serif;'
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #38432a;
+	color: #000000;
 	font-size: 24px;
 	text-align: center
 }
@@ -163,37 +163,37 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #38432a !important;
+	color: #000000 !important;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #38432a !important;
+	color: #000000 !important;
         font-size: 26px !important;
-        font-family: 'Lobster', sans-serif;'
+        font-family: 'Charm', serif;'
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(75, 83, 30, 0.75) !important;
-	box-shadow: 5px 10px 7px #38432a !important;
-	border: 3px dotted #d7ccc8 !important;
+	background: linear-gradient(90deg, rgba(172,132,2,1) 0%, rgba(244,203,102,1) 50%, rgba(172,132,2,1) 100%) !important;
+	box-shadow: 5px 10px 7px #000000 !important;
+	border: 5px double #731010 !important;
 	color: #FFFFFF !important;
 	border-radius: 10px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(121, 85, 72, 0.75);
+	background: linear-gradient(90deg, rgba(255,76,76,1) 0%, rgba(251,115,115,1) 50%, rgba(255,76,76,1) 100%);
 	color: #000000 !important;
 	border-radius: 10px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: linear-gradient(to right, rgba(109,76,65,0.75) 0%, rgba(141,110,99,0.75) 50%, rgba(188,170,164,0.75) 100%);
+	background: linear-gradient(90deg, rgba(153,6,6,1) 0%, rgba(255,67,67,1) 50%, rgba(153,6,6,1) 100%);
 	color: #000000 !important;
 	border-radius: 10px !important
 }
@@ -206,21 +206,21 @@ h3 {
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(169, 185, 159, 0.75) !important;
+	background: linear-gradient(90deg, rgba(172,132,2,1) 0%, rgba(244,203,102,1) 50%, rgba(172,132,2,1) 100%) !important;
         color: #000000 !important;
-	border: 3px dotted #d7ccc8 !important
+	border: 5px double #731010 !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(141, 110, 99, 0.75) !important;
+	background: #FFFFFF !important;
         color: #000000 !important;
-	border: 3px dotted #d7ccc8 !important
+	border: 5px double #731010 !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: linear-gradient(to right, rgba(109,76,65,0.75) 0%, rgba(141,110,99,0.75) 50%, rgba(188,170,164,0.75) 100%) !important;
+	background: linear-gradient(90deg, rgba(153,6,6,1) 0%, rgba(255,67,67,1) 50%, rgba(153,6,6,1) 100%) !important;
         color: #000000 !important;
-	border: 3px dotted #d7ccc8!important
+	border: 5px double #731010 !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
@@ -228,13 +228,13 @@ h3 {
 }
 
 div#chatMessageContainer {
-	border: none !important;
+	border: 5px double #731010 !important;
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(109, 76, 65, 0.75) !important;
+	background: linear-gradient(90deg, rgba(153,6,6,1) 0%, rgba(255,67,67,1) 50%, rgba(153,6,6,1) 100%) !important;
         color: #FFFFFF !important;
-	border: 3px dotted #d7ccc8 !important
+	border: 5px double #731010 !important
 }
 
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
@@ -243,8 +243,8 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(119, 130, 92, 0.75);
-	border: 3px dotted #d7ccc8 !important;
+	background: #FFFFFF ;
+	border: 5px double #731010 !important;
 	border-collapse: separate;
 	border-radius: 10px
 }
@@ -255,7 +255,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: linear-gradient(to right, rgba(58,67,42,0.8) 0%, rgba(91,114,72,0.8) 50%, rgba(119,130,92,0.8) 100%) !important;
+	background: linear-gradient(90deg, rgba(153,6,6,1) 0%, rgba(255,67,67,1) 50%, rgba(153,6,6,1) 100%) !important;
 	color: #FFFFFF !important;
 	border-radius: 10px
 }
@@ -267,8 +267,8 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(121, 85, 72, 0.75) !important;
-        color: #FFFFFF;
+	background: #FFFFFF !important;
+        color: #000000;
 	border-radius: 10px
 }
 
@@ -293,17 +293,17 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(91, 114, 72, 0.75);
-	border: 3px dotted #d7ccc8 !important;
+	background: linear-gradient(90deg, rgba(172,132,2,1) 0%, rgba(244,203,102,1) 50%, rgba(172,132,2,1) 100%);
+	border: 5px double #731010 !important;
 	border-radius: 10px !important
 }
 
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(75, 83, 30, 0.75) !important;
+	background: linear-gradient(90deg, rgba(153,6,6,1) 0%, rgba(255,67,67,1) 50%, rgba(153,6,6,1) 100%) !important;
 	color: #FFFFFF !important;
-	border: 3px dotted #d7ccc8 !important;
+	border: 5px double #731010 !important;
 	border-radius: 10px !important
 }
 
@@ -311,16 +311,17 @@ td.right {
 
 .feature,
 div.left {
-	background: rgba(75, 83, 30, 0.75);
-	border: 3px dotted #d7ccc8;
+	background: linear-gradient(90deg, rgba(153,6,6,1) 0%, rgba(255,67,67,1) 50%, rgba(153,6,6,1) 100%);
+	border: 5px double #731010;
 	border-radius: 10px !important
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(119, 130, 92, 0.75);
-        border-radius: 10px
+	background: #FFFFFF
+	
+	border-radius: 10px
 }
 
 /* Color behind the content of the elements listed above */
