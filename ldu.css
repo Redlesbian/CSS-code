@@ -15,7 +15,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 body {
 	background: url('https://i.ibb.co/4g830X82/Untitled24-20250204150457.png') no-repeat center center fixed;
 	background-size: cover;
-	font-family: 'IM Fell English', serif';
+	font-family: 'IM Fell English', serif;';
 	color: #000000
 }
 
@@ -147,7 +147,7 @@ h1 {
 	color: #000000;
 	font-size: 90px;
 	text-align: center;
-        font-family: 'Charm', serif;'
+        font-family: 'Charm', serif;';
 }
 
 
@@ -172,7 +172,7 @@ h3 {
 .sidebar h3 {
 	color: #000000 !important;
         font-size: 26px !important;
-        font-family: 'Charm', serif;'
+        font-family: 'Charm', serif;';
 }
 
 /* RIGHT SIDE PANELS */
@@ -588,7 +588,7 @@ img[src$="clanraffles.png"] {
 
 @media only screen and (max-width: 767px) {
         .container.main .hidden-xs {
-            display: block !important;
+            display: block !important
         }
 }
 
