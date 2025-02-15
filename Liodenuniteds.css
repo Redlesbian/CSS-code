@@ -668,6 +668,23 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	content: url('https://i.postimg.cc/0NS9S9b7/romeo-juliet-icon-education-collection-260nw-2218643141.png')
 }
 
+/* CLAN HOARD/RAFFLES */
+
+img[src$="clanhoard.png"] {
+  content: url("https://i.postimg.cc/zXDDQmc1/Untitled25-20250204151300.png") !important;
+}
+
+img[src$="clanraffles.png"] {
+  content: url("https://i.postimg.cc/Mpv6W7wP/Untitled25-20250204151157.png") !important;
+}
+
+img[src$="icon-beetle-gold.png"] {
+    content:url('https://i.postimg.cc/DyvDQx40/dca0up4-891c8fab-e48a-455b-8202-c2868ced40c9.png')!important;
+}
+img[src$="icon-beetle-silver.png"] {
+    content:url('https://i.postimg.cc/BvR9M29y/d7tbd4k-2ac379b6-433d-4ad0-bf3c-7626755f40f3.png')!important;
+}
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 
