@@ -942,7 +942,7 @@ body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center >
 }
  
 #about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(1) > b::after {
-    content:'expertise';
+    content:'whats yer expertise?';
     font-size:14px;
 }
  
@@ -953,7 +953,7 @@ body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center >
 }
  
 #about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(1) > b::after {
-    content:'power';
+    content:'are yer strong?';
     font-size:14px;
 }
  
@@ -975,7 +975,7 @@ body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center >
 }
  
 #about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(1) > b::after {
-    content:'little'uns';
+    content:'little uns';
     font-size:14px;
 }
  
@@ -986,7 +986,7 @@ body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center >
 }
  
 #about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(1) > b::after {
-    content:'ranchers';
+    content:'unpaid ranchers';
     font-size:14px;
 }
  
@@ -1008,7 +1008,7 @@ body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center >
 }
  
 #about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(4) > b::after {
-    content:'market';
+    content:'hagglers home';
     font-size:14px;
 }
  
@@ -1052,7 +1052,7 @@ body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center >
 }
  
 #about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(3) > b::after {
-    content:'inferior';
+    content:'inferior blokes';
     font-size:14px;
 }
  
