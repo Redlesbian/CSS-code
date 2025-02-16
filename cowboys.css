@@ -646,7 +646,7 @@ table#player img {
 
 
 div#lion_image {
-	border-radius: 50% !important;
+	border-radius: 20% !important;
 	overflow: hidden;
 	margin-top: 15px; /* May need adjusting */
 	margin-left: 12px /* May need adjusting */
@@ -654,7 +654,7 @@ div#lion_image {
 
 
 table#player img {
-	border-radius: 50% !important;
+	border-radius: 20% !important;
 	overflow: hidden
 }
 
@@ -723,18 +723,31 @@ a[href$="unsorted.php?id=261489"]>div.cave-grid>img /* Unsorted */ {
 
 
 
+/* SIDEBAR ARROWS */
+ 
+/* TOP */
+ 
+div.col-xs-6 > a > h3 > div {
+    content:url('https://i.postimg.cc/sDcWMkN6/weaselpelt.png');
+    position:relative;
+    width:20px;
+}
+ 
 /* MIDDLE */
  
 div.col-xs-5> a:nth-child(1) > h3 > div {
     content:url('https://i.postimg.cc/sDcWMkN6/weaselpelt.png');
-    position:absolute;
-    width:70px;
-    margin-right: 50px;    
-    right: -50px;
-    margin-top: -35px;
-    z-index:4;
+    position:relative;
+    width:20px;
 }
-
+ 
+/* BOTTOM */
+ 
+div.col-xs-5> a:nth-child(3) > h3 > div {
+    content:url('https://i.postimg.cc/sDcWMkN6/weaselpelt.png');
+    position:relative;
+    width:20px;
+}
 
 /* dynasty list adjustment code by tawnyCollar#251887. may be used in commissions, personal CSS, and free CSS. do NOT remove credit, or reupload claiming it as your own. */
  
@@ -798,7 +811,7 @@ Code for changing the nav toggle button
 
     .navbar-toggle {
         background: url('https://i.postimg.cc/jjkQLpL0/caveimg5rsz.png') no-repeat center center;
-        filter: drop-shadow(0px 0px 2px #fff);
+        filter: drop-shadow(0px 0px 2px #000000);
         background-size: cover!important;
         width: 30px;
         border-radius: 100px!important;
@@ -830,6 +843,229 @@ input[type="button"].bad {background: linear-gradient(0deg, rgba(247,182,119,1) 
 
 .commentTag.clear {border: 5px ridge #1f170f;}
 
+
+/* "THERE ARE _ MUTATIONS IN THIS PRIDE" */
+ 
+#about > tbody > tr:nth-child(4) > td > a {
+    font-size:0px;
+}
+ 
+#about > tbody > tr:nth-child(4) > td > a::after {
+    content:'Super cowboys';
+    font-size:14px;
+}
+
+
+/* ALLIES */
+ 
+#allies > tbody > tr:nth-child(1) > td {
+    font-size:0px;
+}
+ 
+#allies > tbody > tr:nth-child(1) > td::after {
+    content:'friendly folks';
+    font-size:15px;
+}
+
+
+/* CLANS */
+ 
+#clans > tbody > tr:nth-child(1) > td {
+    font-size:0px;
+}
+ 
+#clans > tbody > tr:nth-child(1) > td::after {
+    content:'ranch associates';
+    font-size:15px;
+}
+
+
+/* KING DYNASTY */
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(1) > div > div > h3 {
+    font-size:0px;
+}
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(1) > div > div > h3::after {
+    content:'soldiers';
+    font-size:20px;
+}
+ 
+/* PRIDE DYNASTY */
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(2) > div > div > h3 {
+    font-size:0px;
+}
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(2) > div > div > h3::after {
+    content:'ranchers';
+    font-size:20px;
+}
+ 
+/* ACHIVEMENTS */
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(3) > div > div > h3 {
+    font-size:0px;
+}
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(3) > div > div > h3::after {
+    content:'trophies';
+    font-size:20px;
+}
+ 
+/* SHOWCASE */
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(4) > div > div > h3 {
+    font-size:0px;
+}
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(4) > div > div > h3::after {
+    content:'show n tell';
+    font-size:20px;
+}
+
+/* BEETLE BOOK */
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(5) > div > div > h3 {
+    font-size:0px;
+}
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(5) > div > div > h3::after {
+    content:'critters';
+    font-size:20px;
+}
+
+/* LEVEL */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(1) > b::after {
+    content:'expertise';
+    font-size:14px;
+}
+ 
+/* STATS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(1) > b::after {
+    content:'power';
+    font-size:14px;
+}
+ 
+/* LIONESSESS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(3) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(3) > td:nth-child(1) > b::after {
+    content:'cowgirls';
+    font-size:14px;
+}
+ 
+/* CUBS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(1) > b::after {
+    content:'little'uns';
+    font-size:14px;
+}
+ 
+/* MALE SLOTS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(1) > b::after {
+    content:'ranchers';
+    font-size:14px;
+}
+ 
+/* FROZEN SLOTS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(6) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(6) > td:nth-child(1) > b::after {
+    content:'stone cold';
+    font-size:14px;
+}
+ 
+/* BRANCH */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(4) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(4) > b::after {
+    content:'market';
+    font-size:14px;
+}
+ 
+/* TERRITORY */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(4) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(4) > b::after {
+    content:'cowgirl recruitment';
+    font-size:14px;
+}
+ 
+/* BEETLE SLOTS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(3) > td:nth-child(4) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(3) > td:nth-child(4) > b::after {
+    content:'critter housing';
+    font-size:14px;
+}
+ 
+/* GRANDPAW */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(4) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(4) > b::after {
+    content:'paw paw';
+    font-size:14px;
+}
+ 
+/* SUB MALES */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(3) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(3) > b::after {
+    content:'inferior';
+    font-size:14px;
+}
+ 
+/* CAVE SLOTS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(6) > td:nth-child(3) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(6) > td:nth-child(3) > b::after {
+    content:'barns';
+    font-size:14px;
+}
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
