@@ -705,7 +705,7 @@ img[src$="cavedefault.jpg"] {
 div.col-xs-6 > a > h3 > div {
     content:url('https://i.postimg.cc/JhHfCWdY/arrow1.png');
     position:relative;
-    width:20px;
+    width:50px;
 }
  
 /* MIDDLE */
@@ -713,7 +713,7 @@ div.col-xs-6 > a > h3 > div {
 div.col-xs-5> a:nth-child(1) > h3 > div {
     content:url('https://i.postimg.cc/76vpxQFH/arrow2.png');
     position:relative;
-    width:20px;
+    width:50px;
 }
  
 /* BOTTOM */
@@ -721,7 +721,7 @@ div.col-xs-5> a:nth-child(1) > h3 > div {
 div.col-xs-5> a:nth-child(3) > h3 > div {
     content:url('https://i.postimg.cc/GmHNvCr3/arrow3.png');
     position:relative;
-    width:20px;
+    width:50px;
 }
 
 
