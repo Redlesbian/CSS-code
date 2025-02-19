@@ -327,7 +327,6 @@ td.bottom a {
 
 
 .inner-table .left {
-	float: left;
 	background: linear-gradient(0deg, rgba(246,128,128,1) 0%, rgba(185,89,89,1) 50%, rgba(135,67,65,1) 100%) !important;
         color: #000000;
 	border-radius: 10px
@@ -646,8 +645,7 @@ table#player img {
 /* CIRCULAR LION AND USER AVATAR */
 
 
-div#lion_image {
-	float:right;
+div#lion_image.floatright:hover {
 	border-radius: 20% !important;
 	overflow: hidden;
 	margin-top: 15px; /* May need adjusting */
