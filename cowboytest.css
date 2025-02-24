@@ -1,0 +1,1122 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+
+/* FONT (From Google Fonts) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Rye&display=swap');
+
+
+/* BACKGROUND */
+
+
+body {
+	background: url('https://i.postimg.cc/nh2Nwhw4/Untitled32-20250216164619.jpg') center center fixed;
+	background-size: 100%;
+	font-family: "Love Ya Like A Sister", serif;
+	color: #000000
+}
+
+
+/* MAIN PANEL */
+
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(199, 155, 107, 0.4);
+	border: 5px ridge #1f170f;
+	box-shadow: 2px 3px 3px #170c00;
+	border-radius: 10px
+}
+
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: 5px ridge #1f170f
+}
+
+
+/* TOPBAR ("Welcome back, ___") */
+
+
+.topbar {
+	background: linear-gradient(0deg, rgba(246,128,128,1) 0%, rgba(185,89,89,1) 50%, rgba(135,67,65,1) 100%);
+	border: 5px ridge #1f170f;
+	border-top: 5px ridge #1f170f;
+	color: #000000;
+	border-radius: 10px;
+}
+
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+
+.navbar {
+	background: linear-gradient(0deg, rgba(246,191,128,1) 0%, rgba(185,140,89,1) 50%, rgba(135,102,65,1) 100%);
+	border-bottom: 5px ridge #1f170f;
+	color: #000000;
+	border-radius: 10px
+}
+
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+
+.navbar li a {
+	color: #000000 !important
+}
+
+
+/* NAVBAR BUTTON HOVER */
+
+
+.navbar li a:hover {
+	background: linear-gradient(0deg, rgba(246,128,128,1) 0%, rgba(185,89,89,1) 50%, rgba(135,67,65,1) 100%) !important;
+	border-bottom: 5px ridge #1f170f;
+	color: #000000 !important;
+	border-radius: 10px
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+
+.breadcrumb {
+	background: linear-gradient(0deg, rgba(247,182,119,1) 0%, rgba(221,128,38,1) 50%, rgba(176,94,14,1) 100%) !important;
+        border: 5px ridge #1f170f;
+	border-radius: 10px
+}
+
+
+/* BREADCRUMB TEXT */
+
+
+.breadcrumb .active {
+	color: #000000
+}
+
+
+/* CSS CREDIT */
+
+
+.breadcrumb::after {
+        content: "Template by Katie (#106445)||css by red[#261489]";
+        color: #000000;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+
+/* BOOKMARK BUTTON */
+
+
+input.floatright, input.floatright:hover {
+	background: linear-gradient(0deg, rgba(246,128,128,1) 0%, rgba(185,89,89,1) 50%, rgba(135,67,65,1) 100%) !important;
+        border: 5px ridge #1f170f !important;
+	border-radius: 10px;
+	color: #000000 !important;    
+}
+
+
+/* SWITCH ACCOUNT BUTTON */
+
+
+button.button, button.button:hover {
+	background: linear-gradient(0deg, rgba(246,128,128,1) 0%, rgba(185,89,89,1) 50%, rgba(135,67,65,1) 100%);
+        border: 5px ridge #1f170f !important;
+	border-radius: 10px;
+        text-shadow: 2px 3px 3px #170c00 !important;
+	color: #000000 !important
+}
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: linear-gradient(0deg, rgba(246,191,128,1) 0%, rgba(185,140,89,1) 50%, rgba(135,102,65,1) 100%) !important;
+	border: 5px ridge #1f170f;
+	color: #000000;
+	border-radius: 10px !important
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+
+h1 {
+	color: #000000;
+	font-size: 90px;
+	text-align: center;
+        font-family: 'FONT NAME'
+}
+
+
+
+
+/* MEDIUM HEADER */
+
+
+h2 {
+	color: #000000;
+	font-size: 24px;
+	text-align: center
+}
+
+
+
+
+/* SMALL HEADER */
+
+
+h3 {
+	color: #000000 !important;
+	font-size: 14px !important
+}
+
+
+/* RIGHT SIDE PANEL HEADER */
+
+
+.sidebar h3 {
+	color: #000000 !important;
+        font-size: 26px !important;
+        font-family: 'FONT NAME'
+}
+
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: linear-gradient(0deg, rgba(246,128,128,1) 0%, rgba(185,89,89,1) 50%, rgba(135,67,65,1) 100%) !important;
+	box-shadow: 2px 3px 3px #170c00 !important;
+	border: 5px ridge #1f170f !important;
+	color: #000000 !important;
+	border-radius: 10px
+}
+
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: linear-gradient(0deg, rgba(247,182,119,1) 0%, rgba(221,128,38,1) 50%, rgba(176,94,14,1) 100%);
+	color: #000000 !important;
+	border-radius: 10px !important
+}
+
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: linear-gradient(0deg, rgba(246,128,128,1) 0%, rgba(185,89,89,1) 50%, rgba(135,67,65,1) 100%);
+	color: #000000 !important;
+	border-radius: 10px !important
+}
+
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #000000 !important
+}
+
+
+/* CHAT */
+
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: linear-gradient(0deg, rgba(246,191,128,1) 0%, rgba(185,140,89,1) 50%, rgba(135,102,65,1) 100%) !important;
+        color: #000000 !important;
+	border: 5px ridge #1f170f !important
+}
+
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: linear-gradient(0deg, rgba(246,191,128,1) 0%, rgba(185,140,89,1) 50%, rgba(135,102,65,1) 100%) !important;
+        color: #000000 !important;
+	border: 5px ridge #1f170f !important
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: linear-gradient(0deg, rgba(247,182,119,1) 0%, rgba(221,128,38,1) 50%, rgba(176,94,14,1) 100%) !important;
+        color: #000000 !important;
+	border: 5px ridge #1f170f !important
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #000000 !important;
+}
+
+
+div#chatMessageContainer {
+	border: 5px ridge #1f170f !important;
+}
+
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: linear-gradient(0deg, rgba(246,128,128,1) 0%, rgba(185,89,89,1) 50%, rgba(135,67,65,1) 100%) !important;
+        color: #000000 !important;
+	border: 5px ridge #1f170f !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+
+
+/* PANEL BACKGROUND COLOR */
+
+
+.table {
+	background: linear-gradient(0deg, rgba(246,191,128,0.75) 0%, rgba(185,140,89,0.75) 50%, rgba(135,102,65,0.75) 100%);
+	border: 5px ridge #1f170f !important;
+	border-collapse: separate;
+	border-radius: 10px
+}
+
+
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+
+.top,
+.bottom,
+th {
+	background: linear-gradient(0deg, rgba(247,182,119,1) 0%, rgba(221,128,38,1) 50%, rgba(176,94,14,1) 100%) !important;
+	color: #000000 !important;
+	border-radius: 10px
+}
+
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+
+.inner-table .center {
+	background: linear-gradient(0deg, rgba(246,128,128,1) 0%, rgba(185,89,89,1) 50%, rgba(135,67,65,1) 100%) !important;
+        color: #000000;
+	border-radius: 10px
+  position: center;
+}
+
+
+
+
+/* Color behind the number of all of the things above */
+
+
+.inner-table .right {
+	background: none;
+	border-radius: 10px !important
+}
+
+
+td.right {
+	border-radius: 10px !important
+}
+
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+
+.cave-grid,
+.mound-grid {
+	background: linear-gradient(0deg, rgba(246,191,128,1) 0%, rgba(185,140,89,1) 50%, rgba(135,102,65,1) 100%);
+	border: 5px ridge #1f170f !important;
+	border-radius: 10px !important
+}
+
+
+/* FEED ALL, PLAY ALL */
+
+
+.feature {
+	background: linear-gradient(0deg, rgba(246,128,128,1) 0%, rgba(185,89,89,1) 50%, rgba(135,67,65,1) 100%) !important;
+	color: #000000 !important;
+	border: 5px ridge #1f170f !important;
+	border-radius: 10px !important
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+
+.feature,
+div.left {
+	background: linear-gradient(0deg, rgba(247,182,119,1) 0%, rgba(221,128,38,1) 50%, rgba(176,94,14,1) 100%);
+	border: 5px ridge #1f170f;
+	border-radius: 10px !important
+}
+
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+
+.table .left {
+	background: linear-gradient(0deg, rgba(247,182,119,1) 0%, rgba(221,128,38,1) 50%, rgba(176,94,14,1) 100%);
+        border-radius: 10px
+}
+
+
+/* Color behind the content of the elements listed above */
+
+
+input,
+select,
+textarea {
+	background: linear-gradient(0deg, rgba(246,191,128,1) 0%, rgba(185,140,89,1) 50%, rgba(135,102,65,1) 100%) !important;
+	border: 5px ridge #1f170f !important;
+	border-radius: 10px !important;
+	color: #000000 !important;
+	box-shadow: 2px 3px 3px #170c00 !important;
+	text-shadow: 2px 3px 3px #170c00 !important
+}
+
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+
+.item-header {
+	background: linear-gradient(0deg, rgba(247,182,119,1) 0%, rgba(221,128,38,1) 50%, rgba(176,94,14,1) 100%) !important;
+	color: #000000 !important;
+	border-radius: 10px !important;
+}
+
+
+.item {
+	background: linear-gradient(0deg, rgba(246,191,128,1) 0%, rgba(185,140,89,1) 50%, rgba(135,102,65,1) 100%) !important;
+	border: 5px ridge #1f170f !important;
+	border-radius: 10px !important
+}
+
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+
+div.slider.round /* Background */ {
+	background: #ffffff !important
+}
+
+
+div.slider.round::before /* Circle Part */ {
+	background: #c79b6b !important
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #000000 !important;
+        text-shadow: none !important
+}
+
+
+/* LINK COLOR */
+
+
+a:link,
+a:visited {
+	color: #000000 !important
+}
+
+
+/* LINK HOVER COLOR */
+
+
+a:hover {
+	color: #ffffff !important
+}
+
+
+
+
+/* BOX CONTAINER */
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 10px;
+	justify-content: center;
+	display: flex
+}
+
+
+/* BOXES */
+
+
+.smallbox {
+	float: left;
+	background: linear-gradient(0deg, rgba(246,191,128,1) 0%, rgba(185,140,89,1) 50%, rgba(135,102,65,1) 100%);
+	color: #000000;
+	padding: 10px;
+	border: 5px ridge #1f170f;
+	border-radius: 10px;
+	margin: 10px;
+	height: 150px;
+	width: 28.4%;
+	overflow: auto
+}
+
+
+.mediumbox {
+	float: left;
+	background: linear-gradient(0deg, rgba(246,191,128,1) 0%, rgba(185,140,89,1) 50%, rgba(135,102,65,1) 100%);
+	color: #000000;
+	padding: 10px;
+	border: 5px ridge #1f170f;
+	border-radius: 10px;
+	margin: 10px;
+	height: 150px;
+	width: 43.8%;
+	overflow: auto
+}
+
+
+.largebox {
+	float: left;
+	background: linear-gradient(0deg, rgba(246,191,128,1) 0%, rgba(185,140,89,1) 50%, rgba(135,102,65,1) 100%);
+	color: #000000;
+	padding: 10px;
+	border: 5px ridge #1f170f;
+	border-radius: 10px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto
+}
+
+
+/* HOVER BOXES */
+
+
+.smallhoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 28.4%;
+	overflow: auto;
+        transition: 3s
+}
+
+
+.smallhoverbox:hover {
+	height: 150px;
+	width: 28.4%;
+}
+
+
+.mediumhoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 43.8%;
+	overflow: auto;
+        transition: 3s
+}
+
+
+.mediumhoverbox:hover {
+	height: 150px;
+	width: 43.8%;
+}
+
+
+.largehoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto;
+        transition: 3s
+}
+
+
+.largehoverbox:hover {
+	height: 150px;
+	width: 90%;
+}
+
+
+/* SCROLL BAR */
+
+
+/* WIDTH */
+
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+
+
+/* BACKGROUND */
+
+
+::-webkit-scrollbar-track {
+	background: #ffffff
+}
+
+
+
+
+/* "THUMB" */
+
+
+::-webkit-scrollbar-thumb {
+	background: #c79b6b;
+	border-radius: 10px
+}
+
+
+
+
+/* LION AND USER AVATAR OPACITY */
+
+
+div#lion_image {
+	opacity: 1
+}
+
+
+table#player img {
+	opacity: 1
+}
+
+
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+
+div#lion_image {
+	border-radius: 20% !important;
+	overflow: hidden;
+  display: none;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+
+table#player img {
+	border-radius: 20% !important;
+	overflow: hidden
+}
+
+
+
+/* CAVE / MOUND IMAGES */
+
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://i.postimg.cc/Qd8pS87Z/unsortimg.png') !important
+}
+
+
+a[href$="373072"]>div.cave-grid>img {
+	content: url('https://i.postimg.cc/kgsyd6C5/caveimg3rsz.png') !important
+}
+
+
+a[href$="213872"]>div.cave-grid>img {
+	content: url('https://i.postimg.cc/9ffYXmXY/caveimg4rsz.png') !important
+}
+
+
+a[href$="210679"]>div.cave-grid>img {
+	content: url('https://i.postimg.cc/FsjZDCn3/caveimg1rsz.png') !important
+}
+
+
+a[href$="218281"]>div.cave-grid>img {
+	content: url('https://i.postimg.cc/jjkQLpL0/caveimg5rsz.png') !important
+}
+
+
+a[href$="247454"]>div.cave-grid>img {
+	content: url('https://i.postimg.cc/Z54LgP1g/caveimg2rsz.png') !important
+}
+
+
+a[href$="203286"]>div.cave-grid>img {
+	content: url('https://i.postimg.cc/qB6QCvsm/caveimg6rsz.png') !important
+}
+
+
+a[href$="362841"]>div.cave-grid>img {
+	content: url('https://i.postimg.cc/kgsyd6C5/caveimg3rsz.png') !important
+}
+
+
+a[href$="lionoverview.php?id=261489"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://i.postimg.cc/Qd8pS87Z/unsortimg.png') !important
+}
+
+
+a[href$="unsorted.php?id=261489"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://i.postimg.cc/Qd8pS87Z/unsortimg.png') !important
+}
+
+
+.mound-grid img /* Mound(s) */ {
+	background: url("https://i.postimg.cc/hGhVW2MC/beetleimg.png");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px
+}
+
+
+
+/* SIDEBAR ARROWS */
+ 
+/* TOP */
+ 
+div.col-xs-6 > a > h3 > div {
+    content:url('https://i.postimg.cc/sDcWMkN6/weaselpelt.png');
+    position:relative;
+    width:20px;
+}
+ 
+/* MIDDLE */
+ 
+div.col-xs-5> a:nth-child(1) > h3 > div {
+    content:url('https://i.postimg.cc/sDcWMkN6/weaselpelt.png');
+    position:relative;
+    width:20px;
+}
+ 
+/* BOTTOM */
+ 
+div.col-xs-5> a:nth-child(3) > h3 > div {
+    content:url('https://i.postimg.cc/sDcWMkN6/weaselpelt.png');
+    position:relative;
+    width:20px;
+}
+
+/* dynasty list adjustment code by tawnyCollar#251887. may be used in commissions, personal CSS, and free CSS. do NOT remove credit, or reupload claiming it as your own. */
+ 
+/* change beetle book image */
+img[src$="den_ancestors.png"] {
+    background:none!important; 
+       content:url('https://i.postimg.cc/yYB9Y1v3/poachergun.png')!important;
+}
+img[src$="den_ancestorsfem.png"] {
+    background:none!important; 
+        content:url('https://i.postimg.cc/yYB9Y1v3/poachergun.png')!important;
+}
+img[src$="den_achievements.png"] {
+    background:none!important; 
+       content:url('https://i.postimg.cc/yYB9Y1v3/poachergun.png')!important;
+}
+img[src$="den_showcase.png"] {
+    background:none!important; 
+    content:url('https://i.postimg.cc/yYB9Y1v3/poachergun.png')!important;   
+}
+img[src$="den_beetlebook.png"] {
+    background:none!important; 
+       content:url('https://i.postimg.cc/yYB9Y1v3/poachergun.png');
+}
+ 
+/* fits all elements on one line */
+body > div.container.main > div > div.col-md-9.col-xs-12 > center {
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+}
+.dynastylist {
+    flex: 1 1 auto;
+    max-width: 20%; 
+    box-sizing: border-box; 
+}
+/* resizes all images to fit the new layout */
+.dynastylist img {
+    height: 100%!important;
+     width: 100%!important;
+    border-radius: 10px;
+}
+ 
+/* font option 1 - apply font size to all headers at once.  */
+.dynastylist h3 {
+    word-break: break-all;
+    font-size: 15px !important; /* Adjust font size for all headers */
+}
+
+img[src$="icon-beetle-gold.png"] {
+    content:url('https://i.postimg.cc/s287V5N3/gbimg.png')!important;
+}
+img[src$="icon-beetle-silver.png"] {
+    content:url('https://i.postimg.cc/JnkJttfZ/sbimg.png')!important;
+}
+
+Code for changing the nav toggle button
+
+.navbar-toggle .icon-bar {
+        display: none;
+    }
+
+    .navbar-toggle {
+        background: url('https://i.postimg.cc/jjkQLpL0/caveimg5rsz.png') no-repeat center center;
+        filter: drop-shadow(0px 0px 2px #000000);
+        background-size: cover!important;
+        width: 30px;
+        border-radius: 100px!important;
+        height: 30px;
+        border: none !important;
+    }
+
+/*-------------------------*/
+/*Comment Box CODE BY HOK-Z*/
+/*-------------------------*/
+#commentBox {
+  background: rgba(199, 155, 107, 0.75);
+ border: none !important;}
+
+div.comment {background: linear-gradient(0deg, rgba(246,128,128,1) 0%, rgba(185,89,89,1) 50%, rgba(135,67,65,1) 100%) !important;
+            border-bottom: 5px ridge #1f170f;
+            font-weight: bold;}
+
+div#makeComment {background: linear-gradient(0deg, rgba(246,191,128,1) 0%, rgba(185,140,89,1) 50%, rgba(135,102,65,1) 100%) !important;
+                border: 5px ridge #1f170f;
+                border-radius: 10px;}
+
+div.commentText {color: #000000;}
+
+input#comment {background: #c79b6b !important;
+              color: #000000 !important;}
+
+input[type="button"].bad {background: linear-gradient(0deg, rgba(247,182,119,1) 0%, rgba(221,128,38,1) 50%, rgba(176,94,14,1) 100%) !important;}
+
+.commentTag.clear {border: 5px ridge #1f170f;}
+
+
+/* "THERE ARE _ MUTATIONS IN THIS PRIDE" */
+ 
+#about > tbody > tr:nth-child(4) > td > a {
+    font-size:0px;
+}
+ 
+#about > tbody > tr:nth-child(4) > td > a::after {
+    content:'Super cowboys';
+    font-size:14px;
+}
+
+
+/* ALLIES */
+ 
+#allies > tbody > tr:nth-child(1) > td {
+    font-size:0px;
+}
+ 
+#allies > tbody > tr:nth-child(1) > td::after {
+    content:'friendly folks';
+    font-size:15px;
+}
+
+
+/* CLANS */
+ 
+#clans > tbody > tr:nth-child(1) > td {
+    font-size:0px;
+}
+ 
+#clans > tbody > tr:nth-child(1) > td::after {
+    content:'ranch associates';
+    font-size:15px;
+}
+
+
+/* KING DYNASTY */
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(1) > div > div > h3 {
+    font-size:0px;
+}
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(1) > div > div > h3::after {
+    content:'soldiers';
+    font-size:20px;
+}
+ 
+/* PRIDE DYNASTY */
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(2) > div > div > h3 {
+    font-size:0px;
+}
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(2) > div > div > h3::after {
+    content:'ranchers';
+    font-size:20px;
+}
+ 
+/* ACHIVEMENTS */
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(3) > div > div > h3 {
+    font-size:0px;
+}
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(3) > div > div > h3::after {
+    content:'trophies';
+    font-size:20px;
+}
+ 
+/* SHOWCASE */
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(4) > div > div > h3 {
+    font-size:0px;
+}
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(4) > div > div > h3::after {
+    content:'show n tell';
+    font-size:20px;
+}
+
+/* BEETLE BOOK */
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(5) > div > div > h3 {
+    font-size:0px;
+}
+ 
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center > div:nth-child(40) > a:nth-child(5) > div > div > h3::after {
+    content:'critters';
+    font-size:20px;
+}
+
+/* LEVEL */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(1) > b::after {
+    content:'whats yer expertise?';
+    font-size:14px;
+}
+ 
+/* STATS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(1) > b::after {
+    content:'are yer strong?';
+    font-size:14px;
+}
+ 
+/* LIONESSESS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(3) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(3) > td:nth-child(1) > b::after {
+    content:'cowgirls';
+    font-size:14px;
+}
+ 
+/* CUBS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(1) > b::after {
+    content:'little uns';
+    font-size:14px;
+}
+ 
+/* MALE SLOTS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(1) > b::after {
+    content:'unpaid ranchers';
+    font-size:14px;
+}
+ 
+/* FROZEN SLOTS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(6) > td:nth-child(1) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(6) > td:nth-child(1) > b::after {
+    content:'stone cold';
+    font-size:14px;
+}
+ 
+/* BRANCH */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(4) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(1) > td:nth-child(4) > b::after {
+    content:'hagglers home';
+    font-size:14px;
+}
+ 
+/* TERRITORY */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(4) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(2) > td:nth-child(4) > b::after {
+    content:'cowgirl recruitment';
+    font-size:14px;
+}
+ 
+/* BEETLE SLOTS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(3) > td:nth-child(4) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(3) > td:nth-child(4) > b::after {
+    content:'critter housing';
+    font-size:14px;
+}
+ 
+/* GRANDPAW */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(4) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(4) > td:nth-child(4) > b::after {
+    content:'paw paw';
+    font-size:14px;
+}
+ 
+/* SUB MALES */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(3) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(5) > td:nth-child(3) > b::after {
+    content:'inferior blokes';
+    font-size:14px;
+}
+ 
+/* CAVE SLOTS */
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(6) > td:nth-child(3) > b {
+    font-size:0px;
+}
+ 
+#about > tbody > tr.right > td.right > table > tbody > tr:nth-child(6) > td:nth-child(3) > b::after {
+    content:'barns';
+    font-size:14px;
+}
+
+/*-------------------------*/
+/*Clans Table*/
+/*Collapsing Table created by Hok-Z #41458 / #170947*/
+/*-------------------------*/
+#about {
+background: var(--OpaqueColorLessDark);
+border: 1px solid var(--accentColor) !important;
+height: 155px !important;
+width: fit-content !important;
+transition: .2s;
+display: flow;
+}
+
+#about .right {
+background: transparent !important;
+border: none !important;
+height: auto;
+}
+
+#about .top{
+position: sticky;
+top: -1px;
+z-index: 2;
+border: 1px solid var(--mainColor) !important;}
+
+#about:hover {
+transition: .2s !important;
+height: 500px !important;
+overflow: auto !important;}
+
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
