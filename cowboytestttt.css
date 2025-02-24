@@ -303,10 +303,10 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	border-radius: 10px
 }
 
-.tr .right {
+.table .right {
 	height: 250px;
 }
- .td .right {
+ .inner-table .right {
 	 position: absolute;
 	 right: 250px;
 
@@ -658,8 +658,6 @@ div#lion_image {
 	position: absolute;
         top: 30px;
         right: 20px;
-	margin-top: 15px; /* May need adjusting */
-	margin-left: 12px /* May need adjusting */
 }
 
 
