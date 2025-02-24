@@ -1067,39 +1067,6 @@ body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > center >
     font-size:14px;
 }
 
-/*-------------------------*/
-/*Clans Table*/
-/*Collapsing Table created by Hok-Z #41458 / #170947*/
-/*-------------------------*/
-#clans {
-background: var(--OpaqueColorLessDark);
-border: 1px solid var(--accentColor) !important;
-height: 155px !important;
-width: fit-content !important;
-transition: .2s;
-display: flow;
-}
-
-#clans .right {
-background: transparent !important;
-border: none !important;
-height: auto;
-}
-
-#clans .top{
-position: sticky;
-top: -1px;
-z-index: 2;
-border: 1px solid var(--mainColor) !important;}
-
-#clans:hover {
-transition: .2s !important;
-height: 500px !important;
-overflow: auto !important;}
-
-
-
-
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
