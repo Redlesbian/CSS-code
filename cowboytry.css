@@ -303,14 +303,12 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	border-radius: 10px
 }
 
-.table .right {
-	height: 250px;
-}
- .inner-table .right {
+ .table .right {
 	 position: absolute;
-	 right: 250px;
+	 left: 250px
+	 height: 250px;
 
-
+ }
 
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
@@ -657,7 +655,7 @@ div#lion_image {
 	overflow: hidden;
 	position: absolute;
         top: 30px;
-        right: 20px;
+        left: 450px;
 }
 
 
