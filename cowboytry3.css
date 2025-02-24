@@ -303,12 +303,6 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	border-radius: 10px
 }
 
- .table .right {
-	 position: absolute;
-	 left: 250px
-	 height: 250px;
-
- }
 
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
@@ -654,8 +648,7 @@ div#lion_image {
 	border-radius: 20% !important;
 	overflow: hidden;
 	position: absolute;
-        top: 30px;
-        left: 450px;
+        
 }
 
 
@@ -1103,6 +1096,20 @@ transition: .2s !important;
 height: 500px !important;
 overflow: auto !important;}
 
+
+
+div#lion_image {
+    position: relative;
+    right: 400px
+    padding-bottom: 50px;
+    
+}
+
+#about.table table.inner-table.auto > tbody {
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
