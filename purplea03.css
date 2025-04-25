@@ -4,24 +4,20 @@
 }
 
 #header {
-  background: rgba (218, 133, 230, 1);
   border: 3px solid #b03fbf;
   border-radius: 5px;
 }
 
 #dashboard {
-  background: rgba (218, 133, 230, 1);
   border: 3px solid #b03fbf;
   border-radius: 5px;
 }
 
 #main {
-  background: rgba (218, 133, 230, 1);
   border: 3px solid #b03fbf;
 }
   
 #footer .module {
-  background: rgba (218, 133, 230, 1);
   border: 3px solid #b03fbf;
   border-radius: 5px;
 }
@@ -48,7 +44,6 @@
 }
 
 #inner .group {
-  background: rgba (218, 133, 230, 1);
   border: 3px solid #b03fbf;
   border-radius: 5px;
 }
