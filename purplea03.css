@@ -4,20 +4,24 @@
 }
 
 #header {
+  background: #c681db;
   border: 3px solid #b03fbf;
   border-radius: 5px;
 }
 
 #dashboard {
+  background: #c681db;
   border: 3px solid #b03fbf;
   border-radius: 5px;
 }
 
 #main {
+  background: #c681db;
   border: 3px solid #b03fbf;
 }
   
 #footer .module {
+  background: #c681db;
   border: 3px solid #b03fbf;
   border-radius: 5px;
 }
@@ -27,19 +31,19 @@
 }
 
 #header {
-  background: rgba (218, 133, 230, 1);
+  background: #9e6dad;
   border: 3px solid #b03fbf;
   border-radius: 5px;
 }
 
 #dashboard {
-  background: rgba (218, 133, 230, 1);
+  background: #9e6dad;
   border: 3px solid #b03fbf;
   border-radius: 5px;
 }
   
 #main {
-  background: rgba (218, 133, 230, 1);
+  background: #9e6dad;
   border: 3px solid #b03fbf;
 }
 
@@ -49,7 +53,7 @@
 }
 
 #footer .module {
-  background: rgba (218, 133, 230, 1);
+  background: #9e6dad;
   border: 3px solid #b03fbf;
 }
   
@@ -73,7 +77,7 @@ fieldset fieldset {
 .blurb ul.tags,
 .blurb blockquote,
 #outer .current {
-  background: #ddd;
+  background: #9e6dad;
   border: 3px solid #b03fbf;
   border-radius: 1.5px;
   padding: 0.5px;
