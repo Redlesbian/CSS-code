@@ -12,21 +12,18 @@
 #dashboard {
   background: #c681db;
   border: 3px solid #492c52;
+  border-top: 3px solid #492c52;
   border-radius: 5px;
 }
 
 #main {
   border: 3px solid #492c52;
 }
-  
+
 #footer .module {
   background: #c681db;
   border: 3px solid #492c52;
   border-radius: 5px;
-}
-
-#inner .region {
-  padding: 1.5em;
 }
 
 #header {
@@ -35,12 +32,13 @@
   border-radius: 5px;
 }
 
-#dashboard {
-  background: #9e6dad;
+#dashboard.own {
   border: 3px solid #492c52;
+  border-top: 3px solid #492c52;
+  border-bottom: 3px solid #492c52;
   border-radius: 5px;
 }
-  
+
 #main {
   background: #9e6dad;
   border: 3px solid #492c52;
@@ -56,15 +54,12 @@
   background: #9e6dad;
   border: 3px solid #492c52;
 }
-  
+
 fieldset,
 .flash {
-  background: #dfa8f0;
-  border: 3px solid #492c52;
   outline: 0;
   border-radius: 2px;
   box-shadow: none;
-  margin-bottom: 2px;
 }
 
 .blurb .module,
@@ -78,14 +73,7 @@ fieldset fieldset {
 .blurb ul.tags,
 .blurb blockquote,
 #outer .current {
-  background: #9e6dad;
-  border: 3px solid #492c52;
   border-radius: 1.5px;
-  padding: 0.5px;
-}
-
-.group .header {
-  width: 96%;
 }
 
 #footer {
@@ -93,23 +81,13 @@ fieldset fieldset {
   border: none;
 }
 
-#header h1 {
-  top: 0.5px;
-  left: 0.5px;
-}
-
-#header #greeting {
-  right: 2px;
-}
-
-#header h1 img {
+#header h1 #header #greeting #header h1 img {
   opacity: 0.75;
 }
 
 #header li.search {
   float: none;
   display: block;
-  margin-top: 0.6px;
 }
 
 #header li.search input {
@@ -120,22 +98,10 @@ fieldset fieldset {
 #header ul.primary .menu a,
 #header .dropdown .menu a:hover,
 #header .dropdown .menu a:focus {
-  background: #ffffff;
+  background: #d895ed;
 }
 
-#dashboard {
-  width: 20%;
-}
-
-#main.dashboard {
-  margin: auto 1.5px;
-  position: relative;
-  clear: none;
-  float: right;
-  width: 60%;
-}
-
-#outer #footer .heading,
+#dashboard #main.dashboard #outer #footer .heading,
 #outer #footer .actions a,
 #header ul.primary a {
   color: #ffffff;
@@ -156,12 +122,10 @@ textarea,
 input,
 #header ul.primary a,
 .icon {
-  background: #f1c2ff;
-  border: 3px solid #492c52;
   border-radius: 1.5px;
   box-shadow: none;
 }
-    
+
 .icon {
   border-radius: 5px;
 }
