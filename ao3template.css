@@ -1,0 +1,178 @@
+#outer {
+  background: url("URL here");
+  border: 1px solid #ffffff;
+}
+
+#header {
+  background: 247, 247, 247, 0.5;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+#dashboard {
+  background: 247, 247, 247, 0.5;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+#main {
+  background: 247, 247, 247, 0.5;
+  border: 1px solid #ffffff;
+}
+  
+#footer .module {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+#inner .region {
+  padding: 1.5em;
+}
+
+#header {
+  background: 247, 247, 247, 0.5;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+#dashboard {
+  background: 247, 247, 247, 0.5;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+  
+#main {
+  background: 247, 247, 247, 0.5;
+  border: 1px solid #ffffff;
+}
+
+#inner .group {
+  background: 247, 247, 247, 0.5;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+#footer .module {
+  background: 247, 247, 247, 0.5;
+  border: 1px solid #ffffff;
+}
+  
+fieldset,
+.flash {
+  border: 1px solid #ffffff;
+  outline: 0;
+  border-radius: 2px;
+  box-shadow: none;
+  margin-bottom: 2px;
+}
+
+.blurb .module,
+#inner .group .group .group,
+fieldset fieldset {
+  border: 1px solid #ffffff;
+  box-shadow: none;
+}
+
+.group .header,
+.blurb ul.tags,
+.blurb blockquote,
+#outer .current {
+  background: #ddd;
+  border: 1px solid #ffffff;
+  border-radius: 1.5px;
+  padding: 0.5px;
+}
+
+.group .header {
+  width: 96%;
+}
+
+#footer {
+  background: none;
+  border: none;
+}
+
+#header h1 {
+  top: 0.5px;
+  left: 0.5px;
+}
+
+#header #greeting {
+  right: 2px;
+}
+
+#header h1 img {
+  opacity: 0.75;
+}
+
+#header li.search {
+  float: none;
+  display: block;
+  margin-top: 0.6px;
+}
+
+#header li.search input {
+  border: none;
+}
+
+#header ul.primary a,
+#header ul.primary .menu a,
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus {
+  background: #ffffff;
+}
+
+#dashboard {
+  width: 20%;
+}
+
+#main.dashboard {
+  margin: auto 1.5px;
+  position: relative;
+  clear: none;
+  float: right;
+  width: 60%;
+}
+
+#outer #footer .heading,
+#outer #footer .actions a,
+#header ul.primary a {
+  color: #ffffff;
+}
+
+.blurb ul.required-tags li span,
+.bookmark .status span,
+.actions a,
+.actions a:visited,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+legend,
+textarea,
+input,
+#header ul.primary a,
+.icon {
+  border: 1px solid #ffffff;
+  border-radius: 1.5px;
+  box-shadow: none;
+}
+
+.icon {
+  border-radius: 5px;
+}
+
+#main .index,
+#header ul.primary,
+#header ul.primary .menu {
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+#header .primary .menu li {
+  border-bottom: none;
+}
