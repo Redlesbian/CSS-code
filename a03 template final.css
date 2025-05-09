@@ -1,0 +1,117 @@
+#outer {
+  background: url("https://i.postimg.cc/tRWcGdKq/puprle.jpg");
+  border: 3px solid #492c52;
+}
+
+#header {
+  background: #c681db;
+  border: 3px solid #492c52;
+  border-radius: 5px;
+}
+
+#header .primary {
+  background: #c681db;
+  border: 3px solid #492c52;
+  border-radius: 5px;
+}
+
+#footer {
+  background: #c681db;
+}
+
+#dashboard {
+  background: #c681db;
+  border: 3px solid #492c52;
+  border-top: 3px solid #492c52;
+  border-radius: 5px;
+}
+
+#dashboard .current {
+  background: #c681db;
+  border: 3px solid #492c52;
+  border-radius: 5px;
+}
+  
+
+#main {
+  border: 3px solid #492c52;
+}
+
+#footer .module {
+  background: #c681db;
+  border: 3px solid #492c52;
+  border-radius: 5px;
+}
+
+#header {
+  background: #9e6dad;
+  border: 3px solid #492c52;
+  border-radius: 5px;
+}
+
+#dashboard.own {
+  border: 3px solid #492c52;
+  border-top: 3px solid #492c52;
+  border-bottom: 3px solid #492c52;
+  border-radius: 5px;
+}
+
+#main {
+  background: #9e6dad;
+  border: 3px solid #492c52;
+}
+
+#inner .group {
+  background: #dfa8f0;
+  border: 3px solid #492c52;
+  border-radius: 5px;
+}
+
+#footer .module {
+  background: #9e6dad;
+  border: 3px solid #492c52;
+}
+
+fieldset,
+.flash {
+  outline: 0;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.blurb .module,
+#inner .group .group .group,
+fieldset fieldset {
+  border: 3px solid #492c52;
+  box-shadow: none;
+}
+
+li.relationships a {
+  background: #dfa8f0;
+}
+
+.actions a, .actions a:link, .action, .action:link, .actions button, .actions input, input[type="submit"], button, .current, .actions label {   
+  background: #f373ff;
+  border: 3px solid #492c52;
+  border-radius: 5px;
+}
+
+
+.blurb h4 a:link, .blurb h4 img {
+  color: #000000;
+}
+
+#header .heading a {
+  color: #000000;
+}
+
+#header .actions a:hover, #header .actions a:focus, #header .dropdown:hover a, #header .open a {
+  background: #f373ff;
+  border: 3px solid #492c52;
+  border-radius: 5px;
+}
+
+#header .user a:hover, #header .user a:focus {
+  color: #000000;
+}
+
