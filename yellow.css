@@ -659,6 +659,12 @@ table#player img {
 }
 
 
+/* LIODEN LOGO REPLACER */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://i.postimg.cc/fbB9WPZB/Untitled1-20250509121835.png')
+}
 
 
 /* CAVE / MOUND IMAGES */
