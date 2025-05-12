@@ -12,31 +12,38 @@ body {
   background: #ffffff;
   color: #000000;
   border: 2px solid #ffffff;
-  border-radius: 3px;
+  border-radius: 7px;
 }
 
 
 .topbar {
   background: #0D5C63;
   color: #ffffff;
-  padding: 12px 17px;
-  font-size: 20px
+  padding-top: 12px;
+  padding-right: 17px;
+  font-size: 20px;
   border: 2px solid #ffffff;
-  border-radius: 3px;
+  border-radius: 7px;
 }
 
 .navbar {
   background: #0d5c63;
   color: #ffffff;
   border: 2px solid #ffffff;
-  border-radius: 3px;
+  border-radius: 7px;
 }
 
+.navbar li a:hover {
+  background: #ffffff;
+  color: #000000;
+  border-radius: 7px;
+}
+  
 .breadcrumb {
   background: #348E8E;
   color: #000000;
   border: 2px solid #ffffff;
-  border-radius: 3px;
+  border-radius: 7px;
 }
 
 .table {
@@ -50,14 +57,14 @@ body {
   background: #0d5c63;
   color: #ffffff;
   border: 2px solid #ffffff;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .inner-table .right {
   background: #ffffff;
   color: #000000;
   border: 2px solid #ffffff;
-  border-radius: 3px;
+  border-radius: 7px;
 }
 
 
@@ -65,7 +72,11 @@ body {
   background: #0d5c63;
   color: #ffffff;
   border: 2px solid #ffffff;
-  border-radius: 3px;
+  border-radius: 7px;
+}
+
+.table .left {
+  background: #ffffff;
 }
 
 
@@ -73,27 +84,60 @@ body {
   background: #0d5c63;
   color: #ffffff;
   border: 2px solid #ffffff;
-  border-radius: 3px;
+  border-radius: 7px;
 }
 
 .col-md-3 .panel-body {
   background: #78cdd7;
   color: #000000;
   border: 2px solid #ffffff;
-  border-radius: 3px;
+  border-radius: 7px;
 }
-
-.progress div {
-  background: #44A1A0;
-  color: #000000;
-  border-radius: 3px;
-}
-
     
 .progress-bar {
   background: #0D5C63;
   color: #000000
-  border-radius: 3px;
+  border-radius: 7px;
 }
 
+
+a:link, a:visited, a:active {
+  color: #000000;
+}
+
+.alert {
+  background: #247b7b;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+
+.select-control, button.button, input[type="button"], input[type="submit"], input[type="reset"] {
+  background: #44a1a0;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+div .left {
+  background: #78cdd7
+  color: #000000
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.table .left {
+  background: #247b7b;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.item-header {
+  background: #247b7b;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
 
