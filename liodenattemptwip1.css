@@ -9,7 +9,7 @@ body {
 }
   
 .main {
-  background: #ffffff;
+  background: #bce6eb;
   color: #000000;
   border: 2px solid #ffffff;
   border-radius: 7px;
@@ -26,6 +26,11 @@ body {
   border-radius: 7px;
 }
 
+.topbar a:link, .topbar a:visited, .topbar a:active {
+  color: #ffffff;
+}
+
+
 .navbar {
   background: #0d5c63;
   color: #ffffff;
@@ -38,7 +43,12 @@ body {
   color: #000000;
   border-radius: 7px;
 }
-  
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+
 .breadcrumb {
   background: #348E8E;
   color: #000000;
@@ -121,8 +131,8 @@ a:link, a:visited, a:active {
 }
 
 div .left {
-  background: #78cdd7
-  color: #000000
+  background: #78cdd7;
+  color: #000000;
   border: 2px solid #ffffff;
   border-radius: 7px;
 }
