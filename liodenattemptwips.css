@@ -55,7 +55,6 @@ body {
   color: #ffffff;
 }
 
-
 .breadcrumb {
   background: #348E8E;
   color: #000000;
@@ -90,7 +89,14 @@ button.button, button.button:hover {
   border: 2px solid #ffffff !important;
   border-radius: 7px;
 }
-  
+
+input#btnToggleSidebarChat {
+  background: #44a1a0 !important;
+  color: #000000 !important;
+  border: 2px solid #ffffff !important;
+  border-radius: 7px;
+}
+
 .table .top, .table th {
   background: #0d5c63;
   color: #ffffff;
@@ -199,15 +205,9 @@ img[src$="den_beetlebook.png"] {
   height: 50px;
 }
 
-table#about.table {
-  width: 50%;
-  float: left;
-}
-
-table#player.table {
-  width: 50%;
-  float: right;
-  position: relative;
-  left: 100px;
-  bottom: 200px;
+.breadcrumb::after {
+  content: "css by redlesbian [#261489]";
+  color: #000000;
+  position: absolute;
+  right: 15%;
 }
