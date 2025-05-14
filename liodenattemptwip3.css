@@ -44,11 +44,13 @@ body {
 }
 
 .navbar li a:hover {
-  background: #ffffff;
-  color: #000000;
+  background: #0d5c63 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff;
   border-radius: 7px;
 }
-
+  
+  
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
 }
@@ -82,7 +84,13 @@ body {
   border-radius: 7px;
 }
 
-
+button.button, button.button:hover {
+  background: #44a1a0 !important;
+  color: #000000 !important;
+  border: 2px solid #ffffff !important;
+  border-radius: 7px;
+}
+  
 .table .top, .table th {
   background: #0d5c63;
   color: #ffffff;
@@ -128,10 +136,10 @@ a:link, a:visited, a:active {
 }
 
 
-.select-control, button.button, input[type="button"], input[type="submit"], input[type="reset"] {
-  background: #44a1a0;
-  color: #000000;
-  border: 2px solid #ffffff;
+input.floatright, input.floatright:hover {
+  background: #44a1a0 !important;
+  color: #000000 !important;
+  border: 2px solid #ffffff !important;
   border-radius: 7px;
 }
 
@@ -156,3 +164,13 @@ div .left {
   border-radius: 7px;
 }
 
+.cave-grid img {
+  visibility: hide;
+}
+
+.cave-grid {
+  background: #44A1A0;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
