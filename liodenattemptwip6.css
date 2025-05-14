@@ -148,6 +148,7 @@ div .left {
   color: #000000;
   border: 2px solid #ffffff;
   border-radius: 7px;
+  height: 50px
 }
 
 .table .left {
@@ -168,11 +169,17 @@ div .left {
   visibility: hidden;
 }
 
+#text {
+  font-size: 10px;
+  position: relative;
+}
+
 .cave-grid {
   background: #44A1A0;
   color: #000000;
   border: 2px solid #ffffff;
   border-radius: 7px;
+  height: 50px;
 }
 
 img[src$="den_ancestors.png"] {
