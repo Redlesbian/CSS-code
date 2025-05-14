@@ -167,7 +167,7 @@ div .left {
 
 .cave-grid img {
   visibility: hidden;
-  height: 50px;
+  height: 1px;
 }
 
 
@@ -197,4 +197,17 @@ img[src$="den_showcase.png"] {
 img[src$="den_beetlebook.png"] {
   visibility: hidden;
   height: 50px;
+}
+
+table#about.table {
+  width: 50%;
+  float: left;
+}
+
+table#player.table {
+  width: 50%;
+  float: right;
+  position: relative;
+  left: 175px:
+  bottom: 375px:
 }
