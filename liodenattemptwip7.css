@@ -171,6 +171,7 @@ div .left {
 
 #text {
   font-size: 10px;
+  top: 4px;
   position: relative;
 }
 
