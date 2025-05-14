@@ -165,7 +165,7 @@ div .left {
 }
 
 .cave-grid img {
-  visibility: hide;
+  visibility: hidden;
 }
 
 .cave-grid {
@@ -173,4 +173,20 @@ div .left {
   color: #000000;
   border: 2px solid #ffffff;
   border-radius: 7px;
+}
+
+img[src$="den_ancestors.png"] {
+    visibility: hidden;
+}
+img[src$="den_ancestorsfem.png"] {
+    visibility: hidden;
+}
+img[src$="den_achievements.png"] {
+    visibility: hidden;
+}
+img[src$="den_showcase.png"] {
+   visibility: hidden;
+}
+img[src$="den_beetlebook.png"] {
+  visibility: hidden;
 }
