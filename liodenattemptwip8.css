@@ -167,13 +167,9 @@ div .left {
 
 .cave-grid img {
   visibility: hidden;
+  height: 50px;
 }
 
-#text {
-  font-size: 10px;
-  top: 4px;
-  position: relative;
-}
 
 .cave-grid {
   background: #44A1A0;
@@ -185,16 +181,21 @@ div .left {
 
 img[src$="den_ancestors.png"] {
     visibility: hidden;
+    height: 50px;
 }
 img[src$="den_ancestorsfem.png"] {
     visibility: hidden;
+    height: 50px;
 }
 img[src$="den_achievements.png"] {
     visibility: hidden;
+    height: 50px;
 }
 img[src$="den_showcase.png"] {
    visibility: hidden;
+   height: 50px;
 }
 img[src$="den_beetlebook.png"] {
   visibility: hidden;
+  height: 50px;
 }
