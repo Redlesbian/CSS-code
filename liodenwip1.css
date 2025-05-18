@@ -9,7 +9,7 @@ body {
 }
   
 .main {
-  background: #bce6eb;
+  background: rgba(162, 231, 250, 0.20);
   color: #000000;
   border: 2px solid #ffffff;
   border-radius: 7px;
@@ -29,10 +29,6 @@ body {
   font-size: 20px;
   border: 2px solid #ffffff;
   border-radius: 7px;
-}
-
-.topbar a:link, .topbar a:visited, .topbar a:active {
-  color: #ffffff;
 }
 
 
@@ -68,6 +64,13 @@ body {
   border: 2px solid #ffffff;
   border-radius: 3px;
   width: 90%;
+}
+
+.table#sparring.table {
+  background: rgba(162, 231, 250, 0.75);
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
 }
 
 .inner-table .left {
@@ -119,7 +122,7 @@ input#btnToggleSidebarChat {
 
 .panel {
   background: url("https://i.postimg.cc/Hnkrv3s3/sidepanelimg.png");
-  color: #000000;
+  color: #ffffff;
   border: 2px solid #ffffff;
   border-radius: 7px;
 }
@@ -131,8 +134,14 @@ input#btnToggleSidebarChat {
 }
 
 
-a:link, a:visited, a:active {
-  color: #000000 !important;
+a:link,
+a:visited {
+	color: #ffffff !important
+}
+
+
+a:hover {
+	color: #000000 !important
 }
 
 .alert {
@@ -155,7 +164,6 @@ div .left {
   color: #000000;
   border: 2px solid #ffffff;
   border-radius: 7px;
-  height: 50px
 }
 
 .table .left {
@@ -178,6 +186,33 @@ div .left {
   border: 2px solid #ffffff;
   border-radius: 7px;
 }
+
+h1 {
+	color: #000000;
+	font-size: 90px;
+	text-align: center;
+        font-family: "Red Hat Text", sans-serif;
+}
+
+
+h2 {
+	color: #000000;
+	font-size: 30px;
+	text-align: center
+}
+
+
+h3 {
+	color: #000000 !important;
+	font-size: 15px !important
+}
+
+.sidebar h3 {
+	color: #000000 !important;
+  font-size: 30px !important;
+  font-family: "Red Hat Text", sans-serif;
+}
+
 
 img[src$="nestingbanner.png"] {
   content: url("https://i.postimg.cc/Gmk5zjBZ/unsortimg.png") !important;
