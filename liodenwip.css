@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+  background: url("https://i.postimg.cc/gc7cPGMG/tippediceberg.png");
+  background-size: 100%;
+  font-size: 15px;
+}
+  
+.main {
+  background: #bce6eb;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.col-md-9 {
+  background: rgba(162, 231, 250, 0.20);
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.topbar {
+  background: #0D5C63;
+  color: #ffffff;
+  padding-top: 12px;
+  padding-right: 17px;
+  font-size: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+  color: #ffffff;
+}
+
+
+.navbar {
+  background: #0d5c63;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.navbar li a:hover {
+  background: #0d5c63 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+  
+  
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.breadcrumb {
+  background: #348E8E;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.table#about.table {
+  background: rgba(162, 231, 250, 0.75);
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  width: 90%;
+}
+
+.inner-table .left {
+  background: #0d5c63;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+
+.inner-table .right {
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+button.button, button.button:hover {
+  background: #44a1a0 !important;
+  color: #000000 !important;
+  border: 2px solid #ffffff !important;
+  border-radius: 7px;
+}
+
+input#btnToggleSidebarChat {
+  background: #44a1a0 !important;
+  color: #000000 !important;
+  border: 2px solid #ffffff !important;
+  border-radius: 7px;
+}
+
+.table .top, .table th {
+  background: url("https://i.postimg.cc/Xv9BrpzK/topbarimg.png");
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.table .left {
+  background: #ffffff;
+}
+
+
+.table .bottom {
+  background: url("https://i.postimg.cc/Xv9BrpzK/topbarimg.png");
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.panel {
+  background: url("https://i.postimg.cc/Hnkrv3s3/sidepanelimg.png");
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+   
+.progress-bar {
+  background: #0D5C63;
+  color: #000000
+  border-radius: 7px;
+}
+
+
+a:link, a:visited, a:active {
+  color: #000000 !important;
+}
+
+.alert {
+  background: #247b7b;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+
+input.floatright, input.floatright:hover {
+  background: #44a1a0 !important;
+  color: #000000 !important;
+  border: 2px solid #ffffff !important;
+  border-radius: 7px;
+}
+
+div .left {
+  background: #78cdd7;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+  height: 50px
+}
+
+.table .left {
+  background: #247b7b;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.item-header {
+  background: #247b7b;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+.mound-grid {
+  background: #78CDD7;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+img[src$="nestingbanner.png"] {
+  content: url("https://i.postimg.cc/Gmk5zjBZ/unsortimg.png") !important;
+}
+
+img[src$="overviewbanner.png"] {
+  content: url("https://i.postimg.cc/Gmk5zjBZ/unsortimg.png") !important;
+}
+
+img[src$="unsortedlionsbanner.png"] {
+  content: url("https://i.postimg.cc/Gmk5zjBZ/unsortimg.png") !important;
+}
+
+img[src$="cavedefault.jpg"] {
+  content: url("https://i.postimg.cc/y6btNx4r/cavedimg.png") !important;
+}
+
+
+.cave-grid {
+  background: #78CDD7;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+}
+
+
+.breadcrumb::after {
+  content: "css by redlesbian [#261489]";
+  color: #000000;
+  position: absolute;
+  right: 15%;
+}
+
+/* SIDEBAR ARROWS */
+ 
+/* TOP */
+ 
+div.col-xs-6 > a > h3 > div {
+    content:url('https://i.postimg.cc/fbCgQTfC/arrows.png');
+    position:relative;
+    width:20px;
+}
+ 
+/* MIDDLE */
+ 
+div.col-xs-5> a:nth-child(1) > h3 > div {
+    content:url('https://i.postimg.cc/fbCgQTfC/arrows.png');
+    position:relative;
+    width:20px;
+}
+ 
+/* BOTTOM */
+ 
+div.col-xs-5> a:nth-child(3) > h3 > div {
+    content:url('https://i.postimg.cc/fbCgQTfC/arrows.png');
+    position:relative;
+    width:20px;
+}
+
+/* dynasty list adjustment code by tawnyCollar#251887. may be used in commissions, personal CSS, and free CSS. do NOT remove credit, or reupload claiming it as your own. */
+ 
+/* change beetle book image */
+img[src$="den_ancestors.png"] {
+    background:none!important; 
+       content:url('https://i.postimg.cc/GpdSfsG9/beetlebook.png')!important;
+}
+img[src$="den_ancestorsfem.png"] {
+    background:none!important; 
+        content:url('https://i.postimg.cc/GpdSfsG9/beetlebook.png')!important;
+}
+img[src$="den_achievements.png"] {
+    background:none!important; 
+       content:url('https://i.postimg.cc/GpdSfsG9/beetlebook.png')!important;
+}
+img[src$="den_showcase.png"] {
+    background:none!important; 
+    content:url('https://i.postimg.cc/GpdSfsG9/beetlebook.png')!important;   
+}
+img[src$="den_beetlebook.png"] {
+    background:none!important; 
+       content:url('https://i.postimg.cc/GpdSfsG9/beetlebook.png');
+}
+
+/* fits all elements on one line */
+body > div.container.main > div > div.col-md-9.col-xs-12 > center {
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+}
+.dynastylist {
+    flex: 1 1 auto;
+    max-width: 20%; 
+    box-sizing: border-box; 
+}
+/* resizes all images to fit the new layout */
+.dynastylist img {
+    height: 100%!important;
+     width: 100%!important;
+    border-radius: 10px;
+}
+ 
+/* font option 1 - apply font size to all headers at once.  */
+.dynastylist h3 {
+    word-break: break-all;
+    font-size: 15px !important; /* Adjust font size for all headers */
+}
+
+/*-------------------------*/
+/*Comment Box CODE BY HOK-Z*/
+/*-------------------------*/
+#commentBox {
+  background: rgba(108, 199, 224, 0.5);
+ border: 2px solid #ffffff !important;}
+
+div.comment {background: rgba(0, 158, 201, 0.75) !important;
+            border-bottom: 2px solid #ffffff;
+            font-weight: bold;}
+
+div#makeComment {background: rgba(0, 158, 201, 0.75) !important;
+                border: 2px solid #ffffff;
+                border-radius: 10px;}
+
+div.commentText {color: #000000;}
+
+input#comment {background: #FFFFFF !important;
+              color: #000000 !important;}
+
+input[type="button"].bad {background: rgba(0, 86, 110, 0.5) !important;}
+
+.commentTag.clear {border: 2px solid #ffffff;}
+
+
