@@ -1,0 +1,172 @@
+#outer {
+  background: url("https://i.postimg.cc/1XPVXmfJ/pngtree-water-color-cloudy-blue-sky-texture-background-image-1492729.jpg");
+  border: 5px double #103B68;
+}
+
+#header {
+  background: #3590F3;
+  border: 5px double #103B68;
+  border-radius: 7px;
+}
+
+#header .primary {
+  background: #62BFED;
+  border: 5px double #103B68;
+  border-radius: 7px;
+}
+
+#footer {
+  background: #467444;
+}
+
+#dashboard {
+  background: #3590F3;
+  border: 5px double #103B68;
+  border-top: 5px double #103B68;
+  border-radius: 7px;
+}
+
+#dashboard .current {
+  background: #8FB8ED;
+  border: 5px double #103B68;
+  border-radius: 7px;
+}
+
+#dashboard .current:hover {
+  background: #8FB8ED !important;
+  border: 5px double #103B68 !important;
+  border-radius: 7px !important;
+}
+
+#main {
+  border: 5px double #103B68;
+}
+
+#footer .module {
+  background: #3590F3;
+  border: 5px double #103B68;
+  border-radius: 7px;
+}
+
+#header {
+  background: #3590F3;
+  border: 5px double #001704;
+  border-radius: 7px;
+}
+
+#dashboard.own {
+  border: 5px double #103B68;
+  border-top: 5px double #103B68;
+  border-bottom: 5px double #103B68;
+  border-radius: 7px;
+}
+
+#main {
+  background: #C2BBF0;
+  border: 5px double #103B68;
+}
+
+#inner .group {
+  background: #F1E3F3;
+  border: 5px double #103B68;
+  border-radius: 7px;
+}
+
+#footer .module {
+  background: #3590F3;
+  border: 5px double #103B68;
+}
+
+fieldset,
+.flash {
+  outline: 0;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.blurb .module,
+#inner .group .group .group,
+fieldset fieldset {
+  border: 5px double #103B68;
+  box-shadow: none;
+}
+
+li.relationships a {
+  background: #C2BBF0;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  background: #8FB8ED;
+  border: 5px double #103B68;
+  border-radius: 7px;
+}
+
+.blurb h4 a:link,
+.blurb h4 img {
+  color: #000000;
+}
+
+#header .heading a {
+  color: #000000;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a {
+  background: #8FB8ED;
+  border: 5px double #103B68;
+  border-radius: 7px;
+}
+
+#header .user a:hover,
+#header .user a:focus {
+  color: #000000;
+}
+
+.group .header,
+.blurb ul.tags,
+.blurb blockquote,
+#outer .current {
+  background: #C2BBF0;
+  border: 5px double #103B68;
+  border-radius: 5px;
+}
+
+#header .menu,
+#small_login {
+  background: #62BFED;
+  border: 5px double #103B68;
+  border-radius: 7px;
+}
+
+#workskin {
+  background: #FFFFFF;
+  border: 5px double #103B68;
+  border-radius: 7px;
+}
+
+#dashboard a:hover,
+#dashboard span:hover {
+  background: #62BFED !important;
+  color: #000000 !important;
+}
+
+.filters fieldset {
+  background: #C2BBF0;
+  border: 5px double #103B68;
+  border-radius: 7px;
+}
+
+a:visited {
+  color: #000000;
+}
