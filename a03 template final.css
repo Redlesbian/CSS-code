@@ -1,77 +1,83 @@
+/*BASIC BACKGROUND IMAGE- BEHIND ALL UTILITIES*/
 #outer {
-  background: url("https://i.postimg.cc/tRWcGdKq/puprle.jpg");
-  border: 3px solid #492c52;
+  background: url("INSERT MEDIA LINK");
+  border: INSERT BORDER ELEMENT;
 }
-
+/*TOP OF PAGE HEADER*/
 #header {
-  background: #c681db;
-  border: 3px solid #492c52;
-  border-radius: 5px;
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
+  border-radius: 7px;
 }
-
+/*BELOW TOP OF PAGE HEADER WITH FANDOM AND OTHER BUTTONS*/
 #header .primary {
-  background: #c681db;
-  border: 3px solid #492c52;
-  border-radius: 5px;
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
+  border-radius: 7px;
 }
-
+/*BOTTOM OF PAGE MAIN BOX*/
 #footer {
-  background: #c681db;
+  background: INSERT HEX CODE;
 }
-
+/*MAIN BOX CONTAINING WORKS*/
 #dashboard {
-  background: #c681db;
-  border: 3px solid #492c52;
-  border-top: 3px solid #492c52;
-  border-radius: 5px;
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
+  border-top: INSERT BORDER ELEMENT;
+  border-radius: 7px;
 }
-
+/*SIDEBAR SELECTION*/
 #dashboard .current {
-  background: #c681db;
-  border: 3px solid #492c52;
-  border-radius: 5px;
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
+  border-radius: 7px;
 }
-  
-
+/*SIDEBAR SELECTION UPON HOVER*/
+#dashboard .current:hover {
+  background: INSERT HEX CODE !important;
+  border: INSERT BORDER ELEMENT !important;
+  border-radius: 7px !important;
+}
+/*MAINBOX BORDER*/
 #main {
-  border: 3px solid #492c52;
+  border: INSERT BORDER ELEMENT;
 }
-
+/*INFO BOXES WITHIN FOOTER*/
 #footer .module {
-  background: #c681db;
-  border: 3px solid #492c52;
-  border-radius: 5px;
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
+  border-radius: 7px;
 }
 
 #header {
-  background: #9e6dad;
-  border: 3px solid #492c52;
-  border-radius: 5px;
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
+  border-radius: 7px;
 }
-
+/*DASHBOARD BORDERS- OVERWRITES RED BORDERS*/
 #dashboard.own {
-  border: 3px solid #492c52;
-  border-top: 3px solid #492c52;
-  border-bottom: 3px solid #492c52;
-  border-radius: 5px;
+  border: INSERT BORDER ELEMENT;
+  border-top: INSERT BORDER ELEMENT;
+  border-bottom: INSERT BORDER ELEMENT;
+  border-radius: 7px;
 }
-
+/*MAIN BOX*/
 #main {
-  background: #9e6dad;
-  border: 3px solid #492c52;
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
 }
-
+/*WORKS BUBBLES*/
 #inner .group {
-  background: #dfa8f0;
-  border: 3px solid #492c52;
-  border-radius: 5px;
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
+  border-radius: 7px;
 }
 
 #footer .module {
-  background: #9e6dad;
-  border: 3px solid #492c52;
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
 }
-
+/*DO NOT MESS WITH OUTLINE*/
 fieldset,
 .flash {
   outline: 0;
@@ -82,36 +88,105 @@ fieldset,
 .blurb .module,
 #inner .group .group .group,
 fieldset fieldset {
-  border: 3px solid #492c52;
+  border: INSERT BORDER ELEMENT;
   box-shadow: none;
 }
-
+/*RELATIONSHIP HIGHLIGHT COLOR-MAKE SAME COLOR IF NOT FUSSED*/
 li.relationships a {
-  background: #dfa8f0;
+  background: INSERT HEX CODE;
 }
-
-.actions a, .actions a:link, .action, .action:link, .actions button, .actions input, input[type="submit"], button, .current, .actions label {   
-  background: #f373ff;
-  border: 3px solid #492c52;
-  border-radius: 5px;
+/*BUTTONS- POST NEW ETC ETC- ALL BUTTONS GROUPED*/
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
+  border-radius: 7px;
+  color: #FFFFFF;
 }
-
-
-.blurb h4 a:link, .blurb h4 img {
+/*BLURB TEXT COLOR*/
+.blurb h4 a:link,
+.blurb h4 img {
   color: #000000;
 }
-
+/*HEADER TEXT COLOR*/
 #header .heading a {
   color: #000000;
 }
-
-#header .actions a:hover, #header .actions a:focus, #header .dropdown:hover a, #header .open a {
-  background: #f373ff;
-  border: 3px solid #492c52;
-  border-radius: 5px;
+/*DROPDOWN MENU HOVER*/
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a {
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
+  border-radius: 7px;
+}
+/*HEADER HOVERS*/
+#header .user a:hover,
+#header .user a:focus {
+  color: #000000;
 }
 
-#header .user a:hover, #header .user a:focus {
+.group .header,
+.blurb ul.tags,
+.blurb blockquote,
+#outer .current {
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
+  border-radius: 5px;
+} 
+
+#header .menu,
+#small_login {
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
+  border-radius: 7px;
+}
+
+#workskin {
+  background: #FFFFFF;
+  border: INSERT BORDER ELEMENT;
+  border-radius: 7px;
+}
+
+#dashboard a:hover,
+#dashboard span:hover {
+  background: INSERT HEX CODE !important;
+  color: #000000 !important;
+}
+
+.filters fieldset {
+  background: INSERT HEX CODE;
+  border: INSERT BORDER ELEMENT;
+  border-radius: 7px;
+}
+
+a:visited {
   color: #000000;
+}
+
+a:hover {
+  background: #467444 !important;
+  border: 5px double #001704;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+/*OPTIONAL LOGO CHANGE*/
+img.logo {
+  padding: 10px 70px 0px 0px;
+  background: url('https://i.postimg.cc/mgHZ5rJF/Untitled8-20250611195724.png');
+  background-size: 70px;
+  background-repeat: no-repeat;
+  width: 0px;
+  height: 0px;
 }
 
